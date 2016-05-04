@@ -16,3 +16,5 @@ Lanzar el proyecto en local:
     $ gulp
 
 Ejecuta el proyecto con el navegador por defecto del sistema operativo.
+
+scss --sourcemap --watch sass:css
