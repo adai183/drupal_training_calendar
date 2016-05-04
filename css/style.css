@@ -128,11 +128,53 @@
   padding-bottom: 100px !important; }
 
 /** EXTENDS **/
+.font_type_nav, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > form {
+  font-family: "gibsonregular";
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333333; }
+
 /** INPUTS **/
 body {
-  font-family: "OpenSans", sans-serif !important; }
+  font-family: "OpenSans", sans-serif; }
 
 a:hover {
   color: #00c7ab !important; }
+
+input:focus {
+  border-color: #00c7ab !important; }
+
+/** Navbar **/
+.navbar-default {
+  height: 80px;
+  background-color: #ffffff;
+  /** Change placeholder color for most browsers **/ }
+  .navbar-default .navbar-nav > li > a {
+    padding-top: 30px; }
+  .navbar-default .navbar-nav > li > form {
+    padding-top: 18px; }
+    .navbar-default .navbar-nav > li > form input {
+      width: 161px;
+      height: 27.9px;
+      border-radius: 30px;
+      background-color: #dddddd;
+      color: #ffffff !important; }
+  .navbar-default .form-control::-webkit-input-placeholder {
+    color: white; }
+  .navbar-default .form-control:-moz-placeholder {
+    color: white; }
+  .navbar-default .form-control::-moz-placeholder {
+    color: white; }
+  .navbar-default .form-control:-ms-input-placeholder {
+    color: white; }
+
+/** Responsive **/
+@media (max-width: 850px) {
+  .navbar-nav {
+    margin-top: 20px;
+    background-color: #ffffff; }
+
+  .navbar-default .navbar-collapse {
+    border: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@
 }
 
 $font_open_sans: 'OpenSans', sans-serif;
-$font_regular: 'gibsonregular', sans-serif;
+$font_regular: 'gibsonregular';
 
 /** COLORS **/
 $color_red:  #ec1822;
@@ -22,7 +22,7 @@ $color_medium_gey: #666666;
 $color_medium_gey_light: #999999;
 $color_clear_grey: #cccccc;
 $color_clear_grey_light: #f0f0f0;
-$color_white: #000000;
+$color_white:  #ffffff;
 $color_purple:  #c08de0;
 $color_blue: #7cbaf3;
 $color_green: #b6d017;
@@ -57,14 +57,73 @@ $font_size_4: 14px;
 
 /** EXTENDS **/
 
+.font_type_nav{
+    font-family: $font_regular;
+    font-size: $font_size_3;
+    line-height: 1.4;
+    color: $color_dark_grey;
+}
+
 /** INPUTS **/
 
 body{
-    font-family: $font_open_sans !important;
+    font-family: $font_open_sans;
 }
 
 a{
     &:hover{
     	color: $color_turquoise !important;
+    }
+}
+
+input{
+    &:focus{
+        border-color: $color_turquoise !important;
+    }
+}
+
+
+/** Navbar **/
+.navbar-default {
+
+    height: 80px;
+    background-color: $color_white;
+
+    .navbar-nav>li>a {
+        padding-top: 30px;
+        @extend .font_type_nav;
+    }
+
+    .navbar-nav>li>form {
+
+        padding-top: 18px;
+        @extend .font_type_nav;
+
+        input {
+            width: 161px;
+	        height: 27.9px;
+	        border-radius: 30px;
+            background-color: #dddddd;
+            color: $color_white !important;
+        }
+    }
+
+    /** Change placeholder color for most browsers **/
+    .form-control::-webkit-input-placeholder { color: white; }
+    .form-control:-moz-placeholder { color: white; }
+    .form-control::-moz-placeholder { color: white; }
+    .form-control:-ms-input-placeholder { color: white; }
+};
+
+
+/** Responsive **/
+
+@media (max-width: 850px) {
+    .navbar-nav {
+        margin-top: 20px;
+        background-color: $color_white;
+    }
+    .navbar-default .navbar-collapse {
+        border: 0;
     }
 }
