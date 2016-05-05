@@ -4,6 +4,12 @@
   src: url("fonts/gibson-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gibson-regular-webfont.woff2") format("woff2"), url("fonts/gibson-regular-webfont.woff") format("woff"), url("fonts/gibson-regular-webfont.ttf") format("truetype"), url("fonts/gibson-regular-webfont.svg#gibsonregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'gibsonlight';
+  src: url("fonts/gibson-light-webfont.eot");
+  src: url("fonts/gibson-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gibson-light-webfont.woff2") format("woff2"), url("fonts/gibson-light-webfont.woff") format("woff"), url("fonts/gibson-light-webfont.ttf") format("truetype"), url("fonts/gibson-light-webfont.svg#gibsonlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /** COLORS **/
 /** Font sizes **/
 /* MIXINS */
@@ -212,6 +218,51 @@ footer {
       margin-right: 15px; }
     footer .footer-bottom .gob {
       margin: 0 -15px 0 0; }
+
+/** Carousel **/
+.carousel .carousel-indicators li {
+  border-color: #00c7ab; }
+  .carousel .carousel-indicators li.active {
+    background-color: #00c7ab; }
+.carousel .carousel-caption .title {
+  font-family: "gibsonlight";
+  font-size: 60px;
+  line-height: 1.1;
+  color: #333333;
+  text-shadow: initial; }
+.carousel .carousel-caption p {
+  font-family: "OpenSans", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333333;
+  text-shadow: initial !important; }
+  .carousel .carousel-caption p a {
+    color: #00c7ab; }
+  .carousel .carousel-caption p button {
+    margin-top: 40px;
+    width: 290px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #00c7ab;
+    border: solid 1px #00c7ab;
+    border: solid 1px #00c7ab; }
+    .carousel .carousel-caption p button span {
+      font-family: "OpenSans", sans-serif;
+      font-size: 20px;
+      font-weight: lighter;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-left: 10px; }
+    .carousel .carousel-caption p button:hover {
+      opacity: 0.8; }
+.carousel .carousel-caption#research {
+  padding-bottom: 141px; }
+.carousel .carousel-caption#download {
+  padding-bottom: 90px; }
+.carousel .carousel-caption#development {
+  padding-bottom: 60px; }
+.carousel .carousel-caption#outreach {
+  padding-bottom: 70px; }
 
 /** Responsive **/
 @media (max-width: 850px) {
