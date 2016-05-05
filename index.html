@@ -18,201 +18,369 @@
   <body>
 
     <!-- nav-menu -->
+    <!-- top language bar -->
     <div class="container-fluid">
-      <div class="row pull-right nav-top" style="height:40px">
-        <img src="img/fill-110.png" alt=""/>
-        <span class="dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-            ES
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-            <li role="presentation">
-              <a role="menuitem" tabindex="-1" href="#">EN</a>
-            </li>
-            <li role="presentation">
-              <a role="menuitem" tabindex="-1" href="#">GER</a>
-            </li>
-            <li role="presentation">
-              <a role="menuitem" tabindex="-1" href="#">FR</a>
-            </li>
-            <li role="presentation">
-              <a role="menuitem" tabindex="-1" href="#">EUSK</a>
-            </li>
-          </ul>
-        </span>
-      </span>
+        <div class="row pull-right nav-top" style="height:40px">
+            <img src="img/fill-110.png" alt=""/>
+            <span class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                    ES
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">EN</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">GER</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">FR</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">EUSK</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
     </div>
-  </div>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Logo and hamburger -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><img src="img/group-4.png" alt="logo"/></a>
-      </div>
 
-      <!-- Menu Items -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#">ABOUT US</a>
-          </li>
-          <li>
-            <a href="#">RESEARCH</a>
-          </li>
-          <li>
-            <a href="#">SERVICES</a>
-          </li>
-          <li>
-            <a href="#">OUTREACH</a>
-          </li>
-          <li>
-            <a href="#">NEWS</a>
-          </li>
-          <li>
-            <form class="navbar-form" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Directorio de personal">
-              </div>
-            </form>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Logo and hamburger -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/group-4.png" alt="logo"/></a>
+            </div>
+          <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">ABOUT US</a>
+                     </li>
+                    <li>
+                        <a href="#">RESEARCH</a>
+                    </li>
+                    <li>
+                        <a href="#">SERVICES</a>
+                    </li>
+                     <li>
+                        <a href="#">OUTREACH</a>
+                    </li>
+                    <li>
+                        <a href="#">NEWS</a>
+                    </li>
+                    <li>
+                        <form class="navbar-form" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Directorio de personal">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
   <!-- start page content -->
-  <div class="container margin-top-6 margin-bottom-6">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
+    <!-- Carousel -->
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="img/slider1.png" alt="research">
-          <div id="research" class="carousel-caption">
-            <div class="title">Biological Research Center</div>
-          </div>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/slider1.png" alt="research">
+                    <div id="research" class="carousel-caption">
+                        <div class="title">Biological Research Center</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/slider2.png" alt="report">
+                    <div id="download" class="carousel-caption">
+                        <div class="title">Download our latest report</div>
+                    <p>
+                        <button type="button" name="button"><img src="img/fill-107.png" alt=""/>
+                            <span>Scientific report 2015</span>
+                        </button>
+                    </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/slider3.png" alt="Flower">
+                    <div id="development" class="carousel-caption">
+                        <div class="title">Research & Development</div>
+                        <p>Collaboration, Management and Technology transfer</p>
+                        <p>
+                            <a href="#">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/slider4.png" alt="Flower">
+                    <div id="outreach" class="carousel-caption">
+                        <div class="title">Outreach</div>
+                        <p>
+                            Schools, press, get to know all the things we do
+                        </p>
+                        <p>
+                            <a href="#">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <div class="item">
-          <img src="img/slider2.png" alt="report">
-          <div id="download" class="carousel-caption">
-            <div class="title">Download our latest report</div>
-            <p>
-              <button type="button" name="button"><img src="img/fill-107.png" alt="" /><span>Scientific report 2015</span></button>
-            </p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="img/slider3.png" alt="Flower">
-          <div id="development" class="carousel-caption">
-            <div class="title">Research & Development</div>
-            <p>Collaboration, Management and Technology transfer</p>
-            <p>
-              <a href="#">Learn more</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="img/slider4.png" alt="Flower">
-          <div id="outreach" class="carousel-caption">
-            <div class="title">Outreach</div>
-            <p>
-              Schools, press, get to know all the things we do
-            </p>
-            <p>
-              <a href="#">Learn more</a>
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
 
-  </div>
+  <!-- Content -->
+    <div class="container-fluid">
+        <!-- CIB -->
+        <div class="row section-title">
+            <div class="col-md-12">
+            <span>CIB</span>
+            <span class="pull-right"><a href="#">Contact us</a></span>
+            </div>
+        </div>
+        <div class="row margin-top-1">
+            <div class="col-md-12">
+                The Center for Biological Research (CIB) is one of the research
+                centers with greater prestige and tradition in the Superior
+                Council for Scientific Research (CSIC) State Agency.
+                The CIB has been at the forefront of research in biology since
+                its inception in 1953. The initial activity of the CIB was
+                primarily oriented studies in biology and biomedicine but
+                currently is a multidisciplinary center, which brings together
+                researchers from the areas of Biology, Agricultural Sciences
+                and Chemical. It is an active and dynamic center,
+                constantly evolving.
+            </div>
+        </div>
+        <!-- SEARCH -->
+        <div class="row section-title">
+            <div class="col-md-12">
+                <span>SEARCH</span>
+            </div>
+        </div>
+        <div class="row search-form">
+            <div class="col-md-12">
+                <form role="form">
+                    <div class="input-group">
+                        <input type="text" class="form-control input-sm" placeholder="Search the entire site">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><img src="img/Lupa.svg" alt="" />Search</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- NEWS -->
+        <div class="row section-title">
+            <div class="col-md-12">
+            <span>NEWS</span>
+            <span class="pull-right"><a href="#">See more</a></span>
+            </div>
+        </div>
+        <div class="row news">
+            <div class="col-md-4">
+                <div class="title">
+                    <a href="#">RESEARCH</a>
+                </div>
+                <div class="img">
+                    <img src="img/home-op-2.png" alt="" />
+                </div>
+                <div class="subtitle">
+                    The CIB contributes to a better understanding of the
+                    processes of mRNA degradation
+                </div>
+                <div class="date">
+                    24 SEP 2016
+                </div>
+                <div class="footnote">
+                    Chromatography Service Biological Research Center was
+                    established in 1988 to meet the demand of domestic or
+                    from other centers and institutions users.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="title">
+                    <a href="#">SERVICES</a>
+                </div>
+                <div class="img">
+                    <img src="img/photo-1430933964450-0-aefb-85717-c-8.png" alt="" />
+                </div>
+                <div class="subtitle">
+                    Identified new molecules that regulate progression
+                    of B-cell malignancies
+                </div>
+                <div class="date">
+                    24 SEP 2016
+                </div>
+                <div class="footnote">
+                    Chromatography Service Biological Research Center was
+                    established in 1988 to meet the demand of domestic or
+                    from other centers and institutions users.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="title">
+                    <a href="#">OUTREACH</a>
+                </div>
+                <div class="img">
+                    <img src="img/photo-1451186859696-371-d-9477-be-93.png" alt="" />
+                </div>
+                <div class="subtitle">
+                    The CIB contributes to a better understanding
+                </div>
+                <div class="date">
+                    24 SEP 2016
+                </div>
+                <div class="footnote">
+                    Chromatography Service Biological Research Center was
+                    established in 1988.
+                </div>
+            </div>
+        </div>
+        <!-- EVENTS -->
+        <div class="row section-title">
+            <div class="col-md-12">
+            <span>EVENTS</span>
+            <span class="pull-right"><a href="#">See more</a></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <ul>
+                        <li>
+                            <div class="title">
+                                Ligno Biotech IV
+                            </div>
+                            <div class="date">
+                                19-22 JUN 2016 · 12:00 am
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                Ligno Biotech IV
+                            </div>
+                            <div class="date">
+                                19-22 JUN 2016 · 12:00 am
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">
+                                Ligno Biotech IV
+                            </div>
+                            <div class="date">
+                                19-22 JUN 2016 · 12:00 am
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/00-0002-capa-0.png" alt="" />
+                    <div class="title">
+                        19-20 JUNE 2016 MADRID - Palacio de congresos de Madrid
+                    </div>
+                    <div class="subtitle">
+                        4th Symposium on Biotechnology applied to lignocelluloses
+                    </div>
+                    <div class="detail">
+                        <a href="#">More details</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="http://placehold.it/381x397?text=Calendar">
+                </div>
+            </div>
+        </div>
+        <div class="row section-title">
+            <div class="col-md-12 title">
+                <span>LINKS OF INTEREST</span>
+            </div>
+        </div>
+        <div class="row footer">
+
+            <div class="col-md-4">
+              <ul>
+                <li>
+                  <a href="#">Sociedad Española de Biología Celular</a>
+                </li>
+                <li>
+                  <a href="#">Sociedad Española de Microbiología</a>
+                </li>
+                <li>
+                  <a href="#">Sociedad Española de Biotecnología</a>
+                </li>
+                <li>
+                  <a href="#">SECUGEN Servicio de Secuenciación DNA</a>
+                </li>
+                <li>
+                  <a href="#">Red Española de Apotosis</a>
+                </li>
+                <li>
+                  <a href="#">Grupo Español de Radicales Libres</a>
+                </li>
+                <li>
+                  <a href="#">Aku Database</a>
+                </li>
+                <li>
+                  <a href="#">Proretina Therapeutics</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li class="margin-bottom-5">
+                  <a href="#"><img src="img/logo-pie-eu.png" alt=""/></a>
+                </li>
+                <li class="margin-bottom-5">
+                  <a href="#"><img src="img/4-i-n-n-p-a-c-t-o-logo.png" alt=""/></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/3-logo-ce-horizontal-en-quadri-jpg.png" alt=""/></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li class="margin-bottom-5">
+                  <a href="#"><img src="img/2-madrid.png" alt=""/></a>
+                </li>
+                <li class="margin-bottom-5">
+                  <a href="#"><img src="img/logo-c-d-t-i.png" alt=""/></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/logo-isciii.png" alt=""/></a>
+                </li>
+              </ul>
+            </div>
+
+        </div>
+
+    </div>
+
   <!-- end page content -->
 
   <!-- footer -->
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 margin-bottom-2 title">
-          LINKS OF INTEREST
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="col-md-4">
-            <ul>
-              <li>
-                <a href="#">Sociedad Española de Biología Celular</a>
-              </li>
-              <li>
-                <a href="#">Sociedad Española de Microbiología</a>
-              </li>
-              <li>
-                <a href="#">Sociedad Española de Biotecnología</a>
-              </li>
-              <li>
-                <a href="#">SECUGEN Servicio de Secuenciación DNA</a>
-              </li>
-              <li>
-                <a href="#">Red Española de Apotosis</a>
-              </li>
-              <li>
-                <a href="#">Grupo Español de Radicales Libres</a>
-              </li>
-              <li>
-                <a href="#">Aku Database</a>
-              </li>
-              <li>
-                <a href="#">Proretina Therapeutics</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul>
-              <li class="margin-bottom-5">
-                <a href="#"><img src="img/logo-pie-eu.png" alt=""/></a>
-              </li>
-              <li class="margin-bottom-5">
-                <a href="#"><img src="img/4-i-n-n-p-a-c-t-o-logo.png" alt=""/></a>
-              </li>
-              <li>
-                <a href="#"><img src="img/3-logo-ce-horizontal-en-quadri-jpg.png" alt=""/></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul>
-              <li class="margin-bottom-5">
-                <a href="#"><img src="img/2-madrid.png" alt=""/></a>
-              </li>
-              <li class="margin-bottom-5">
-                <a href="#"><img src="img/logo-c-d-t-i.png" alt=""/></a>
-              </li>
-              <li>
-                <a href="#"><img src="img/logo-isciii.png" alt=""/></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="container-fluid footer">
+
+
       <!--footer bottom-->
       <div class="row footer-bottom margin-top-6">
         <div class="col-md-12">
@@ -251,7 +419,7 @@
         </div>
       </div>
     </div>
-  </footer>
+
 
   <!-- JS Imports -->
   <script src="js/vendor/jquery-1.11.2.min.js"></script>

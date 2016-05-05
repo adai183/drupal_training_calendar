@@ -77,10 +77,22 @@ $font_size_4: 14px;
     color: $color_dark_grey;
 }
 
-.font_type_footer{
+.font_type_home{
+    font-family: $font_open_sans;
     font-size: $font_size_3;
-    line-height: 1.9;
     color: $color_medium_grey_light;
+}
+
+.font_type_section_title {
+    font-family: $font_roboto;
+	font-size: $font_size_2;
+	color: $color_dark_grey;
+    a{
+        font-family: OpenSans;
+    	font-size: $font_size_3;
+    	line-height: 1.8;
+    	color: $color_turquoise;
+    }
 }
 
 .font_type_footer_title{
@@ -92,8 +104,18 @@ $font_size_4: 14px;
 /** INPUTS **/
 
 body{
-    font-family: $font_open_sans;
+    @extend .font_type_home;
+
+    .container-fluid{
+        max-width: 1250px;
+    }
 }
+
+.section-title{
+    margin-top: 40px;
+    @extend .font_type_section_title;
+}
+
 
 a{
     &:hover{
@@ -153,12 +175,14 @@ input{
 
 
 /** Footer **/
-footer{
+.footer{
 
     ul{
         list-style: none;
+        margin-left: -40px;
         li>a{
-            @extend .font_type_footer;
+            @extend .font_type_home;
+            line-height: 1.9;
         }
     }
 
@@ -170,6 +194,7 @@ footer{
     /** Footer Bottom **/
     .footer-bottom{
         height: auto;
+        width: 100% !important;
 	    background-color: $color_dark_grey;
         .social{
             padding: 15px 0 15px 0;
@@ -196,7 +221,6 @@ footer{
 }
 
 /** Carousel **/
-
 .carousel{
     .carousel-indicators{
         li{
@@ -259,6 +283,83 @@ footer{
         &#outreach{
             padding-bottom: 70px;
         }
+    }
+}
+
+/**Search Form**/
+.search-form{
+    margin-top: 10px;
+    form{
+        max-width: 900px;
+        /** Change placeholder color for most browsers **/
+        .form-control::-webkit-input-placeholder { color: $color_clear_grey; }
+        .form-control:-moz-placeholder { color: $color_clear_grey; }
+        .form-control::-moz-placeholder { color: $color_clear_grey; }
+        .form-control:-ms-input-placeholder { color: $color_clear_grey; }
+
+        input{
+            height: 60px;
+	        border: solid 1px $color_clear_grey;
+            border-right: 0;
+            font-family: $font_open_sans;
+        	font-size: $font_size_2;
+        	line-height: 1.5;
+        }
+
+        button{
+            z-index: 99999;
+            width: 170px;
+        	height: 60px;
+        	border-radius: 30px;
+        	background-color: $color_white;;
+        	border: solid 1px $color_turquoise;
+            font-family: $font_open_sans;
+        	font-size: $font_size_2;
+        	line-height: 1.4;
+        	color: $color_turquoise;
+            &:hover{
+                opacity: 0.8;
+                border-radius: 30px;
+            	background-color: $color_white;;
+            	border: solid 1px $color_turquoise;
+                font-family: $font_open_sans;
+            	font-size: $font_size_2;
+            	line-height: 1.4;
+            	color: $color_turquoise;
+            }
+            img{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+/** News **/
+.news{
+    .title{
+        margin: 10px 0 10px 0;
+        a{
+            font-family: $font_roboto;
+    	    font-size: $font_size_3;
+    	    line-height: 1.6;
+    	    color: $color_turquoise;
+        }
+    }
+    .subtitle{
+        margin: 10px 0 10px 0;
+        font-family: $font_open_sans;
+    	font-size: $font_size_2;
+    	line-height: 1.2;
+    	color: $color_dark_grey;
+    }
+    .date{
+        margin: 0 0 15px 0;
+        font-family:$font_roboto;
+    	font-size: $font_size_4;
+    	line-height: 1.6;
+    }
+    .footnote{
+        font-size: $font_size_3;
     }
 }
 
