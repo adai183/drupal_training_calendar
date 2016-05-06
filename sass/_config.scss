@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'gibsonregular';
+    src: url('fonts/gibson-regular-webfont.eot');
+    src: url('fonts/gibson-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gibson-regular-webfont.woff2') format('woff2'),
+         url('fonts/gibson-regular-webfont.woff') format('woff'),
+         url('fonts/gibson-regular-webfont.ttf') format('truetype'),
+         url('fonts/gibson-regular-webfont.svg#gibsonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gibsonlight';
+    src: url('fonts/gibson-light-webfont.eot');
+    src: url('fonts/gibson-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gibson-light-webfont.woff2') format('woff2'),
+         url('fonts/gibson-light-webfont.woff') format('woff'),
+         url('fonts/gibson-light-webfont.ttf') format('truetype'),
+         url('fonts/gibson-light-webfont.svg#gibsonlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font_open_sans: 'OpenSans', sans-serif;
+$font_roboto: 'gibsonregular';
+$font_roboto_light: 'gibsonlight';
+
+/** COLORS **/
+$color_red:  #ec1822;
+$color_turquoise: #00c7ab;
+$color_clear-green:  #e6f9f6;
+$color_dark_grey: #333333;
+$color_medium_gey: #666666;
+$color_medium_grey_light: #999999;
+$color_clear_grey: #cccccc;
+$color_clear_grey_light: #f0f0f0;
+$color_white:  #ffffff;
+$color_purple:  #c08de0;
+$color_blue: #7cbaf3;
+$color_green: #b6d017;
+$color_clear_red: #e27c72;
+$color_orange:  #f8b835;
+
+
+/** Font sizes **/
+$font_size_1: 40px;
+$font_size_2: 20px;
+$font_size_3: 16px;
+$font_size_4: 14px;
+
+/* MIXINS */
+@for $i from 1 through 10 {
+    $margin: $i * 10;
+
+    .margin-top-#{$i} {
+        margin-top: #{$margin}px !important;
+    }
+    .margin-bottom-#{$i} {
+        margin-bottom: #{$margin}px !important;
+    }
+
+    .padding-top-#{$i} {
+        padding-top: #{$margin}px !important;
+    }
+    .padding-bottom-#{$i} {
+        padding-bottom: #{$margin}px !important;
+    }
+}
+
+/** EXTENDS **/
+
+.font_type_nav{
+    font-family: $font_roboto;
+    font-size: $font_size_3;
+    line-height: 1.4;
+    color: $color_dark_grey;
+}
+
+.font_type_home{
+    font-family: $font_open_sans;
+    font-size: $font_size_3;
+    color: $color_medium_grey_light;
+}
+
+.font_type_section_title {
+    font-family: $font_roboto;
+	font-size: $font_size_2;
+	color: $color_dark_grey;
+    a{
+        font-family: OpenSans;
+    	font-size: $font_size_3;
+    	line-height: 1.8;
+    	color: $color_turquoise;
+    }
+}
+
+.font_type_footer_title{
+    font-family: $font_roboto;
+    font-size: $font_size_2;
+    color: $color_dark_grey;
+}
+
+/** General **/
+
+body{
+    @extend .font_type_home;
+
+    .container-fluid{
+        max-width: 1250px;
+    }
+}
+
+
+a{
+    &:hover{
+    	color: $color_turquoise !important;
+        text-decoration: none !important;
+    }
+}
+
+/** Forms **/
+input{
+    &:focus{
+        border-color: $color_turquoise !important;
+    }
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.section-title{
+    margin-top: 40px;
+    @extend .font_type_section_title;
+    .marker{
+        display: inline-block;
+        margin-right: 8px;
+        width: 2px;
+    	height: 19px;
+    	background-color: #ec111a;
+    }
+}

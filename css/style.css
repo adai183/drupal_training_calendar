@@ -1,3 +1,11 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Congig
+# Elements
+# Responsive
+
+--------------------------------------------------------------*/
 @font-face {
   font-family: 'gibsonregular';
   src: url("fonts/gibson-regular-webfont.eot");
@@ -160,19 +168,29 @@
   font-size: 20px;
   color: #333333; }
 
-/** INPUTS **/
+/** General **/
 body .container-fluid {
   max-width: 1250px; }
-
-.section-title {
-  margin-top: 40px; }
 
 a:hover {
   color: #00c7ab !important;
   text-decoration: none !important; }
 
+/** Forms **/
 input:focus {
   border-color: #00c7ab !important; }
+
+.btn:focus, .btn:active {
+  outline: none !important; }
+
+.section-title {
+  margin-top: 40px; }
+  .section-title .marker {
+    display: inline-block;
+    margin-right: 8px;
+    width: 2px;
+    height: 19px;
+    background-color: #ec111a; }
 
 /** Navbar **/
 .nav-top .dropdown button {
@@ -215,25 +233,25 @@ input:focus {
       line-height: 1.9; }
   .footer .title {
     padding-left: 70px; }
-  .footer .footer-bottom {
+  .footer.footer-bottom {
     height: auto;
-    width: 100% !important;
+    max-width: 1480px;
     background-color: #333333; }
-    .footer .footer-bottom .social {
+    .footer.footer-bottom .social {
       padding: 15px 0 15px 0;
       margin: 0 30px 0 0; }
-    .footer .footer-bottom .text a {
+    .footer.footer-bottom .text a {
       margin-right: 30px;
       font-family: OpenSans;
       font-size: 14px;
       line-height: 1.7;
       color: #999999; }
-    .footer .footer-bottom .dropdown button {
+    .footer.footer-bottom .dropdown button {
       background-color: #333333;
       border: 0;
       color: #ffffff;
       margin-right: 15px; }
-    .footer .footer-bottom .gob {
+    .footer.footer-bottom .gob {
       margin: 0 -15px 0 0; }
 
 /** Carousel **/
@@ -302,6 +320,8 @@ input:focus {
       font-family: "OpenSans", sans-serif;
       font-size: 20px;
       line-height: 1.5; }
+    .search-form form .input-group-btn {
+      outline: initial; }
     .search-form form button {
       z-index: 99999;
       width: 170px;
@@ -315,6 +335,14 @@ input:focus {
       color: #00c7ab; }
       .search-form form button:hover {
         opacity: 0.8;
+        border-radius: 30px;
+        background-color: #ffffff;
+        border: solid 1px #00c7ab;
+        font-family: "OpenSans", sans-serif;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #00c7ab; }
+      .search-form form button:focus {
         border-radius: 30px;
         background-color: #ffffff;
         border: solid 1px #00c7ab;
@@ -346,6 +374,67 @@ input:focus {
   line-height: 1.6; }
 .news .footnote {
   font-size: 16px; }
+
+/** Events **/
+.events .schedule {
+  padding-right: 0px !important;
+  background-color: #f8f8f8;
+  border: solid 1px #f0f0f0; }
+  .events .schedule .schedule-head {
+    background-color: #f0f0f0;
+    padding: 20px 0 15px 0;
+    margin: 0 0 15px -15px; }
+    .events .schedule .schedule-head .title {
+      margin: 0 0 5px 15px;
+      font-family: "OpenSans", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #00c7ab; }
+    .events .schedule .schedule-head .date {
+      margin-left: 15px;
+      font-family: "gibsonregular";
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333333; }
+  .events .schedule ul {
+    list-style: none;
+    margin-left: -40px; }
+    .events .schedule ul li {
+      margin-bottom: 25px; }
+      .events .schedule ul li .title {
+        margin: 0 0 5px 0;
+        font-family: "OpenSans", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #666666; }
+      .events .schedule ul li .date {
+        font-family: "gibsonregular";
+        font-size: 14px;
+        line-height: 1.5;
+        color: #999999; }
+.events .detail {
+  padding-left: 0px !important; }
+  .events .detail .title {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family: "gibsonregular";
+    font-size: 20px;
+    line-height: 1.1;
+    color: #999999; }
+  .events .detail .subtitle {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #333333; }
+  .events .detail .detail-link a {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #00c7ab; }
 
 /** Responsive **/
 @media (max-width: 850px) {

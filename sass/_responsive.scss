@@ -1,0 +1,11 @@
+/** Responsive **/
+@media (max-width: 850px) {
+    .navbar-nav {
+        margin-top: 20px;
+        background-color: $color_white;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: 0;
+    }
+}
