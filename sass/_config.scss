@@ -130,6 +130,25 @@ input{
    outline: none !important;
 }
 
+.button-primary{
+    border-radius: 30px;
+    background-color: $color_turquoise;
+    border: solid 1px #00c7ab;
+    border: solid 1px $color_turquoise;
+    span{
+        font-family: $font_open_sans;
+        font-size: $font_size_2;
+        font-weight: lighter;
+        line-height: 1.2;
+        color: $color_white;
+        margin-left: 10px;
+    }
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+/** General Layout **/
 .section-title{
     margin-top: 40px;
     @extend .font_type_section_title;
@@ -140,4 +159,21 @@ input{
     	height: 19px;
     	background-color: #ec111a;
     }
+}
+
+.jumbotron{
+    height: 160px;
+    background-color: #eeeeee;
+    border-bottom: solid 3px #e72b22;
+    font-family: $font_roboto;
+	font-size: $font_size_1;
+	line-height: 1.5;
+	color: $color_dark_grey;
+
+}
+
+.content section {
+  background-color: $color_turquoise;
+  margin-bottom:20px;
+    height:750px;
 }

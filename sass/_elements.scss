@@ -35,6 +35,28 @@
     .form-control:-ms-input-placeholder { color: $color_white; }
 };
 
+/** Bootsrap Scrollspy **/
+
+#sidebar{
+    .affix-top,.affix{
+    	position: static;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+    li a {
+        font-family: $font_roboto;
+	    font-size: $font_size_2;
+	    line-height: 1.4;
+	    color: $color_dark_grey;
+        &:hover{
+            background-color: $color_white;
+        }
+    }
+    li.active {
+        border-left: 3px #ec111a solid;
+    }
+}
 
 /** Footer **/
 .footer{
@@ -113,22 +135,8 @@
             button{
                 margin-top: 40px;
                 width: 290px;
-            	height: 60px;
-            	border-radius: 30px;
-            	background-color: $color_turquoise;
-            	border: solid 1px #00c7ab;
-            	border: solid 1px $color_turquoise;
-                span{
-                    font-family: $font_open_sans;
-                	font-size: $font_size_2;
-                    font-weight: lighter;
-                	line-height: 1.2;
-                	color: $color_white;
-                    margin-left: 10px;
-                }
-                &:hover{
-                    opacity: 0.8;
-                }
+                height: 60px;
+
             }
         }
         &#research{
@@ -309,4 +317,11 @@
         	color: $color_turquoise;
         }
     }
+}
+
+/** scientific report**/
+.scientific-report{
+    padding: 20px 0 0 20px;
+    height: 70px;
+    border: solid 1px #f0f0f0;
 }
