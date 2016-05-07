@@ -1,7 +1,3 @@
-ngSPA
-=====
-
-Estrucutra de SPA con AngularJS.
 
 ## Install
 

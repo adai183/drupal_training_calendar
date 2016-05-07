@@ -327,13 +327,68 @@
                     <span class="marker"></span>
                     <span>ORGANIZATION CHART</span>
                 </div>
+                <div class="row">
+                    <canvas id="myCanvas" width="800" height="400" style="border:1px solid #000000;" />
+                </div>
 
                 <div id="sec3" class="row section-title">
                     <span class="marker"></span>
                     <span>FACILITIES</span>
                 </div>
+                <div class="row facilities">
+                    <div class="col-md-4 general-info">
+                        <div class="title">
+                            Teléfono
+                        </div>
+                        <div class="subtitle">
+                            +34 91 837 31 12
+                        </div>
+                        <div class="title fax">
+                            Fax
+                        </div>
+                        <div class="subtitle">
+                            +34 91 536 04 32
+                        </div>
+                    </div>
+                    <div class="col-md-6 individual-info">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle " type="button" id="menu1" data-toggle="dropdown">
+                                <span class="text">Ultracentrifugación Analítica</span>
+                                <span class="caret pull-right"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Ultracentrifugación Analítica</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Ultracentrifugación Analítica</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Ultracentrifugación Analítica</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Ultracentrifugación Analítica</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <div class="extension">
+                                <div class="title">Extension</div>
+                                <div class="subtitle">4448 / 4333/ 35 / 45</div>
+                            </div>
+                            <div class="phone">
+                                <div class="title">Direct phone</div>
+                                <div class="subtitle">+34 91 536 04 32</div>
+                            </div>
+                            <div class="fax">
+                                <div class="title">Fax</div>
+                                <div class="subtitle">+34 91 536 04 32</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <div id="sec4" class="row">
+                <div id="sec4" class="row margin-top-3">
                     <img src="http://placehold.it/1000x351?text=ContactMap" alt="" />
                 </div>
 
@@ -355,7 +410,7 @@
                 </span>
                 <span class="pull-right gob">
                     <img src="img/fill-110.png" alt=""/>
-                    <span class="dropdown">
+                    <span class="dropdown dropup">
                         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
                             ES
                         <span class="caret"></span>
@@ -386,6 +441,9 @@
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/chart.js">
+
+  </script>
 
 </body>
 </html>

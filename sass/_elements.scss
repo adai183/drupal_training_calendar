@@ -84,10 +84,10 @@
         }
         .text a{
             margin-right: 30px;
-            font-family: OpenSans;
-        	font-size: 14px;
+            font-family: $font_open_sans;
+        	font-size: $font_size_4;
         	line-height: 1.7;
-        	color: #999999;
+        	color: $color_medium_grey_light;
 
         }
         .dropdown button{
@@ -101,6 +101,9 @@
         }
     }
 }
+
+
+/** HOME **/
 
 /** Carousel **/
 .carousel{
@@ -153,7 +156,6 @@
         }
     }
 }
-
 
 /**Search Form**/
 .search-form{
@@ -319,9 +321,111 @@
     }
 }
 
+/** ABOUT US **/
+
 /** scientific report**/
 .scientific-report{
     padding: 20px 0 0 20px;
     height: 70px;
     border: solid 1px #f0f0f0;
+}
+
+/** Facilities **/
+.facilities{
+    .title{
+        font-family: $font_roboto;
+        font-size: $font_size_4;
+        line-height: 1.6;
+        color: $color_medium_grey_light;
+    }
+    .subtitle{
+        font-family: $font_open_sans;
+    	font-size: $font_size_3;
+    	line-height: 1.5;
+    	color: $color_dark_grey;
+
+    }
+    .general-info{
+        border: solid 1px $color_clear_grey_light;
+        .title:nth-of-type(1){
+            margin-top: 15px;
+        }
+        .fax{
+            margin-top: 15px;
+        }
+    }
+    .individual-info{
+        margin: 0 0 0 5%;
+        border: solid 1px $color_clear_grey_light;
+    }
+
+    .dropdown button{
+        height: 50px;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        background-color: $color_white;
+        border: 0;
+        position: relative;
+        right: 15px;
+        width: 107%;
+        border-bottom: solid 1px $color_clear_grey_light;
+
+        .caret{
+            color: $color_clear_grey;
+            border-top: 8px solid;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            margin-right: 10px;
+        }
+        .text{
+            position: relative;
+            left: 15px;
+        }
+    }
+    .info{
+        display: inline-flex;
+        margin-top: 25px;
+        .extension{
+            margin: 0 20px 0 0;
+        }
+        .phone{
+            margin: 0 20px 0 0;
+        }
+        .fax{
+
+        }
+    }
+}
+
+/**RESEARCH**/
+
+.departments{
+    .subtitle{
+        font-family: $font_open_sans;
+    	font-size: $font_size_2;
+    	line-height: 1.2;
+    	color: $color_dark_grey;
+        text-align: center;
+        width: 103.5%;
+        height: 75px;
+        margin: 0 0 15px 0;
+        padding: 25px 0 0 0;
+        border: solid 1px #f0f0f0;
+    }
+    #dep1 img{
+        border-bottom: 3px solid  #c08de0;
+    }
+    #dep2 img{
+        border-bottom: 3px solid  #7cbaf3;
+    }
+    #dep3 img{
+        border-bottom: 3px solid   #b6d017;
+    }
+    #dep4 img{
+        border-bottom: 3px solid #e27c72;
+    }
+    #dep5 img{
+        border-bottom: 3px solid #f8b835;
+    }
 }
