@@ -14,4 +14,9 @@ $(document).ready(function($){
 	        target: '#leftCol',
 	        offset: navHeight
     });
+
+    // Button Selector
+    $('.button-selector').click(function () {
+        $(this).toggleClass('active')
+    })
 });

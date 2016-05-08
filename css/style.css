@@ -200,6 +200,23 @@ input:focus {
   .button-primary:hover {
     opacity: 0.8; }
 
+.button-selector {
+  height: 74px;
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 1px #f0f0f0;
+  font-family: "OpenSans, sans-serif";
+  font-size: 16px;
+  line-height: 1.2;
+  color: #333333; }
+  .button-selector div {
+    margin-top: 28px; }
+  .button-selector:hover {
+    opacity: 0.7;
+    cursor: pointer; }
+  .button-selector.active {
+    border: solid 1px #00c7ab; }
+
 /** General Layout **/
 .section-title {
   margin-top: 40px; }
@@ -548,6 +565,48 @@ input:focus {
   border-bottom: 3px solid #e27c72; }
 .departments #dep5 img {
   border-bottom: 3px solid #f8b835; }
+
+/** Services **/
+.service-item {
+  padding: 20px 0 0 20px;
+  height: 70px;
+  border: solid 1px #f0f0f0;
+  font-family: "OpenSans, sans-serif";
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333333; }
+  .service-item:hover {
+    background-color: #e6f9f6; }
+
+/** Outreach **/
+.calendar-dates {
+  overflow-y: scroll;
+  height: 397px;
+  background-color: #f8f8f8;
+  padding: 15px 0 0 0; }
+  .calendar-dates .title {
+    padding-left: 15px;
+    font-family: "gibsonregular";
+    font-size: 20px;
+    line-height: 1;
+    color: #333333; }
+  .calendar-dates .subtitle {
+    margin-top: 20px;
+    padding-left: 15px;
+    font-family: "OpenSans, sans-serif";
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666666; }
+    .calendar-dates .subtitle .date {
+      font-family: "gibsonregular";
+      font-size: 14px;
+      line-height: 1.5;
+      color: #999999; }
+    .calendar-dates .subtitle.active {
+      background-color: #f0f0f0;
+      color: #00c7ab; }
+      .calendar-dates .subtitle.active .date {
+        color: #333333; }
 
 /** Responsive **/
 @media (max-width: 850px) {

@@ -429,3 +429,56 @@
         border-bottom: 3px solid #f8b835;
     }
 }
+
+/** Services **/
+
+.service-item{
+    padding: 20px 0 0 20px;
+    height: 70px;
+    border: solid 1px $color_clear_grey_light;
+    font-family: $font_open_sans;
+    font-size: $font_size_2;
+    line-height: 1.2;
+    color: $color_dark_grey;
+    &:hover{
+        background-color: $color_clear-green;
+    }
+}
+
+/** Outreach **/
+
+.calendar-dates{
+    overflow-y: scroll;
+    height: 397px;
+    background-color: #f8f8f8;
+    padding: 15px 0 0 0;
+
+    .title{
+        padding-left: 15px;
+        font-family: $font_roboto;
+    	font-size: $font_size_2;
+    	line-height: 1;
+    	color: $color_dark_grey;
+    }
+    .subtitle{
+        margin-top: 20px;
+        padding-left: 15px;
+        font-family: $font_open_sans;
+    	font-size: $font_size_3;
+    	line-height: 1.6;
+    	color: $color_medium_gey;
+        .date{
+            font-family: $font_roboto;
+        	font-size: $font_size_4;
+        	line-height: 1.5;
+        	color: $color_medium_grey_light;
+        }
+        &.active{
+            background-color: #f0f0f0;
+            color: $color_turquoise;
+            .date{
+                color: $color_dark_grey;
+            }
+        }
+    }
+}

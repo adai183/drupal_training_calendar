@@ -148,6 +148,27 @@ input{
     }
 }
 
+.button-selector{
+    height: 74px;
+    text-align: center;
+    background-color:$color_white;
+    border: solid 1px $color_clear_grey_light;
+    font-family: $font_open_sans;
+	font-size:  $font_size_3;
+	line-height: 1.2;
+	color: $color_dark_grey;
+    div{
+        margin-top: 28px;
+    }
+    &:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    &.active{
+        border: solid 1px $color_turquoise;
+    }
+}
+
 /** General Layout **/
 .section-title{
     margin-top: 40px;
