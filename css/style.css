@@ -149,7 +149,7 @@
   color: #333333; }
 
 .font_type_home, body, .footer ul li > a {
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans, sans-serif";
   font-size: 16px;
   color: #999999; }
 
@@ -191,7 +191,7 @@ input:focus {
   border: solid 1px #00c7ab;
   border: solid 1px #00c7ab; }
   .button-primary span {
-    font-family: "OpenSans", sans-serif;
+    font-family: "OpenSans, sans-serif";
     font-size: 20px;
     font-weight: lighter;
     line-height: 1.2;
@@ -289,7 +289,7 @@ input:focus {
       margin: 0 30px 0 0; }
     .footer.footer-bottom .text a {
       margin-right: 30px;
-      font-family: "OpenSans", sans-serif;
+      font-family: "OpenSans, sans-serif";
       font-size: 14px;
       line-height: 1.7;
       color: #999999; }
@@ -314,7 +314,7 @@ input:focus {
   color: #333333;
   text-shadow: initial; }
 .carousel .carousel-caption p {
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans, sans-serif";
   font-size: 20px;
   line-height: 1.6;
   color: #333333;
@@ -352,7 +352,7 @@ input:focus {
       height: 60px;
       border: solid 1px #cccccc;
       border-right: 0;
-      font-family: "OpenSans", sans-serif;
+      font-family: "OpenSans, sans-serif";
       font-size: 20px;
       line-height: 1.5; }
     .search-form form .input-group-btn {
@@ -364,7 +364,7 @@ input:focus {
       border-radius: 30px;
       background-color: #ffffff;
       border: solid 1px #00c7ab;
-      font-family: "OpenSans", sans-serif;
+      font-family: "OpenSans, sans-serif";
       font-size: 20px;
       line-height: 1.4;
       color: #00c7ab; }
@@ -373,7 +373,7 @@ input:focus {
         border-radius: 30px;
         background-color: #ffffff;
         border: solid 1px #00c7ab;
-        font-family: "OpenSans", sans-serif;
+        font-family: "OpenSans, sans-serif";
         font-size: 20px;
         line-height: 1.4;
         color: #00c7ab; }
@@ -381,7 +381,7 @@ input:focus {
         border-radius: 30px;
         background-color: #ffffff;
         border: solid 1px #00c7ab;
-        font-family: "OpenSans", sans-serif;
+        font-family: "OpenSans, sans-serif";
         font-size: 20px;
         line-height: 1.4;
         color: #00c7ab; }
@@ -398,7 +398,7 @@ input:focus {
     color: #00c7ab; }
 .news .subtitle {
   margin: 10px 0 10px 0;
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans, sans-serif";
   font-size: 20px;
   line-height: 1.2;
   color: #333333; }
@@ -421,7 +421,7 @@ input:focus {
     margin: 0 0 15px -15px; }
     .events .schedule .schedule-head .title {
       margin: 0 0 5px 15px;
-      font-family: "OpenSans", sans-serif;
+      font-family: "OpenSans, sans-serif";
       font-size: 16px;
       line-height: 1.6;
       color: #00c7ab; }
@@ -438,7 +438,7 @@ input:focus {
       margin-bottom: 25px; }
       .events .schedule ul li .title {
         margin: 0 0 5px 0;
-        font-family: "OpenSans", sans-serif;
+        font-family: "OpenSans, sans-serif";
         font-size: 16px;
         line-height: 1.6;
         color: #666666; }
@@ -459,14 +459,14 @@ input:focus {
   .events .detail .subtitle {
     padding-top: 25px;
     padding-left: 15px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "OpenSans, sans-serif";
     font-size: 20px;
     line-height: 1.2;
     color: #333333; }
   .events .detail .detail-link a {
     padding-top: 15px;
     padding-left: 15px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "OpenSans, sans-serif";
     font-size: 16px;
     line-height: 1.8;
     color: #00c7ab; }
@@ -485,7 +485,7 @@ input:focus {
   line-height: 1.6;
   color: #999999; }
 .facilities .subtitle {
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans, sans-serif";
   font-size: 16px;
   line-height: 1.5;
   color: #333333; }
@@ -528,7 +528,7 @@ input:focus {
 
 /**RESEARCH**/
 .departments .subtitle {
-  font-family: "OpenSans", sans-serif;
+  font-family: "OpenSans, sans-serif";
   font-size: 20px;
   line-height: 1.2;
   color: #333333;
@@ -567,5 +567,8 @@ input:focus {
     position: fixed;
     top: 70px;
     width: 228px; } }
+@media (max-width: 992px) {
+  #leftCol {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

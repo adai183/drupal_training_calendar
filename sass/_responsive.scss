@@ -23,3 +23,9 @@
         width:228px;
     }
 }
+
+@media (max-width: 992px) {
+    #leftCol{
+        display: none;
+    }
+}
