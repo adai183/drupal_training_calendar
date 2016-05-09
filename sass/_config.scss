@@ -119,6 +119,10 @@ a{
     }
 }
 
+.top-link a{
+    color: $color_medium_grey_light;
+}
+
 /** Forms **/
 input{
     &:focus{
@@ -148,6 +152,26 @@ input{
     }
 }
 
+.button-secondary{
+    width: 140px;
+    height: 60px;
+    border-radius: 30px !important;
+    background-color: $color_white;
+    border: solid 1px $color_turquoise;
+    font-family: $font_open_sans;
+    font-weight: bolder;
+	font-size: $font_size_2;
+	line-height: 1.2;
+	color: $color_turquoise;
+
+    &:hover{
+        color: $color_turquoise;
+        background-color: $color_white;
+        border: solid 1px $color_turquoise;
+        opacity: 0.8;
+    }
+}
+
 .button-selector{
     height: 74px;
     text-align: center;
@@ -167,6 +191,28 @@ input{
     &.active{
         border: solid 1px $color_turquoise;
     }
+}
+
+/** social buttons **/
+.button-facebook{
+    padding-top: 8px;
+    text-align: center;
+    width: 241px;
+    height: 44px;
+    border-radius: 100px;
+    border: solid 1px #435fa0;
+    font-family: $font_open_sans;
+	font-size:$font_size_3;
+	color: #435fa0;
+
+}
+.button-twitter{
+    text-align: center;
+    width: 222px;
+    height: 44px;
+    border-radius: 100px;
+    border: solid 1px #38a5ea;
+
 }
 
 /** General Layout **/
@@ -190,7 +236,10 @@ input{
 	font-size: $font_size_1;
 	line-height: 1.5;
 	color: $color_dark_grey;
-
+    &.dep1{
+        background-image: url('../img/i-l-u.png');
+        border-bottom: solid 3px #bd8de3;
+    }
 }
 
 .content section {

@@ -74,7 +74,7 @@ $(document).ready(function($){
 
     // Add images
     var image = new Image();
-    image.src = 'http://placehold.it/60x60';
+    image.src = 'img/german_caballero.png';
     image.onload = function(){
         // director
         ctx.drawImage(image, 370, 40);
@@ -91,18 +91,18 @@ $(document).ready(function($){
     // Add text
     ctx.font = "14px OpenSans, sans-serif";
     ctx.fillStyle = "#999999";
-    ctx.fillText("Director",440, 60);
-    ctx.fillText("Vicedirector",90, 130);
-    ctx.fillText("Vicedirector",90, 230);
-    ctx.fillText("General Manager",790, 130);
+    ctx.fillText("Director",450, 60);
+    ctx.fillText("Vicedirector",100, 130);
+    ctx.fillText("Vicedirector",100, 230);
+    ctx.fillText("General Manager",800, 130);
 
 
     ctx.font = "16px OpenSans, sans-serif";
     ctx.fillStyle = " #333333";
-    ctx.fillText("María Jesús Martínez",440, 85);
-    ctx.fillText("Germán Rivas",90, 155);
-    ctx.fillText("Teresa Suárez",90, 255);
-    ctx.fillText("José Luis Chavarría",790, 155);
+    ctx.fillText("María Jesús Martínez",450, 85);
+    ctx.fillText("Germán Rivas",100, 155);
+    ctx.fillText("Teresa Suárez",100, 255);
+    ctx.fillText("José Luis Chavarría",800, 155);
     ctx.fillText("Research Departments",65, 385);
     ctx.fillText("Scientific & Technical Services",390, 385);
     ctx.fillText("Administration",795, 385);

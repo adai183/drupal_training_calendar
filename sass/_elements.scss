@@ -401,7 +401,7 @@
 /**RESEARCH**/
 
 .departments{
-    .subtitle{
+    .subtitle {
         font-family: $font_open_sans;
     	font-size: $font_size_2;
     	line-height: 1.2;
@@ -412,6 +412,9 @@
         margin: 0 0 15px 0;
         padding: 25px 0 0 0;
         border: solid 1px #f0f0f0;
+        a{
+            color: $color_dark_grey;
+        }
     }
     #dep1 img{
         border-bottom: 3px solid  #c08de0;
@@ -427,6 +430,68 @@
     }
     #dep5 img{
         border-bottom: 3px solid #f8b835;
+    }
+}
+
+/** RESEARCH DEPARTMENT **/
+
+.members{
+    .boss{
+        display: -webkit-box;
+        .title{
+            margin-left: 5px;
+            font-family: $font_roboto;
+            font-size: $font_size_4;
+            line-height: 1.6;
+            color: $color_medium_grey_light;
+        }
+        .subtitle{
+            margin-left: 5px;
+            font-family: $font_open_sans;
+        	font-size: 16px;
+        	color: $color_dark_grey;
+        }
+    }
+}
+
+.staff{
+    .title{
+        font-family: $font_roboto;
+        font-size: $font_size_4;
+        line-height: 1.6;
+        color: $color_medium_grey_light;
+    }
+    ul{
+        padding-left: 0;
+    }
+    ul>li{
+        list-style: none;
+        font-family: $font_open_sans;
+        font-size: $font_size_2;
+        line-height: 1.2;
+        color: $color_dark_grey;
+    }
+}
+
+.publication{
+    display: -webkit-box;
+    padding-left: 13px;
+}
+
+.funding{
+    ul{
+        padding-left: 13px;
+    }
+}
+
+.groups{
+    p{
+    padding-left: 14px;
+    font-family:$font_roboto;
+	font-size: $font_size_4;
+	line-height: 1.6;
+	color: $color_medium_grey_light;
+
     }
 }
 
@@ -480,5 +545,128 @@
                 color: $color_dark_grey;
             }
         }
+    }
+}
+
+.calendar-detail{
+    margin-top: 20px;
+    .left{
+        border: solid 1px #f0f0f0;
+        padding-bottom: 31px;
+        .date{
+            margin-top: 15px;
+            font-family: $font_roboto;
+        	font-size: $font_size_2;
+        	line-height: 1.4;
+        	color: $color_dark_grey;
+        }
+        .title{
+            margin-top: 50px;
+            font-family: $font_roboto;
+        	font-size: $font_size_4;
+        	line-height: 1.6;
+        	color: #999999;
+        }
+        .subtitle{
+            font-family: $font_open_sans;
+        	font-size: $font_size_3;
+        	color: $color_dark_grey;
+        }
+        .contact{
+            font-family: OpenSans;
+            font-size: $font_size_3 ;
+            color: $color_turquoise;
+        }
+    }
+    .right{
+        	background-color: #f8f8f8;
+            border: solid 1px #f0f0f0;
+        .topic{
+            margin-top: 15px;
+            font-family: $font_open_sans;
+        	font-size: $font_size_2;
+        	line-height: 1.2;
+        	color: $color_dark_grey;
+        }
+        .title{
+            margin-top: 30px;
+            font-family: $font_roboto;
+            font-size: $font_size_4;
+            line-height: 1.6;
+            color: #999999;
+        }
+        .subtitle{
+            font-family: $font_open_sans;
+        	font-size: $font_size_3;
+        	color: $color_dark_grey;
+        }
+        .departments{
+            font-family: OpenSans;
+            font-size: $font_size_3 ;
+            color: $color_turquoise;
+        }
+        .poster{
+
+        }
+    }
+}
+
+/** News **/
+
+.custom-pager{
+    font-family: $font_roboto;
+	font-size: 18px;
+	line-height: 1.2;
+    li{
+        padding-right: 10px;
+        a{
+            color: $color_clear_grey;
+            border-radius: 30px;
+    	    border: solid 1px #cccccc;
+            &:hover{
+                background-color: $color_turquoise;
+                color: $color_white !important;
+            }
+        }
+    }
+}
+
+/** News Detail **/
+
+.news-details{
+    .title{
+        font-family: $font_open_sans;
+    	font-size: $font_size_2;
+    	line-height: 1.2;
+    	color: $color_dark_grey;
+    }
+    .img-sub{
+        font-family: $font_roboto;
+        font-size: $font_size_4;
+        line-height: 1.6;
+        color: $color_medium_grey_light;
+
+    }
+}
+
+.news-related{
+    display: -webkit-box;
+    .img{
+        max-width: 129px;
+        max-height: 102.7px;
+    }
+    .title{
+        margin-left: 15px;
+        font-family: $font_roboto;
+        font-size: $font_size_4;
+        line-height: 1.9;
+        color: $color_turquoise;
+    }
+    .subtitle{
+        max-width: 259px;
+        margin-left: 15px;
+        font-family: $font_open_sans;
+    	font-size: $font_size_3;
+    	color: #4c5056;
     }
 }

@@ -1,12 +1,22 @@
 /** Responsive **/
 @media (max-width: 850px) {
-    .navbar-nav {
-        margin-top: 20px;
-        background-color: $color_white;
-    }
-
     .navbar-default .navbar-collapse {
         border: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
     }
 }
 
@@ -26,6 +36,12 @@
 
 @media (max-width: 992px) {
     #leftCol{
+        display: none;
+    }
+}
+
+@media (max-width: 656px) {
+    .custom-pager .number{
         display: none;
     }
 }

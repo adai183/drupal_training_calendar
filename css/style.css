@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Congig
+# Config
 # Elements
 # Responsive
 
@@ -178,6 +178,9 @@ a {
     color: #00c7ab !important;
     text-decoration: none !important; }
 
+.top-link a {
+  color: #999999; }
+
 /** Forms **/
 input:focus {
   border-color: #00c7ab !important; }
@@ -200,6 +203,23 @@ input:focus {
   .button-primary:hover {
     opacity: 0.8; }
 
+.button-secondary {
+  width: 140px;
+  height: 60px;
+  border-radius: 30px !important;
+  background-color: #ffffff;
+  border: solid 1px #00c7ab;
+  font-family: "OpenSans, sans-serif";
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #00c7ab; }
+  .button-secondary:hover {
+    color: #00c7ab;
+    background-color: #ffffff;
+    border: solid 1px #00c7ab;
+    opacity: 0.8; }
+
 .button-selector {
   height: 74px;
   text-align: center;
@@ -216,6 +236,25 @@ input:focus {
     cursor: pointer; }
   .button-selector.active {
     border: solid 1px #00c7ab; }
+
+/** social buttons **/
+.button-facebook {
+  padding-top: 8px;
+  text-align: center;
+  width: 241px;
+  height: 44px;
+  border-radius: 100px;
+  border: solid 1px #435fa0;
+  font-family: "OpenSans, sans-serif";
+  font-size: 16px;
+  color: #435fa0; }
+
+.button-twitter {
+  text-align: center;
+  width: 222px;
+  height: 44px;
+  border-radius: 100px;
+  border: solid 1px #38a5ea; }
 
 /** General Layout **/
 .section-title {
@@ -235,6 +274,9 @@ input:focus {
   font-size: 40px;
   line-height: 1.5;
   color: #333333; }
+  .jumbotron.dep1 {
+    background-image: url("../img/i-l-u.png");
+    border-bottom: solid 3px #bd8de3; }
 
 .content section {
   background-color: #00c7ab;
@@ -555,6 +597,8 @@ input:focus {
   margin: 0 0 15px 0;
   padding: 25px 0 0 0;
   border: solid 1px #f0f0f0; }
+  .departments .subtitle a {
+    color: #333333; }
 .departments #dep1 img {
   border-bottom: 3px solid  #c08de0; }
 .departments #dep2 img {
@@ -565,6 +609,49 @@ input:focus {
   border-bottom: 3px solid #e27c72; }
 .departments #dep5 img {
   border-bottom: 3px solid #f8b835; }
+
+/** RESEARCH DEPARTMENT **/
+.members .boss {
+  display: -webkit-box; }
+  .members .boss .title {
+    margin-left: 5px;
+    font-family: "gibsonregular";
+    font-size: 14px;
+    line-height: 1.6;
+    color: #999999; }
+  .members .boss .subtitle {
+    margin-left: 5px;
+    font-family: "OpenSans, sans-serif";
+    font-size: 16px;
+    color: #333333; }
+
+.staff .title {
+  font-family: "gibsonregular";
+  font-size: 14px;
+  line-height: 1.6;
+  color: #999999; }
+.staff ul {
+  padding-left: 0; }
+.staff ul > li {
+  list-style: none;
+  font-family: "OpenSans, sans-serif";
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333333; }
+
+.publication {
+  display: -webkit-box;
+  padding-left: 13px; }
+
+.funding ul {
+  padding-left: 13px; }
+
+.groups p {
+  padding-left: 14px;
+  font-family: "gibsonregular";
+  font-size: 14px;
+  line-height: 1.6;
+  color: #999999; }
 
 /** Services **/
 .service-item {
@@ -608,14 +695,116 @@ input:focus {
       .calendar-dates .subtitle.active .date {
         color: #333333; }
 
+.calendar-detail {
+  margin-top: 20px; }
+  .calendar-detail .left {
+    border: solid 1px #f0f0f0;
+    padding-bottom: 31px; }
+    .calendar-detail .left .date {
+      margin-top: 15px;
+      font-family: "gibsonregular";
+      font-size: 20px;
+      line-height: 1.4;
+      color: #333333; }
+    .calendar-detail .left .title {
+      margin-top: 50px;
+      font-family: "gibsonregular";
+      font-size: 14px;
+      line-height: 1.6;
+      color: #999999; }
+    .calendar-detail .left .subtitle {
+      font-family: "OpenSans, sans-serif";
+      font-size: 16px;
+      color: #333333; }
+    .calendar-detail .left .contact {
+      font-family: OpenSans;
+      font-size: 16px;
+      color: #00c7ab; }
+  .calendar-detail .right {
+    background-color: #f8f8f8;
+    border: solid 1px #f0f0f0; }
+    .calendar-detail .right .topic {
+      margin-top: 15px;
+      font-family: "OpenSans, sans-serif";
+      font-size: 20px;
+      line-height: 1.2;
+      color: #333333; }
+    .calendar-detail .right .title {
+      margin-top: 30px;
+      font-family: "gibsonregular";
+      font-size: 14px;
+      line-height: 1.6;
+      color: #999999; }
+    .calendar-detail .right .subtitle {
+      font-family: "OpenSans, sans-serif";
+      font-size: 16px;
+      color: #333333; }
+    .calendar-detail .right .departments {
+      font-family: OpenSans;
+      font-size: 16px;
+      color: #00c7ab; }
+
+/** News **/
+.custom-pager {
+  font-family: "gibsonregular";
+  font-size: 18px;
+  line-height: 1.2; }
+  .custom-pager li {
+    padding-right: 10px; }
+    .custom-pager li a {
+      color: #cccccc;
+      border-radius: 30px;
+      border: solid 1px #cccccc; }
+      .custom-pager li a:hover {
+        background-color: #00c7ab;
+        color: #ffffff !important; }
+
+/** News Detail **/
+.news-details .title {
+  font-family: "OpenSans, sans-serif";
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333333; }
+.news-details .img-sub {
+  font-family: "gibsonregular";
+  font-size: 14px;
+  line-height: 1.6;
+  color: #999999; }
+
+.news-related {
+  display: -webkit-box; }
+  .news-related .img {
+    max-width: 129px;
+    max-height: 102.7px; }
+  .news-related .title {
+    margin-left: 15px;
+    font-family: "gibsonregular";
+    font-size: 14px;
+    line-height: 1.9;
+    color: #00c7ab; }
+  .news-related .subtitle {
+    max-width: 259px;
+    margin-left: 15px;
+    font-family: "OpenSans, sans-serif";
+    font-size: 16px;
+    color: #4c5056; }
+
 /** Responsive **/
 @media (max-width: 850px) {
-  .navbar-nav {
-    margin-top: 20px;
-    background-color: #ffffff; }
-
   .navbar-default .navbar-collapse {
     border: 0; } }
+@media (min-width: 768px) and (max-width: 850px) {
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+
+  .navbar-header .collapse, .navbar-toggle {
+    display: block !important; }
+
+  .navbar-header {
+    float: none; } }
 @media (min-width: 979px) {
   #sidebar.affix-top {
     position: static;
@@ -628,6 +817,9 @@ input:focus {
     width: 228px; } }
 @media (max-width: 992px) {
   #leftCol {
+    display: none; } }
+@media (max-width: 656px) {
+  .custom-pager .number {
     display: none; } }
 
 /*# sourceMappingURL=style.css.map */
