@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="shortcut icon" href="img/ico/favicon.ico" type="image/x-icon"/>
@@ -118,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <img src="http://placehold.it/381x397?text=Calendar">
+                    <div id="datepicker"></div>
                 </div>
                 <div class="col-md-4 calendar-dates">
                     <div class="title">
@@ -359,7 +360,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-8 logos">
                 <ul>
                     <li class="margin-bottom-5">
                         <a href="#"><img src="img/logo-pie-eu.png" alt=""/></a>
@@ -371,8 +372,6 @@
                         <a href="#"><img src="img/3-logo-ce-horizontal-en-quadri-jpg.png" alt=""/></a>
                     </li>
                 </ul>
-            </div>
-            <div class="col-md-4">
                 <ul>
                     <li class="margin-bottom-5">
                         <a href="#"><img src="img/2-madrid.png" alt=""/></a>
@@ -402,7 +401,7 @@
                 </span>
                 <span class="pull-right gob">
                     <img src="img/fill-110.png" alt=""/>
-                    <span class="dropdown">
+                    <span class="dropdown dropup">
                         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
                             ES
                         <span class="caret"></span>
@@ -428,11 +427,57 @@
         </div>
     </footer>
 
+    <footer class="container-fluid footer-bottom-small footer-bottom margin-top-4" style="display:none;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="margin-bottom-2">
+                    <a href="#"><img class="social" src="img/facebook.png" alt=""/></a>
+                    <a href="#"><img class="social" src="img/twitter.png" alt=""/></a>
+                </div>
+                <div>
+                    <a href="#">Política de cookies</a>
+                </div>
+                <div class="margin-bottom-2">
+                    <a href="#">Política de privacidad</a>
+                </div>
+                <div class="dropdown dropup margin-bottom-2">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                        ES
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">EN</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">GER</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">FR</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="#">EUSK</a>
+                        </li>
+                    </div>
+                    <div>
+                        <img src="img/1-ministerio-economia-competitividad.png" alt=""/>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </footer>
+
 
   <!-- JS Imports -->
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/jquery-ui.js"></script>
   <script src="js/app.js"></script>
+  <script type="text/javascript">
+      $( "#datepicker" ).datepicker({
+          inline: true
+      });
+  </script>
 
 </body>
 </html>

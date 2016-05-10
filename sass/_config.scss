@@ -204,14 +204,19 @@ input{
     font-family: $font_open_sans;
 	font-size:$font_size_3;
 	color: #435fa0;
-
 }
+
 .button-twitter{
+    padding-top: 8px;
     text-align: center;
     width: 222px;
     height: 44px;
     border-radius: 100px;
     border: solid 1px #38a5ea;
+    font-family: $font_open_sans;
+	font-size: $font_size_3;
+	color: #38a5ea;
+
 
 }
 
@@ -219,13 +224,14 @@ input{
 .section-title{
     margin-top: 40px;
     @extend .font_type_section_title;
-    .marker{
-        display: inline-block;
-        margin-right: 8px;
-        width: 2px;
-    	height: 19px;
-    	background-color: #ec111a;
-    }
+}
+
+.marker{
+    display: inline-block;
+    margin-right: 8px;
+    width: 2px;
+    height: 19px;
+    background-color: #ec111a;
 }
 
 .jumbotron{

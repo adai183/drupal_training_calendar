@@ -9,7 +9,7 @@
 }
 
 .navbar-default {
-    height: 80px;
+    margin-bottom: 30px;
     background-color: $color_white;
     border-bottom: 0;
     .navbar-nav>li>a {
@@ -60,6 +60,12 @@
 
 /** Footer **/
 .footer{
+    .logos{
+        display: flex;
+    }
+    .logos>ul:nth-of-type(2){
+        margin-left: 100px;
+    }
     ul{
         list-style: none;
         margin-left: -40px;
@@ -102,6 +108,32 @@
     }
 }
 
+.footer-bottom-small{
+    height: auto;
+    max-width: 1480px;
+    text-align: center;
+    background-color: $color_dark_grey;
+    .social{
+        padding: 15px 0 15px 0;
+        margin: 0 30px 0 0;
+    }
+    a{
+        font-family: $font_open_sans;
+        font-size: $font_size_4;
+        line-height: 1.7;
+        color: $color_medium_grey_light;
+
+    }
+    .dropdown button{
+        background-color: $color_dark_grey;
+        border: 0;
+        color: $color_white;
+        margin-right: 15px;
+    }
+    .gob {
+        margin: 0 -15px 0 0;
+    }
+}
 
 /** HOME **/
 
@@ -143,10 +175,10 @@
             }
         }
         &#research{
-            padding-bottom: 141px;
+            padding-bottom: 90px;
         }
         &#download{
-            padding-bottom: 90px;
+            padding-bottom: 50px;
         }
         &#development{
             padding-bottom: 60px;
@@ -394,6 +426,83 @@
         }
         .fax{
 
+        }
+    }
+}
+
+.map{
+    .map-window{
+        position: absolute;
+        bottom: 7%;
+        left: 3%;
+        height: 80%;
+        width: 25%;
+        padding: 1% 0 0 1%;
+        background-color: $color_dark_grey;
+        color: $color_white;
+        font-family: $font_open_sans;
+
+        .title{
+            font-size: $font_size_2;
+        }
+        .address{
+            font-size: $font_size_3;
+        }
+        .address-2{
+            font-size: $font_size_3;
+            margin-bottom: 8%;
+        }
+        .direction{
+            font-size: $font_size_3;
+            border-bottom: 1px solid $color_white;
+            border-top: 1px solid $color_white;
+            padding: 4% 0 4% 0;
+            margin-bottom: 8%;
+            cursor: pointer;
+            .direction-marker{
+                float: right;
+                margin-right: 20px;
+            }
+        }
+        .phone{
+            font-size: $font_size_3;
+        }
+        .fax{
+            font-size: $font_size_3;
+        }
+        &.direction-window{
+            display: none;
+            font-family: $font_open_sans;
+            font-size: $font_size_3;
+            line-height: 1.5;
+            .title-direction{
+                .direction-marker{
+                    float: right;
+                    margin-right: 20px;
+                }
+            }
+            .autobus{
+                font-family: $font_roboto;
+            	font-size: $font_size_4;
+            	line-height: 1.6;
+            	color: $color_medium_grey_light;
+            }
+            .line{
+
+            }
+            .line-color{
+
+            }
+            .metro{
+                font-family: $font_roboto;
+            	font-size: $font_size_4;
+            	line-height: 1.6;
+            	color: $color_medium_grey_light;
+            }
+            .back{
+                color: $color_turquoise;
+                cursor: pointer;
+            }
         }
     }
 }
@@ -668,5 +777,32 @@
         font-family: $font_open_sans;
     	font-size: $font_size_3;
     	color: #4c5056;
+    }
+}
+
+/** Calendar **/
+.ui-widget-header .ui-icon {
+    background-image: url("../img/ui-icons_444444_256x240.png") !important;
+}
+
+.ui-datepicker{
+    margin: 0 auto;
+    font-family: $font_open_sans;
+	font-size: $font_size_3;
+	line-height: 2.2;
+	color:$color_medium_gey;
+
+    .ui-widget-header{
+        background-color: $color_white;
+        font-family: $font_roboto;
+	    font-size: $font_size_2;
+	    color: $color_dark_grey;
+    }
+    .ui-state-default{
+        border: 0;
+        background-color: $color_white;
+    }
+    .ui-state-highlight{
+        color: $color_turquoise;
     }
 }
