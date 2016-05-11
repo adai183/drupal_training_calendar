@@ -18,6 +18,19 @@
   src: url("fonts/gibson-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gibson-light-webfont.woff2") format("woff2"), url("fonts/gibson-light-webfont.woff") format("woff"), url("fonts/gibson-light-webfont.ttf") format("truetype"), url("fonts/gibson-light-webfont.svg#gibsonlight") format("svg");
   font-weight: normal;
   font-style: normal; }
+/**
+@font-face {
+    font-family: 'open-sans';
+    src: url('fonts/gibson-regular-webfont.eot');
+    src: url('fonts/gibson-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gibson-regular-webfont.woff2') format('woff2'),
+         url('fonts/gibson-regular-webfont.woff') format('woff'),
+         url('fonts/gibson-regular-webfont.ttf') format('truetype'),
+         url('fonts/gibson-regular-webfont.svg#gibsonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+**/
 /** COLORS **/
 /** Font sizes **/
 /* MIXINS */
@@ -143,18 +156,18 @@
 
 /** EXTENDS **/
 .font_type_nav, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > form {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   line-height: 1.4;
   color: #333333; }
 
 .font_type_home, body, .footer ul li > a {
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #999999; }
 
 .font_type_section_title, .section-title {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   color: #333333; }
   .font_type_section_title a, .section-title a {
@@ -164,7 +177,7 @@
     color: #00c7ab; }
 
 .font_type_footer_title, .footer .title {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   color: #333333; }
 
@@ -194,7 +207,7 @@ input:focus {
   border: solid 1px #00c7ab;
   border: solid 1px #00c7ab; }
   .button-primary span {
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: lighter;
     line-height: 1.2;
@@ -209,7 +222,7 @@ input:focus {
   border-radius: 30px !important;
   background-color: #ffffff;
   border: solid 1px #00c7ab;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 20px;
   line-height: 1.2;
@@ -225,7 +238,7 @@ input:focus {
   text-align: center;
   background-color: #ffffff;
   border: solid 1px #f0f0f0;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.2;
   color: #333333; }
@@ -245,7 +258,7 @@ input:focus {
   height: 44px;
   border-radius: 100px;
   border: solid 1px #435fa0;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #435fa0; }
 
@@ -256,7 +269,7 @@ input:focus {
   height: 44px;
   border-radius: 100px;
   border: solid 1px #38a5ea;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #38a5ea; }
 
@@ -275,7 +288,7 @@ input:focus {
   height: 160px;
   background-color: #eeeeee;
   border-bottom: solid 3px #e72b22;
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 40px;
   line-height: 1.5;
   color: #333333; }
@@ -323,9 +336,10 @@ input:focus {
 #sidebar .affix-top, #sidebar .affix {
   position: static; }
 #sidebar li {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-bottom: solid 1px #f0f0f0; }
 #sidebar li a {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   line-height: 1.4;
   color: #333333; }
@@ -357,7 +371,7 @@ input:focus {
       margin: 0 30px 0 0; }
     .footer.footer-bottom .text a {
       margin-right: 30px;
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 14px;
       line-height: 1.7;
       color: #999999; }
@@ -378,7 +392,7 @@ input:focus {
     padding: 15px 0 15px 0;
     margin: 0 30px 0 0; }
   .footer-bottom-small a {
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 1.7;
     color: #999999; }
@@ -397,13 +411,14 @@ input:focus {
   .carousel .carousel-indicators li.active {
     background-color: #00c7ab; }
 .carousel .carousel-caption .title {
-  font-family: "gibsonlight";
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
   font-size: 60px;
   line-height: 1.1;
   color: #333333;
   text-shadow: initial; }
 .carousel .carousel-caption p {
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.6;
   color: #333333;
@@ -441,7 +456,7 @@ input:focus {
       height: 60px;
       border: solid 1px #cccccc;
       border-right: 0;
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 20px;
       line-height: 1.5; }
     .search-form form .input-group-btn {
@@ -453,7 +468,7 @@ input:focus {
       border-radius: 30px;
       background-color: #ffffff;
       border: solid 1px #00c7ab;
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 20px;
       line-height: 1.4;
       color: #00c7ab; }
@@ -462,7 +477,7 @@ input:focus {
         border-radius: 30px;
         background-color: #ffffff;
         border: solid 1px #00c7ab;
-        font-family: "OpenSans, sans-serif";
+        font-family: "Open Sans", sans-serif;
         font-size: 20px;
         line-height: 1.4;
         color: #00c7ab; }
@@ -470,7 +485,7 @@ input:focus {
         border-radius: 30px;
         background-color: #ffffff;
         border: solid 1px #00c7ab;
-        font-family: "OpenSans, sans-serif";
+        font-family: "Open Sans", sans-serif;
         font-size: 20px;
         line-height: 1.4;
         color: #00c7ab; }
@@ -481,19 +496,19 @@ input:focus {
 .news .title {
   margin: 10px 0 10px 0; }
   .news .title a {
-    font-family: "gibsonregular";
+    font-family: "Roboto Slab", serif;
     font-size: 16px;
     line-height: 1.6;
     color: #00c7ab; }
 .news .subtitle {
   margin: 10px 0 10px 0;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: #333333; }
 .news .date {
   margin: 0 0 15px 0;
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   line-height: 1.6; }
 .news .footnote {
@@ -510,13 +525,13 @@ input:focus {
     margin: 0 0 15px -15px; }
     .events .schedule .schedule-head .title {
       margin: 0 0 5px 15px;
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 16px;
       line-height: 1.6;
       color: #00c7ab; }
     .events .schedule .schedule-head .date {
       margin-left: 15px;
-      font-family: "gibsonregular";
+      font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.5;
       color: #333333; }
@@ -527,12 +542,12 @@ input:focus {
       margin-bottom: 25px; }
       .events .schedule ul li .title {
         margin: 0 0 5px 0;
-        font-family: "OpenSans, sans-serif";
+        font-family: "Open Sans", sans-serif;
         font-size: 16px;
         line-height: 1.6;
         color: #666666; }
       .events .schedule ul li .date {
-        font-family: "gibsonregular";
+        font-family: "Roboto Slab", serif;
         font-size: 14px;
         line-height: 1.5;
         color: #999999; }
@@ -541,21 +556,22 @@ input:focus {
   .events .detail .title {
     padding-top: 25px;
     padding-left: 15px;
-    font-family: "gibsonregular";
+    font-family: "Roboto Slab", serif;
     font-size: 20px;
     line-height: 1.1;
     color: #999999; }
   .events .detail .subtitle {
     padding-top: 25px;
     padding-left: 15px;
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     color: #333333; }
   .events .detail .detail-link a {
     padding-top: 15px;
     padding-left: 15px;
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.8;
     color: #00c7ab; }
@@ -569,12 +585,12 @@ input:focus {
 
 /** Facilities **/
 .facilities .title {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   line-height: 1.6;
   color: #999999; }
 .facilities .subtitle {
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333333; }
@@ -615,6 +631,8 @@ input:focus {
   .facilities .info .phone {
     margin: 0 20px 0 0; }
 
+.map .map-img-small {
+  display: none; }
 .map .map-window {
   position: absolute;
   bottom: 7%;
@@ -624,9 +642,10 @@ input:focus {
   padding: 1% 0 0 1%;
   background-color: #333333;
   color: #ffffff;
-  font-family: "OpenSans, sans-serif"; }
+  font-family: "Open Sans", sans-serif; }
   .map .map-window .title {
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: "Roboto Slab", serif; }
   .map .map-window .address {
     font-size: 16px; }
   .map .map-window .address-2 {
@@ -634,6 +653,7 @@ input:focus {
     margin-bottom: 8%; }
   .map .map-window .direction {
     font-size: 16px;
+    font-family: "Roboto Slab", serif;
     border-bottom: 1px solid #ffffff;
     border-top: 1px solid #ffffff;
     padding: 4% 0 4% 0;
@@ -643,24 +663,30 @@ input:focus {
       float: right;
       margin-right: 20px; }
   .map .map-window .phone {
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: "Roboto Slab", serif; }
   .map .map-window .fax {
-    font-size: 16px; }
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif; }
+  .map .map-window .number {
+    float: right;
+    padding-right: 8px; }
   .map .map-window.direction-window {
     display: none;
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.5; }
     .map .map-window.direction-window .title-direction .direction-marker {
       float: right;
       margin-right: 20px; }
     .map .map-window.direction-window .autobus {
-      font-family: "gibsonregular";
+      font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.6;
       color: #999999; }
     .map .map-window.direction-window .metro {
-      font-family: "gibsonregular";
+      font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.6;
       color: #999999; }
@@ -670,7 +696,7 @@ input:focus {
 
 /**RESEARCH**/
 .departments .subtitle {
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: #333333;
@@ -698,26 +724,28 @@ input:focus {
   display: -webkit-box; }
   .members .boss .title {
     margin-left: 5px;
-    font-family: "gibsonregular";
+    font-family: "Roboto Slab", serif;
     font-size: 14px;
     line-height: 1.6;
     color: #999999; }
   .members .boss .subtitle {
     margin-left: 5px;
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #333333; }
 
 .staff .title {
-  font-family: "gibsonregular";
+  margin-bottom: 15px;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   line-height: 1.6;
   color: #999999; }
 .staff ul {
   padding-left: 0; }
 .staff ul > li {
+  padding-bottom: 15px;
   list-style: none;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: #333333; }
@@ -731,7 +759,7 @@ input:focus {
 
 .groups p {
   padding-left: 14px;
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   line-height: 1.6;
   color: #999999; }
@@ -741,12 +769,22 @@ input:focus {
   padding: 20px 0 0 20px;
   height: 70px;
   border: solid 1px #f0f0f0;
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: #333333; }
   .service-item:hover {
     background-color: #e6f9f6; }
+
+.cib-patents {
+  border: solid 1px #f0f0f0;
+  padding: 10px 0 10px 10px; }
+
+.info-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333333; }
 
 /** Outreach **/
 .calendar-dates {
@@ -756,19 +794,19 @@ input:focus {
   padding: 15px 0 0 0; }
   .calendar-dates .title {
     padding-left: 15px;
-    font-family: "gibsonregular";
+    font-family: "Roboto Slab", serif;
     font-size: 20px;
     line-height: 1;
     color: #333333; }
   .calendar-dates .subtitle {
     margin-top: 20px;
     padding-left: 15px;
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: #666666; }
     .calendar-dates .subtitle .date {
-      font-family: "gibsonregular";
+      font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.5;
       color: #999999; }
@@ -782,21 +820,21 @@ input:focus {
   margin-top: 20px; }
   .calendar-detail .left {
     border: solid 1px #f0f0f0;
-    padding-bottom: 31px; }
+    height: 330px; }
     .calendar-detail .left .date {
       margin-top: 15px;
-      font-family: "gibsonregular";
+      font-family: "Roboto Slab", serif;
       font-size: 20px;
       line-height: 1.4;
       color: #333333; }
     .calendar-detail .left .title {
-      margin-top: 50px;
-      font-family: "gibsonregular";
+      margin-top: 30px;
+      font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.6;
       color: #999999; }
     .calendar-detail .left .subtitle {
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 16px;
       color: #333333; }
     .calendar-detail .left .contact {
@@ -805,21 +843,22 @@ input:focus {
       color: #00c7ab; }
   .calendar-detail .right {
     background-color: #f8f8f8;
-    border: solid 1px #f0f0f0; }
+    border: solid 1px #f0f0f0;
+    height: 330px; }
     .calendar-detail .right .topic {
       margin-top: 15px;
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 20px;
       line-height: 1.2;
       color: #333333; }
     .calendar-detail .right .title {
       margin-top: 30px;
-      font-family: "gibsonregular";
+      font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.6;
       color: #999999; }
     .calendar-detail .right .subtitle {
-      font-family: "OpenSans, sans-serif";
+      font-family: "Open Sans", sans-serif;
       font-size: 16px;
       color: #333333; }
     .calendar-detail .right .departments {
@@ -829,7 +868,7 @@ input:focus {
 
 /** News **/
 .custom-pager {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   line-height: 1.2; }
   .custom-pager li {
@@ -844,12 +883,12 @@ input:focus {
 
 /** News Detail **/
 .news-details .title {
-  font-family: "OpenSans, sans-serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: #333333; }
 .news-details .img-sub {
-  font-family: "gibsonregular";
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   line-height: 1.6;
   color: #999999; }
@@ -861,30 +900,34 @@ input:focus {
     max-height: 102.7px; }
   .news-related .title {
     margin-left: 15px;
-    font-family: "gibsonregular";
+    font-family: "Roboto Slab", serif;
     font-size: 14px;
     line-height: 1.9;
     color: #00c7ab; }
   .news-related .subtitle {
     max-width: 259px;
     margin-left: 15px;
-    font-family: "OpenSans, sans-serif";
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #4c5056; }
 
 /** Calendar **/
-.ui-widget-header .ui-icon {
-  background-image: url("../img/ui-icons_444444_256x240.png") !important; }
+.ui-widget-header {
+  border: 0; }
+  .ui-widget-header .ui-icon {
+    background-image: url("../img/ui-icons_444444_256x240.png") !important; }
 
 .ui-datepicker {
   margin: 0 auto;
-  font-family: "OpenSans, sans-serif";
+  height: 397px;
+  width: 381px;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 2.2;
+  line-height: 2.8;
   color: #666666; }
   .ui-datepicker .ui-widget-header {
     background-color: #ffffff;
-    font-family: "gibsonregular";
+    font-family: "Roboto Slab", serif;
     font-size: 20px;
     color: #333333; }
   .ui-datepicker .ui-state-default {
@@ -892,6 +935,8 @@ input:focus {
     background-color: #ffffff; }
   .ui-datepicker .ui-state-highlight {
     color: #00c7ab; }
+  .ui-datepicker .ui-datepicker-calendar tbody {
+    line-height: 3.2; }
 
 /** Responsive **/
 @media (max-width: 656px) {
@@ -997,19 +1042,12 @@ input:focus {
       margin-bottom: 2%; }
     .map .map-window .direction {
       padding: 1% 0 1% 0;
-      margin-bottom: 2%; }
-    .map .map-window.direction-window .autobus {
-      font-family: "gibsonregular";
-      font-size: 14px;
-      line-height: 1.6;
-      color: #999999; }
-    .map .map-window.direction-window .metro {
-      font-family: "gibsonregular";
-      font-size: 14px;
-      line-height: 1.6;
-      color: #999999; }
-    .map .map-window.direction-window .back {
-      color: #00c7ab;
-      cursor: pointer; } }
+      margin-bottom: 2%; } }
+@media (max-width: 400px) {
+  .map-img {
+    display: none; }
+
+  .map .map-img-small {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

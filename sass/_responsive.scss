@@ -163,33 +163,15 @@
                 padding: 1% 0 1% 0;
                 margin-bottom: 2%;
             }
-            &.direction-window{
-
-                .title-direction{
-                }
-                .autobus{
-                    font-family: $font_roboto;
-                	font-size: $font_size_4;
-                	line-height: 1.6;
-                	color: $color_medium_grey_light;
-                }
-                .line{
-
-                }
-                .line-color{
-
-                }
-                .metro{
-                    font-family: $font_roboto;
-                	font-size: $font_size_4;
-                	line-height: 1.6;
-                	color: $color_medium_grey_light;
-                }
-                .back{
-                    color: $color_turquoise;
-                    cursor: pointer;
-                }
-            }
         }
+    }
+}
+
+@media (max-width: 400px) {
+    .map-img{
+        display: none;
+    }
+    .map .map-img-small{
+        display: block;
     }
 }

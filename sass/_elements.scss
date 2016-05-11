@@ -8,6 +8,7 @@
     }
 }
 
+
 .navbar-default {
     margin-bottom: 30px;
     background-color: $color_white;
@@ -43,6 +44,7 @@
     }
     li{
         margin-bottom: 20px;
+        border-bottom:  solid 1px #f0f0f0;
     }
     li a {
         font-family: $font_roboto;
@@ -150,7 +152,8 @@
 
     .carousel-caption{
         .title{
-            font-family: $font_roboto_light;
+            font-family: $font_roboto;
+            font-weight: 300;
 	        font-size: 60px;
 	        line-height: 1.1;
 	        color: $color_dark_grey;
@@ -337,6 +340,7 @@
             padding-top: 25px;
             padding-left: 15px;
             font-family: $font_open_sans;
+            font-weight: 600;
         	font-size: $font_size_2;
         	line-height: 1.2;
         	color: $color_dark_grey;
@@ -431,6 +435,9 @@
 }
 
 .map{
+    .map-img-small{
+        display: none;
+    }
     .map-window{
         position: absolute;
         bottom: 7%;
@@ -444,6 +451,7 @@
 
         .title{
             font-size: $font_size_2;
+            font-family: $font_roboto;
         }
         .address{
             font-size: $font_size_3;
@@ -454,6 +462,7 @@
         }
         .direction{
             font-size: $font_size_3;
+            font-family: $font_roboto;
             border-bottom: 1px solid $color_white;
             border-top: 1px solid $color_white;
             padding: 4% 0 4% 0;
@@ -466,9 +475,16 @@
         }
         .phone{
             font-size: $font_size_3;
+            font-family: $font_roboto;
         }
         .fax{
+            margin-top: 5px;
             font-size: $font_size_3;
+            font-family: $font_roboto;
+        }
+        .number{
+            float: right;
+            padding-right: 8px;
         }
         &.direction-window{
             display: none;
@@ -565,6 +581,7 @@
 
 .staff{
     .title{
+        margin-bottom: 15px;
         font-family: $font_roboto;
         font-size: $font_size_4;
         line-height: 1.6;
@@ -574,6 +591,7 @@
         padding-left: 0;
     }
     ul>li{
+        padding-bottom: 15px;
         list-style: none;
         font-family: $font_open_sans;
         font-size: $font_size_2;
@@ -619,6 +637,19 @@
     }
 }
 
+.cib-patents{
+    border: solid 1px #f0f0f0;
+    padding: 10px 0 10px 10px;
+}
+
+.info-title{
+    font-family: $font_open_sans;
+	font-size: $font_size_2;
+	line-height: 1.2;
+	color:$color_dark_grey;
+
+}
+
 /** Outreach **/
 
 .calendar-dates{
@@ -661,7 +692,7 @@
     margin-top: 20px;
     .left{
         border: solid 1px #f0f0f0;
-        padding-bottom: 31px;
+        height: 330px;
         .date{
             margin-top: 15px;
             font-family: $font_roboto;
@@ -670,7 +701,7 @@
         	color: $color_dark_grey;
         }
         .title{
-            margin-top: 50px;
+            margin-top: 30px;
             font-family: $font_roboto;
         	font-size: $font_size_4;
         	line-height: 1.6;
@@ -690,6 +721,7 @@
     .right{
         	background-color: #f8f8f8;
             border: solid 1px #f0f0f0;
+            height: 330px;
         .topic{
             margin-top: 15px;
             font-family: $font_open_sans;
@@ -781,15 +813,21 @@
 }
 
 /** Calendar **/
-.ui-widget-header .ui-icon {
-    background-image: url("../img/ui-icons_444444_256x240.png") !important;
+
+.ui-widget-header{
+    border: 0;
+    .ui-icon {
+        background-image: url("../img/ui-icons_444444_256x240.png") !important;
+    }
 }
 
 .ui-datepicker{
     margin: 0 auto;
+    height: 397px;
+    width: 381px;
     font-family: $font_open_sans;
 	font-size: $font_size_3;
-	line-height: 2.2;
+	line-height: 2.8;
 	color:$color_medium_gey;
 
     .ui-widget-header{
@@ -804,5 +842,9 @@
     }
     .ui-state-highlight{
         color: $color_turquoise;
+    }
+    .ui-datepicker-calendar tbody{
+        $font-size: 16px;
+        line-height: 3.2;
     }
 }

@@ -96,7 +96,6 @@ $(document).ready(function($){
     ctx.fillText("Vicedirector",100, 230);
     ctx.fillText("General Manager",800, 130);
 
-
     ctx.font = "16px OpenSans, sans-serif";
     ctx.fillStyle = " #333333";
     ctx.fillText("María Jesús Martínez",450, 85);
@@ -106,6 +105,46 @@ $(document).ready(function($){
     ctx.fillText("Research Departments",65, 385);
     ctx.fillText("Scientific & Technical Services",390, 385);
     ctx.fillText("Administration",795, 385);
+
+    ctx.font = "20px OpenSans, sans-serif";
+    ctx.fillStyle = " #333333";
+    ctx.fillText("General Manager",10,500);
+    ctx.fillText("Mainteance support manager", 360,500);
+    ctx.fillText("Library",710,500);
+
+    ctx.font = "14px OpenSans, sans-serif";
+    ctx.fillStyle = "#999999";
+    ctx.fillText("In charge",10,550);
+    ctx.fillText("In charge", 360,550);
+    ctx.fillText("In charge",710,550);
+
+    ctx.fillText("Financial manager",10,625);
+    ctx.fillText("Design-mechanics", 360,625);
+
+    ctx.fillText("Human resources manager",10,700);
+    ctx.fillText("Photography", 360,700);
+
+    ctx.fillText("Logistics manager",10,775);
+    ctx.fillText("Computer support", 360,775);
+
+    ctx.fillText("Maintenance", 360,850);
+
+    ctx.font = "16px OpenSans, sans-serif";
+    ctx.fillStyle = " #333333";
+    ctx.fillText("José Luis Chavarría del Valle",10,575);
+    ctx.fillText("Antonio García Álvarez", 360,575);
+    ctx.fillText("Olvido Partearroyo Lacaba",710,575);
+
+    ctx.fillText("Juan Carlos González Baena",10,650);
+    ctx.fillText("Aurelio Huertado Caro", 360,650);
+
+    ctx.fillText("Manuel Molina Morente",10,725);
+    ctx.fillText("Mónica Fontenla", 360,725);
+
+    ctx.fillText("Manuel Molina Morente",10,800);
+    ctx.fillText("José Manuel Angulo Zapatero", 360,800);
+
+    ctx.fillText("José Cabañas Olivares", 360,875);
 
 
 });
