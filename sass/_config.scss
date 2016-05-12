@@ -123,6 +123,15 @@ body{
     .container-fluid{
         max-width: 1250px;
     }
+
+    .container-fluid.fullwidth{
+        max-width: 100%;
+    }
+
+    .container-fluid.fullwidth-carousel{
+        max-width:  1250px;
+
+    }
 }
 
 
