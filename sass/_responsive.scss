@@ -1,9 +1,12 @@
 /** Responsive **/
 
+/** footer and pager **/
 @media (max-width: 656px) {
+
     .custom-pager .number{
         display: none;
     }
+
     .footer{
         .logos{
             display: block;
@@ -16,6 +19,7 @@
         }
     }
 }
+
 @media (max-width: 750px) {
     .footer-bottom{
         display: none;
@@ -24,7 +28,12 @@
         display: block !important;
     }
 }
+
+/** Navbarand sidebar **/
 @media (max-width: 850px) {
+    .navbar-default{
+        margin-bottom: 40px;
+    }
     .navbar-default .navbar-collapse {
         border: 0;
     }
@@ -34,31 +43,6 @@
     }
 }
 
-@media (max-width: 992px) {
-    #leftCol{
-        display: none;
-    }
-}
-
-
-
-@media (max-width: 1110px) {
-    .button-primary span{
-        font-size: 18px !important
-    }
-    .carousel-caption{
-        .title{
-            font-size: 45px !important;
-        }
-        p{
-            font-size: 16px !important;
-            button{
-                width: 290px !important;
-                height: 45px !important;
-            }
-        }
-    }
-}
 
 // change hamburer breakpoint to 850px
 @media (min-width: 768px) and (max-width: 850px) {
@@ -91,8 +75,25 @@
 }
 
 
+/** Button and carousel**/
+@media (max-width: 1110px) {
+    .button-primary span{
+        font-size: 18px !important
+    }
+    .carousel-caption{
+        .title{
+            font-size: 45px !important;
+        }
+        p{
+            font-size: 16px !important;
+            button{
+                width: 290px !important;
+                height: 45px !important;
+            }
+        }
+    }
+}
 
-// Carousel
 @media (max-width: 868px) {
     .carousel-inner>.item{
         .big{
@@ -135,7 +136,6 @@
 }
 
 /** MAP **/
-
 @media (max-width: 1000px) {
     .map{
         .map-window{
@@ -148,7 +148,7 @@
     }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 850px) {
     .map{
         .map-window{
             position: relative;
@@ -167,11 +167,58 @@
     }
 }
 
+@media (max-width: 800px) {
+    .map-img{
+        display: none;
+    }
+    .map .map-img-small{
+        display: none;;
+    }
+    .map .map-img-medium{
+        display: block;
+    }
+}
+
 @media (max-width: 400px) {
     .map-img{
         display: none;
     }
     .map .map-img-small{
         display: block;
+    }
+    .map .map-img-medium{
+        display: none;;
+    }
+}
+
+/** Forms **/
+@media (max-width: 587px) {
+    .search-form{
+        form{
+            width: 100%;
+            button{
+                height:45px;
+                width: 128px;
+            }
+            input{
+                height:45px;
+            }
+        }
+    }
+}
+
+/** single column breakpoint**/
+@media (max-width: 991px) {
+    #leftCol{
+        display: none;
+    }
+    .logos{
+        text-align: center;
+        .col-md-6:nth-of-type(2){
+            margin-top: 50px;
+        }
+    }
+    #datepicker{
+        margin-top: 30px;
     }
 }

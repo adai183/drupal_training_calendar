@@ -11,11 +11,18 @@
 
 .navbar-default {
     margin-bottom: 30px;
+    padding-top: 12px;
     background-color: $color_white;
     border-bottom: 0;
     .navbar-nav>li>a {
         padding-top: 30px;
         @extend .font_type_nav;
+    }
+    .navbar-nav .mcib-img{
+        padding-top: 25px;
+        img{
+            height: 27px;
+        }
     }
     .navbar-nav>li>form {
         padding-top: 18px;
@@ -378,6 +385,7 @@
     }
     .general-info{
         border: solid 1px $color_clear_grey_light;
+        padding-bottom: 23px;
         .title:nth-of-type(1){
             margin-top: 15px;
         }
@@ -429,8 +437,18 @@
     }
 }
 
+.dropdown{
+    &.open>.dropdown-menu {
+        width: 107%;
+        left: -4%;
+    }
+}
+
 .map{
     .map-img-small{
+        display: none;
+    }
+    .map-img-medium{
         display: none;
     }
     .map-window{
@@ -645,6 +663,52 @@
 
 }
 
+/** Service Detail **/
+.cib-survey{
+    border: solid 1px #f0f0f0;
+    padding: 13px 0 13px 10px;
+}
+
+.service-request-list li{
+    margin-top: 15px;
+}
+
+.service-contact{
+
+    border: solid 1px $color_clear_grey_light;
+
+    .title{
+        margin-top:20px;
+        font-family: $font_roboto;
+    	font-size: $font_size_4;
+    	line-height: 1.6;
+    	color:$color_medium_grey_light;
+
+    }
+    .subtitle{
+        margin-bottom:10px;
+        font-family: $font_open_sans;
+        font-size: $font_size_3;
+        line-height: 1.5;
+        color: $color_dark_grey;
+
+    }
+}
+
+.service-links{
+    margin-top: 30px;
+    list-style: none;
+    font-family: $font_open_sans;
+    font-size: $font_size_3;
+
+    li{
+        margin-bottom: 15px;
+    }
+    span{
+        margin-left: 10px;
+    }
+}
+
 /** Outreach **/
 
 .calendar-dates{
@@ -818,11 +882,10 @@
 
 .ui-datepicker{
     margin: 0 auto;
-    height: 397px;
-    width: 381px;
+    height: auto;
     font-family: $font_open_sans;
 	font-size: $font_size_3;
-	line-height: 2.8;
+
 	color:$color_medium_gey;
 
     .ui-widget-header{
@@ -840,6 +903,12 @@
     }
     .ui-datepicker-calendar tbody{
         $font-size: 16px;
-        line-height: 3.2;
+        line-height: 2.2;
+    }
+    td {
+        &.active{
+            border-bottom: 3px solid $color_turquoise;
+        }
+
     }
 }

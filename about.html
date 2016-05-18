@@ -35,15 +35,6 @@
                     <li role="presentation">
                         <a role="menuitem" tabindex="-1" href="#">EN</a>
                     </li>
-                    <li role="presentation">
-                        <a role="menuitem" tabindex="-1" href="#">GER</a>
-                    </li>
-                    <li role="presentation">
-                        <a role="menuitem" tabindex="-1" href="#">FR</a>
-                    </li>
-                    <li role="presentation">
-                        <a role="menuitem" tabindex="-1" href="#">EUSK</a>
-                    </li>
                 </ul>
             </span>
         </div>
@@ -114,9 +105,6 @@
                         </li>
                         <li>
                             <a href="#sec2">ORGANIZATION CHART</a>
-                        </li>
-                        <li>
-                            <a href="#sec3">FACILITIES</a>
                         </li>
                         <li>
                             <a href="#sec4">CONTACT</a>
@@ -399,10 +387,12 @@
             </div>
         </div>
 
-        <div id="sec4" class="row margin-top-7">
+        <div id="sec4" class="row margin-top-7 margin-bottom-5">
             <div class="col-md-12 map">
                 <img class="img-responsive map-img" src="img/map1.png"  />
                 <img class="img-responsive map-img-direction" src="img/map2.png" style="display: none;"  />
+                <img class="img-responsive map-img-medium" src="img/map5.png"  />
+                <img class="img-responsive map-img-direction-medium" src="img/map6.png" style="display: none;" />
                 <img class="img-responsive map-img-small" src="img/map3.png"  />
                 <img class="img-responsive map-img-direction-small" src="img/map4.png" style="display: none;" />
                 <div class="map-window">
@@ -459,70 +449,6 @@
             </div>
         </div>
 
-        <div class="row section-title margin-top-10">
-            <div class="col-md-12 title">
-                <span class="marker"></span>
-                <span>LINKS OF INTEREST</span>
-            </div>
-        </div>
-        <div class="row footer margin-top-2">
-            <div class="col-md-4">
-                <ul>
-                    <li>
-                        <a href="#">Sociedad Española de Biología Celular</a>
-                    </li>
-                    <li>
-                        <a href="#">Sociedad Española de Microbiología</a>
-                    </li>
-                    <li>
-                        <a href="#">Sociedad Española de Biotecnología</a>
-                    </li>
-                    <li>
-                        <a href="#">SECUGEN Servicio de Secuenciación DNA</a>
-                    </li>
-                    <li>
-                        <a href="#">Red Española de Apotosis</a>
-                    </li>
-                    <li>
-                        <a href="#">Grupo Español de Radicales Libres</a>
-                    </li>
-                    <li>
-                        <a href="#">Aku Database</a>
-                    </li>
-                    <li>
-                        <a href="#">Proretina Therapeutics</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-8 logos">
-                <div class="col-md-6">
-                    <ul>
-                        <li class="margin-bottom-5">
-                            <a href="#"><img src="img/logo-pie-eu.png" alt=""/></a>
-                        </li>
-                        <li class="margin-bottom-5">
-                            <a href="#"><img src="img/4-i-n-n-p-a-c-t-o-logo.png" alt=""/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="img/3-logo-ce-horizontal-en-quadri-jpg.png" alt=""/></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul>
-                        <li class="margin-bottom-5">
-                            <a href="#"><img src="img/2-madrid.png" alt=""/></a>
-                        </li>
-                        <li class="margin-bottom-5">
-                            <a href="#"><img src="img/logo-c-d-t-i.png" alt=""/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="img/logo-isciii.png" alt=""/></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </main>
 
     <!--footer bottom-->
@@ -615,7 +541,7 @@
     // adapt sidebar to about page layout
       $(document).ready(function($){
           $(window).scroll(function(){
-              if ($(document).scrollTop() > 2758) {
+              if ($(document).scrollTop() > 3758) {
                   $('#sidebar').hide();
               }else {
                   $('#sidebar').show();
