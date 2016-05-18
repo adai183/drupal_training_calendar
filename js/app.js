@@ -20,6 +20,22 @@ $(document).ready(function ($) {
 		$(this).toggleClass('active');
 	});
 
+	// directory filter
+	$(function() {
+
+        var availableTags = [
+          "Miguel Angel Vidal Caballero",
+          "Julia Anades Besnard",
+          "Juan Carlos Babon Molina",
+          "Ángeles Dominguez Soto",
+        ];
+
+        $( "#directory" ).autocomplete({
+          source: availableTags
+        });
+
+    });
+
 	// map
 	$('.map-window>.direction').click(function () {
 

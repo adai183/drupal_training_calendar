@@ -293,7 +293,6 @@ input:focus {
 
 .jumbotron {
   height: 160px;
-  background-color: #eeeeee;
   border-bottom: solid 3px #e72b22;
   font-family: "Roboto Slab", serif;
   font-size: 40px;
@@ -302,6 +301,11 @@ input:focus {
   .jumbotron.dep1 {
     background-image: url("../img/i-l-u.png");
     border-bottom: solid 3px #bd8de3; }
+  .jumbotron.about {
+    background-image: url("../img/aboutus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff; }
 
 .content section {
   background-color: #00c7ab;
@@ -500,6 +504,42 @@ input:focus {
         color: #00c7ab; }
       .search-form form button img {
         margin-right: 10px; }
+
+.search-form-filter {
+  margin-top: 10px; }
+  .search-form-filter form {
+    max-width: 900px;
+    /** Change placeholder color for most browsers **/ }
+    .search-form-filter form .form-control::-webkit-input-placeholder {
+      color: #cccccc; }
+    .search-form-filter form .form-control:-moz-placeholder {
+      color: #cccccc; }
+    .search-form-filter form .form-control::-moz-placeholder {
+      color: #cccccc; }
+    .search-form-filter form .form-control:-ms-input-placeholder {
+      color: #cccccc; }
+    .search-form-filter form input {
+      height: 60px;
+      border: solid 1px #cccccc;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      line-height: 1.5;
+      background: url("../img/lupa.svg") no-repeat scroll 95% 20px; }
+    .search-form-filter form .input-group {
+      width: 100%; }
+
+.ui-widget {
+  background-color: #ffffff;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #00c7ab; }
+  .ui-widget li:first-child {
+    padding-top: 10px; }
+  .ui-widget li {
+    padding-bottom: 10px;
+    padding-left: -30px !important; }
 
 /** News **/
 .news .title {

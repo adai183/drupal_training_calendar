@@ -81,7 +81,7 @@
                     <li>
                         <form class="navbar-form" role="search">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Directorio de personal">
+                                <input id="directory" type="text" class="form-control" placeholder="directory">
                             </div>
                         </form>
                     </li>
@@ -214,14 +214,11 @@
                         <span>SEARCH SERVICES</span>
                     </div>
                 </div>
-                <div class="row search-form">
+                <div class="row search-form-filter">
                     <div class="col-md-12">
                         <form role="form">
                             <div class="input-group">
-                                <input type="text" class="form-control input-sm service-filter" placeholder="Search for groups in any service">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="submit"><img src="img/Lupa.svg" alt="" />Search</button>
-                                </span>
+                                <input id="service" type="text" class="form-control input-sm service-filter" placeholder="Search for service">
                             </div>
                         </form>
                     </div>
@@ -490,9 +487,10 @@
 
   <!-- JS Imports -->
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="js/vendor/jquery-ui.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/filterServices.js"></script>
+  <script src="js/servicesFilter.js"></script>
   <script type="text/javascript">
   // adapt sidebar to services page layout
     $(document).ready(function($){

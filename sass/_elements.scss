@@ -253,6 +253,46 @@
     }
 }
 
+.search-form-filter{
+    margin-top: 10px;
+    form{
+        max-width: 900px;
+        /** Change placeholder color for most browsers **/
+        .form-control::-webkit-input-placeholder { color: $color_clear_grey; }
+        .form-control:-moz-placeholder { color: $color_clear_grey; }
+        .form-control::-moz-placeholder { color: $color_clear_grey; }
+        .form-control:-ms-input-placeholder { color: $color_clear_grey; }
+
+        input{
+            height: 60px;
+	        border: solid 1px $color_clear_grey;
+            font-family: $font_open_sans;
+        	font-size: $font_size_2;
+        	line-height: 1.5;
+            background: url('../img/lupa.svg') no-repeat scroll 95% 20px;
+        }
+        .input-group{
+            width: 100%;
+        }
+    }
+}
+
+.ui-widget{
+    background-color: $color_white;
+    list-style: none;
+    font-family: $font_open_sans;
+	font-size: 20px;
+	line-height: 1.2;
+	color: $color_turquoise;
+    li:first-child{
+        padding-top: 10px;
+    }
+    li{
+        padding-bottom: 10px;
+        padding-left: -30px !important;
+    }
+}
+
 /** News **/
 .news{
     .title{
