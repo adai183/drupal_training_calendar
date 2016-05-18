@@ -426,6 +426,7 @@ input:focus {
   color: #333333;
   text-shadow: initial; }
 .carousel .carousel-caption p {
+  text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 1.6;

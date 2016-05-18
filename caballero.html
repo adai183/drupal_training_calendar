@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/jquery-ui.css">
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100|Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="shortcut icon" href="img/ico/favicon.ico" type="image/x-icon"/>
@@ -34,6 +32,15 @@
                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                     <li role="presentation">
                         <a role="menuitem" tabindex="-1" href="#">EN</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">GER</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">FR</a>
+                    </li>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">EUSK</a>
                     </li>
                 </ul>
             </span>
@@ -72,11 +79,6 @@
                         <a href="news.html">NEWS</a>
                     </li>
                     <li>
-                        <a class="mcib-img" href="#">
-                            <img src="img/mcib.png" alt="mcib" />
-                        </a>
-                    </li>
-                    <li>
                         <form class="navbar-form" role="search">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Directorio de personal">
@@ -90,85 +92,116 @@
 
   <!-- start page content -->
 
-
-
-    <!-- Content -->
     <div class="jumbotron text-center dep1 fullwidth">
         BIOCHEMICAL SYSTEMS BACTERIAL DIVISION
     </div>
 
-    <main class="container-fluid" style="height: 68vh;">
+    <main class="container-fluid">
 
-        <div id="sec0" class="row margin-bottom-2 margin-top-2">
-            <div class="col-md-12 top-link">
-                <a href="index.html">Home</a>
-                <a href="research.html"> | Research</a>
-                <a href="research.html"> | Departments</a>
-                <a href="celmolbio.html" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
-                <a href="biosysbacdiv.html" style="color: #c08de0;"> | Biochemical Systems Bacterial Division</a>
-                <a href="#" style="color: #c08de0;"> | Germán Rivas Caballero</a>
-            </div>
-        </div>
 
+        <!-- sticky sidebar -->
         <div class="row">
-            <div class="col-md-12 calendar-detail" >
-                <div class="col-md-6 left">
-                    <div class="date">
-                        <img src="img/german_caballero.png" alt="" />
-                        <span>Germán Rivas Caballero</span>
-                    </div>
-                    <div class="title">
-                        Position
-                    </div>
-                    <div class="subtitle">
-                        Head of Lab
-                    </div>
-                    <div class="title">
-                        Department of facility
-                    </div>
-                    <div class="subtitle">
-                        Cellular and Molecular Biology
-                    </div>
-                    <div class="title">
-                        Lab
-                    </div>
-                    <div class="subtitle">
-                        CBiochemical Systems Bacterial Division
-                    </div>
-                </div>
-                <div class="col-md-6 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        Contact
-                    </div>
-                    <div class="title">
-                        Extension
-                    </div>
-                    <div class="subtitle">
-                        4358 / 4357
-                    </div>
-                    <div class="title">
-                        Email
-                    </div>
-                    <div class="subtitle">
-                        gerrica@cib.csic.es
-                    </div>
-                    <div class="title">
-                        Laboratory number
-                    </div>
-                    <div class="subtitle">
-                        246 / 247
-                    </div>
-                </div>
+  			<div class="col-md-3" id="leftCol">
 
-            </div>
-        </div>
-        <div class="row margin-top-2">
-            <div class="col-md-12">
-                <span class="input-group-btn">
-                    <a href="biosysbacdiv.html">
-                        <button class="btn btn-default button-secondary" type="submit">Back</button>
-                    </a>
-                </span>
+              	<ul class="nav nav-stacked" id="sidebar">
+                    <li style="border: 0 !important;">
+                        <a href="biosysbacdiv.html#sec0">DESCRIPTION</a>
+                    </li>
+                    <li style="border-left: 3px #ec111a solid;">
+                        <a href="biosysbacdiv.html#sec1">MEMBERS</a>
+                    </li>
+                    <li>
+                        <a href="biosysbacdiv.html#sec2">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="biosysbacdiv.html#sec3">PUBLICATIONS</a>
+                    </li>
+                    <li>
+                        <a href="biosysbacdiv.html#sec4">FUNDING</a>
+                    </li>
+              	</ul>
+
+      		</div>
+
+            <!-- Page content -->
+            <div class="col-md-9">
+
+                <main class="container-fluid" style="height: 68vh;">
+
+                    <div id="sec0" class="row margin-bottom-2 margin-top-2">
+                        <div class="col-md-12 top-link">
+                            <a href="index.html">Home</a>
+                            <a href="research.html"> | Research</a>
+                            <a href="research.html"> | Departments</a>
+                            <a href="celmolbio.html" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                            <a href="biosysbacdiv.html" style="color: #c08de0;"> | Biochemical Systems Bacterial Division</a>
+                            <a href="#" style="color: #c08de0;"> | Germán Rivas Caballero</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 calendar-detail" >
+                            <div class="col-md-6 left">
+                                <div class="date">
+                                    <img src="img/german_caballero.png" alt="" />
+                                    <span>Germán Rivas Caballero</span>
+                                </div>
+                                <div class="title">
+                                    Position
+                                </div>
+                                <div class="subtitle">
+                                    Head of Lab
+                                </div>
+                                <div class="title">
+                                    Department of facility
+                                </div>
+                                <div class="subtitle">
+                                    Cellular and Molecular Biology
+                                </div>
+                                <div class="title">
+                                    Lab
+                                </div>
+                                <div class="subtitle">
+                                    CBiochemical Systems Bacterial Division
+                                </div>
+                            </div>
+                            <div class="col-md-6 right" style="padding-bottom: 22px;">
+                                <div class="topic">
+                                    Contact
+                                </div>
+                                <div class="title">
+                                    Extension
+                                </div>
+                                <div class="subtitle">
+                                    4358 / 4357
+                                </div>
+                                <div class="title">
+                                    Email
+                                </div>
+                                <div class="subtitle">
+                                    gerrica@cib.csic.es
+                                </div>
+                                <div class="title">
+                                    Laboratory number
+                                </div>
+                                <div class="subtitle">
+                                    246 / 247
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row margin-top-2">
+                        <div class="col-md-12">
+                            <span class="input-group-btn">
+                                <a href="biosysbacdiv.html">
+                                    <button class="btn btn-default button-secondary" type="submit">Back</button>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                </main>
             </div>
         </div>
 
@@ -181,7 +214,7 @@
                 <a href="#"><img class="social" src="img/facebook.png" alt=""/></a>
                 <a href="#"><img class="social" src="img/twitter.png" alt=""/></a>
                 <span class="text">
-                    <a href="cookies-policy.html">Política de cookies</a>
+                    <a href="#">Política de cookies</a>
                 </span>
                 <span class="text">
                     <a href="#">Política de privacidad</a>
@@ -258,12 +291,18 @@
     <!-- JS Imports -->
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/jquery-ui.js"></script>
     <script src="js/app.js"></script>
     <script type="text/javascript">
-        $( "#datepicker" ).datepicker({
-            inline: true
-        });
+    // adapt sidebar to rsearch department page layout
+      $(document).ready(function($){
+          $(window).scroll(function(){
+              if ($(document).scrollTop() > 2100) {
+                  $('#sidebar').hide();
+              }else {
+                  $('#sidebar').show();
+              }
+          });
+      });
     </script>
 
 </body>

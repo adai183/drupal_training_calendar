@@ -42,7 +42,7 @@ $(document).ready(function ($) {
 
 	});
 
-	$('.direction-window>.back').click(function () {
+	$('.direction-window>.direction').click(function () {
 
 		if (window.innerWidth < 400) {
 			$('.map-img-small').show();
