@@ -33,7 +33,7 @@
 	        height: 27.9px;
 	        border-radius: 30px;
             color: $color_medium_gey !important;
-            background: url('../img/Lupa.svg') no-repeat 125px 4px;
+            background: url('../img/lupa_white.svg') no-repeat 125px 7px;
             background-color: #dddddd;
         }
     }
@@ -326,22 +326,16 @@
 /** Events **/
 .events{
     .schedule{
-        padding-right: 0px !important;
-        background-color: #f8f8f8;
-	    border: solid 1px #f0f0f0;
         .schedule-head{
             background-color: #f0f0f0;
-            padding: 20px 0 15px 0;
-            margin: 0 0 15px -15px;
+
             .title{
-                margin:0 0 5px 15px;
                 font-family: $font_open_sans;
                 font-size: $font_size_3;
                 line-height: 1.6;
                 color: $color_turquoise;
             }
             .date{
-                margin-left: 15px;
                 font-family: $font_roboto;
             	font-size: $font_size_4;
             	line-height: 1.5;
@@ -349,9 +343,15 @@
             }
         }
         ul{
+            height: 410px;
             list-style: none;
-            margin-left: -40px;
+            padding: 25px 0 25px 0;
+            width: 117%;
+            background-color: #f8f8f8;
+    	    border: solid 1px #f0f0f0;
+
             li{
+                padding: 6px 0 6px 10px;
                 cursor: pointer;
                 margin-bottom: 25px;
                 .title{
@@ -372,8 +372,15 @@
     }
     .detail{
         padding-left: 0px !important;
+        height: 410px;
+        border-right: solid 1px #f0f0f0;
+        border-bottom: solid 1px #f0f0f0;
+        border-top: solid 1px #f0f0f0;
+        img{
+            width: 106%;
+        }
         .title{
-            padding-top: 25px;
+            padding-top: 15px;
             padding-left: 15px;
             font-family: $font_roboto;
         	font-size: $font_size_2;
@@ -381,7 +388,7 @@
         	color: $color_medium_grey_light;
         }
         .subtitle{
-            padding-top: 25px;
+            padding-top: 15px;
             padding-left: 15px;
             font-family: $font_open_sans;
             font-weight: 600;
@@ -390,18 +397,27 @@
         	color: $color_dark_grey;
 
         }
-        .detail-link a{
-            padding-top: 15px;
-            padding-left: 15px;
-            font-family: $font_open_sans;
-        	font-size: $font_size_3;
-        	line-height: 1.8;
-        	color: $color_turquoise;
+        .detail-link {
+            margin-top: 15px;
+            a{
+                padding-left: 15px;
+                font-family: $font_open_sans;
+            	font-size: $font_size_3;
+            	line-height: 1.8;
+            	color: $color_turquoise;
+            }
         }
+
     }
     .calendar{
         .ui-state-active{
             color: $color_turquoise !important;
+            border: 0;
+            background-color: $color_white;
+            a{
+                color: $color_dark_grey !important;
+                border-bottom: 3px solid $color_turquoise;
+            }
         }
     }
 }

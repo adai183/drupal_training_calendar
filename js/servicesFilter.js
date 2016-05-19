@@ -1,3 +1,4 @@
+'use strict';
 $(document).ready(function ($) {
 
     $('.service-filter').bind('input', function() {
@@ -12,7 +13,7 @@ $(document).ready(function ($) {
             }else {
                 $(this.parentElement).hide();
             }
-        })
+        });
 
     });
 

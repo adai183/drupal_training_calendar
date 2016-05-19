@@ -1,3 +1,4 @@
+'use strict';
 $(document).ready(function ($) {
 	// 1000 x 500
 	// base rect = 280 x 100

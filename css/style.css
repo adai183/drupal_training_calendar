@@ -338,7 +338,7 @@ input:focus {
       height: 27.9px;
       border-radius: 30px;
       color: #666666 !important;
-      background: url("../img/Lupa.svg") no-repeat 125px 4px;
+      background: url("../img/lupa_white.svg") no-repeat 125px 7px;
       background-color: #dddddd; }
   .navbar-default .form-control::-webkit-input-placeholder {
     color: #ffffff; }
@@ -565,69 +565,78 @@ input:focus {
   font-size: 16px; }
 
 /** Events **/
-.events .schedule {
-  padding-right: 0px !important;
+.events .schedule .schedule-head {
+  background-color: #f0f0f0; }
+  .events .schedule .schedule-head .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #00c7ab; }
+  .events .schedule .schedule-head .date {
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333; }
+.events .schedule ul {
+  height: 410px;
+  list-style: none;
+  padding: 25px 0 25px 0;
+  width: 117%;
   background-color: #f8f8f8;
   border: solid 1px #f0f0f0; }
-  .events .schedule .schedule-head {
-    background-color: #f0f0f0;
-    padding: 20px 0 15px 0;
-    margin: 0 0 15px -15px; }
-    .events .schedule .schedule-head .title {
-      margin: 0 0 5px 15px;
+  .events .schedule ul li {
+    padding: 6px 0 6px 10px;
+    cursor: pointer;
+    margin-bottom: 25px; }
+    .events .schedule ul li .title {
+      margin: 0 0 5px 0;
       font-family: "Open Sans", sans-serif;
       font-size: 16px;
       line-height: 1.6;
-      color: #00c7ab; }
-    .events .schedule .schedule-head .date {
-      margin-left: 15px;
+      color: #666666; }
+    .events .schedule ul li .date {
       font-family: "Roboto Slab", serif;
       font-size: 14px;
       line-height: 1.5;
-      color: #333333; }
-  .events .schedule ul {
-    list-style: none;
-    margin-left: -40px; }
-    .events .schedule ul li {
-      cursor: pointer;
-      margin-bottom: 25px; }
-      .events .schedule ul li .title {
-        margin: 0 0 5px 0;
-        font-family: "Open Sans", sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #666666; }
-      .events .schedule ul li .date {
-        font-family: "Roboto Slab", serif;
-        font-size: 14px;
-        line-height: 1.5;
-        color: #999999; }
+      color: #999999; }
 .events .detail {
-  padding-left: 0px !important; }
+  padding-left: 0px !important;
+  height: 410px;
+  border-right: solid 1px #f0f0f0;
+  border-bottom: solid 1px #f0f0f0;
+  border-top: solid 1px #f0f0f0; }
+  .events .detail img {
+    width: 106%; }
   .events .detail .title {
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 15px;
     font-family: "Roboto Slab", serif;
     font-size: 20px;
     line-height: 1.1;
     color: #999999; }
   .events .detail .subtitle {
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 15px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     color: #333333; }
-  .events .detail .detail-link a {
-    padding-top: 15px;
-    padding-left: 15px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    color: #00c7ab; }
+  .events .detail .detail-link {
+    margin-top: 15px; }
+    .events .detail .detail-link a {
+      padding-left: 15px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      color: #00c7ab; }
 .events .calendar .ui-state-active {
-  color: #00c7ab !important; }
+  color: #00c7ab !important;
+  border: 0;
+  background-color: #ffffff; }
+  .events .calendar .ui-state-active a {
+    color: #333333 !important;
+    border-bottom: 3px solid #00c7ab; }
 
 /** ABOUT US **/
 /** scientific report**/
