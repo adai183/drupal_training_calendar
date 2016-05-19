@@ -1,4 +1,5 @@
 $(document).ready(function ($) {
+
     $(function() {
 
         var availableTags = [
@@ -13,4 +14,5 @@ $(document).ready(function ($) {
         });
 
     });
+
 });

@@ -20,6 +20,38 @@ $(document).ready(function ($) {
 		$(this).toggleClass('active');
 	});
 
+	// event calendar
+	$(".events ul>li").click(function () {
+		$(".events ul>li").removeClass('schedule-head');
+		$(this).toggleClass('schedule-head');
+
+		// set content
+		switch (this.id) {
+
+		    case '1':
+				$('.detail img').attr("src", "img/event1.png");
+				$(".events .detail .title").html('19-20 JUNE 2016 MADRID - Palacio de congresos de Madrid');
+				$(".events .detail .subtitle").html('4th Symposium on Biotechnology applied to lignocelluloses');
+		        break;
+		    case '2':
+				$('.detail img').attr("src", "img/event2.png");
+				$(".events .detail .title").html('30 JUNE 2016 MADRID - CIB');
+				$(".events .detail .subtitle").html('4th Symposium on Biotechnology applied to lignocelluloses');
+		        break;
+		    case '3':
+				$('.detail img').attr("src", "img/event3.png");
+				$(".events .detail .title").html('21 AUGUST 2016 MADRID - Palacio de congresos de Madrid');
+				$(".events .detail .subtitle").html('DR. Chris Torne');
+		        break;
+		    case '4':
+				$('.detail img').attr("src", "img/event4.png");
+				$(".events .detail .title").html('29 AUGUST 2016 MADRID - Palacio de congresos de Madrid');
+				$(".events .detail .subtitle").html('Marina Garín');
+		        break;
+		}
+
+	});
+
 	// directory filter
 	$(function() {
 

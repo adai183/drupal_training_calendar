@@ -32,8 +32,9 @@
             width: 161px;
 	        height: 27.9px;
 	        border-radius: 30px;
-            background-color: #dddddd;
             color: $color_medium_gey !important;
+            background: url('../img/Lupa.svg') no-repeat 125px 4px;
+            background-color: #dddddd;
         }
     }
     /** Change placeholder color for most browsers **/
@@ -281,9 +282,9 @@
     background-color: $color_white;
     list-style: none;
     font-family: $font_open_sans;
-	font-size: 20px;
+	font-size: 14px;
 	line-height: 1.2;
-	color: $color_turquoise;
+	color: $color_dark_grey;
     li:first-child{
         padding-top: 10px;
     }
@@ -351,6 +352,7 @@
             list-style: none;
             margin-left: -40px;
             li{
+                cursor: pointer;
                 margin-bottom: 25px;
                 .title{
                     margin:0 0 5px 0;
@@ -395,6 +397,11 @@
         	font-size: $font_size_3;
         	line-height: 1.8;
         	color: $color_turquoise;
+        }
+    }
+    .calendar{
+        .ui-state-active{
+            color: $color_turquoise !important;
         }
     }
 }
@@ -595,10 +602,10 @@
         }
     }
     #dep1 img{
-        border-bottom: 3px solid  #c08de0;
+        border-bottom: 3px solid  #7cbaf3;
     }
     #dep2 img{
-        border-bottom: 3px solid  #7cbaf3;
+        border-bottom: 3px solid  #C1C1C1;
     }
     #dep3 img{
         border-bottom: 3px solid   #b6d017;
@@ -727,6 +734,28 @@
     }
     .subtitle{
         margin-bottom:10px;
+        font-family: $font_open_sans;
+        font-size: $font_size_3;
+        line-height: 1.5;
+        color: $color_dark_grey;
+
+    }
+}
+
+.opening-hours{
+
+    border: solid 1px $color_clear_grey_light;
+
+    .title{
+        margin-bottom:10px;
+        font-family: $font_roboto;
+    	font-size: $font_size_4;
+    	line-height: 1.6;
+    	color:$color_medium_grey_light;
+
+    }
+    .subtitle{
+        margin-top:20px;
         font-family: $font_open_sans;
         font-size: $font_size_3;
         line-height: 1.5;
