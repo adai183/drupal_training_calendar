@@ -1,87 +1,4 @@
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <title>CIB</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/jquery-ui.css">
-    <!-- fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100|Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-
-
-    <link rel="shortcut icon" href="img/ico/favicon.ico" type="image/x-icon"/>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
-  </head>
-  <body>
-
-    <!-- nav-menu -->
-    <!-- top language bar -->
-    <div class="container-fluid">
-        <div class="row pull-right nav-top" style="height:40px">
-            <img src="img/fill-110.png" alt=""/>
-            <span class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                    ES
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                    <li role="presentation">
-                        <a role="menuitem" tabindex="-1" href="#">EN</a>
-                    </li>
-                </ul>
-            </span>
-        </div>
-    </div>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Logo and hamburger -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="img/logo-cib.svg" alt="logo"/></a>
-            </div>
-          <!-- Menu Items -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">ABOUT US</a>
-                     </li>
-                    <li>
-                        <a href="research.html">RESEARCH</a>
-                    </li>
-                    <li>
-                        <a href="services.html">SERVICES</a>
-                    </li>
-                     <li>
-                        <a href="outreach.html">OUTREACH</a>
-                    </li>
-                    <li>
-                        <a href="news.html">NEWS</a>
-                    </li>
-                    <li>
-                        <form class="navbar-form" role="search">
-                            <div class="form-group">
-                                <input id="directory" type="text" class="form-control" placeholder="directory">
-                            </div>
-                        </form>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php include('header.php');?>
 
   <!-- start page content -->
     <main class="container-fluid">
@@ -115,7 +32,7 @@
                 <!-- Page content -->
                 <div class="col-md-9">
                     <div id="sec0" class="row top-link margin-bottom-3">
-                        <a href="index.html">Home</a>  |  <a href="about.html">About us</a>
+                        <a href="index.php">Home</a>  |  <a href="about.php">About us</a>
                     </div>
                     <div class="row">
                         <p>
@@ -450,88 +367,9 @@
 
     </main>
 
-    <!--footer bottom-->
-    <footer class="container-fluid footer footer-bottom margin-top-4">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#"><img class="social" src="img/facebook.png" alt=""/></a>
-                <a href="#"><img class="social" src="img/twitter.png" alt=""/></a>
-                <span class="text">
-                    <a href="#">Política de cookies</a>
-                </span>
-                <span class="text">
-                    <a href="#">Política de privacidad</a>
-                </span>
-                <span class="pull-right gob">
-                    <img src="img/fill-110.png" alt=""/>
-                    <span class="dropdown dropup">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                            ES
-                        <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">EN</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">GER</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">FR</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">EUSK</a>
-                            </li>
-                        </ul>
-                    </span>
-                    <img src="img/1-ministerio-economia-competitividad.png" alt=""/>
-                </span>
-            </div>
-        </div>
-    </footer>
+    <?php include('footer.php');?>
 
-    <footer class="container-fluid footer-bottom-small footer-bottom margin-top-4" style="display:none;">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="margin-bottom-2">
-                    <a href="#"><img class="social" src="img/facebook.png" alt=""/></a>
-                    <a href="#"><img class="social" src="img/twitter.png" alt=""/></a>
-                </div>
-                <div>
-                    <a href="#">Política de cookies</a>
-                </div>
-                <div class="margin-bottom-2">
-                    <a href="#">Política de privacidad</a>
-                </div>
-                <div class="dropdown dropup margin-bottom-2">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                        ES
-                    <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                        <li role="presentation">
-                            <a role="menuitem" tabindex="-1" href="#">EN</a>
-                        </li>
-                        <li role="presentation">
-                            <a role="menuitem" tabindex="-1" href="#">GER</a>
-                        </li>
-                        <li role="presentation">
-                            <a role="menuitem" tabindex="-1" href="#">FR</a>
-                        </li>
-                        <li role="presentation">
-                            <a role="menuitem" tabindex="-1" href="#">EUSK</a>
-                        </li>
-                    </div>
-                    <div>
-                        <img src="img/1-ministerio-economia-competitividad.png" alt=""/>
-                    </div>
-                </span>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- JS Imports -->
+     <!-- JS Imports -->
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/jquery-ui.js"></script>
@@ -541,7 +379,7 @@
     // adapt sidebar to about page layout
       $(document).ready(function($){
           $(window).scroll(function(){
-              if ($(document).scrollTop() > 3758) {
+              if ($(document).scrollTop() > 3258) {
                   $('#sidebar').hide();
               }else {
                   $('#sidebar').show();
@@ -551,5 +389,3 @@
     </script>
 
 
-</body>
-</html>
