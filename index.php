@@ -109,7 +109,7 @@
             <div class="col-md-12">
             <span class="marker"></span>
             <span>NEWS</span>
-            <span class="pull-right"><a href="#">See more</a></span>
+            <span class="pull-right"><a href="news.php">See more</a></span>
             </div>
         </div>
         <div class="row news">
@@ -313,4 +313,3 @@
     <script src="js/vendor/jquery-ui.js"></script>
     <script src="js/app.js"></script>
     <script src='js/calendarConfig.js'></script>
-

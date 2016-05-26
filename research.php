@@ -74,7 +74,7 @@
                             <img src="img/c-i-b-illustrations-00.png" alt="" />
                         </div>
                         <div class="subtitle">
-                            <a href="celmolbio.php">Cellular and Molecular Biology</a>
+                            <a href="cellular_molecular_biology.php">Cellular and Molecular Biology</a>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
@@ -82,7 +82,7 @@
                             <img src="img/group-10.png" alt="" />
                         </div>
                         <div class="subtitle">
-                            <a href="#">Chemical & Physical Biology</a>
+                            <a href="chemical_physical_biology.php">Chemical & Physical Biology</a>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
@@ -90,7 +90,7 @@
                             <img src="img/group-32-group-38-mask.png" alt="" />
                         </div>
                         <div class="subtitle">
-                            <a href="#">Environmental Biology</a>
+                            <a href="environmental_biology.php">Environmental Biology</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                             <img src="img/c-i-b-illustrations-medicine.png" alt="" />
                         </div>
                         <div class="subtitle">
-                            <a href="#">Cellular and Molecular Medicine</a>
+                            <a href="cellular_molecular_medicine.php">Cellular and Molecular Medicine</a>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
@@ -108,7 +108,7 @@
                             <img src="img/c-i-b-illustrations-medicine.png" alt="" />
                         </div>
                         <div class="subtitle">
-                            <a href="#">Molecular Microbiology and Infection Biology</a>
+                            <a href="molecular_microbiology_infection_biology.php">Molecular Microbiology and Infection Biology</a>
                         </div>
                     </div>
                 </div>

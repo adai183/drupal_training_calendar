@@ -300,7 +300,19 @@ input:focus {
   color: #333333; }
   .jumbotron.dep1 {
     background-image: url("../img/i-l-u.png");
-    border-bottom: solid 3px #bd8de3; }
+    border-bottom: solid 3px #7cbaf3; }
+  .jumbotron.dep2 {
+    background-image: url("../img/group-10.png");
+    border-bottom: solid 3px #C1C1C1; }
+  .jumbotron.dep3 {
+    background-image: url("../img/group-32-group-38-mask.png");
+    border-bottom: solid 3px  #b6d017; }
+  .jumbotron.dep4 {
+    background-image: url("../img/c-i-b-illustrations-medicine.png");
+    border-bottom: solid 3px #e27c72; }
+  .jumbotron.dep5 {
+    background-image: url("../img/c-i-b-illustrations-medicine.png");
+    border-bottom: solid 3px #f8b835; }
   .jumbotron.about {
     background-image: url("../img/aboutus.png");
     background-repeat: no-repeat;
