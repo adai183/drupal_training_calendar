@@ -71,7 +71,7 @@
                     <a href="http://www.cib.csic.es/Memo/grupos/8.pdf">
                         <img src="img/folder.svg" alt=""/>
                     </a>
-                    <span style="margin-left:10px;">Lats Team's Scientific Report</span>
+                    <span style="margin-left:10px;">Last Team's Scientific Report</span>
                 </div>
 
                 <div id="sec1" class="row section-title">

@@ -197,7 +197,7 @@
                                 Ligno Biotech IV
                             </div>
                             <div class="date">
-                                19-21 JUN 2016 · 12:00 am
+                                19-20 JUN 2016 · 12:00 am
                             </div>
                         </li>
                         <li id="2">
@@ -212,15 +212,15 @@
                 </div>
                 <div class="col-md-6 detail">
                     <div class="col-md-12">
-                        <img src="img/event1.png" alt="" />
+                        <img src="img/event3.png" alt="" />
                         <div class="title">
-                            19-21 JUNE 2016 MADRID - Palacio de congresos de Madrid
+                            27 MAY 2016 MADRID - CIB-CSIC
                         </div>
                         <div class="subtitle">
-                            4th Symposium on Biotechnology applied to lignocelluloses
+                            TOLLERANT 2ND MEETING
                         </div>
                         <div class="detail-link">
-                            <a href="http://lignobiotech.es/">More details</a>
+                            <a href="http://www.tollerant.eu/2nd-meeting-2016/"  target="_blank">More details</a>
                         </div>
                     </div>
                 </div>

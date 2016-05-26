@@ -45,7 +45,7 @@ $(document).ready(function ($) {
 		    case '3':
 				$('.detail img').attr("src", "img/event3.png");
 				$(".events .detail .title").html('27 MAY 2016 MADRID - CIB-CSIC');
-				$(".events .detail .subtitle").html('TOLLERANT 2ND MEETING ');
+				$(".events .detail .subtitle").html('TOLLERANT 2ND MEETING');
 				$(".detail-link a").attr('href',"http://www.tollerant.eu/2nd-meeting-2016/");
 		        break;
 		    case '4':

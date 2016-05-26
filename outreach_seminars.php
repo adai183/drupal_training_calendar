@@ -22,7 +22,7 @@
                         <div>Courses</div>
                     </div>
                     <a href="outreach_seminars.php">
-                        <div class="button-selector" style="margin-top: 33px;">
+                        <div class="button-selector active" style="margin-top: 33px;">
                             <div>Seminars</div>
                         </div>
                     </a>
@@ -275,41 +275,6 @@
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
-                        19 - 20 JUN 2016
-                    </div>
-                    <div class="title">
-                        Place
-                    </div>
-                    <div class="subtitle">
-                        Palacio de congresos de Madrid
-                    </div>
-                </div>
-                <div class="col-md-8 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        Ligno Biotech IV
-                    </div>
-                    <div class="title">
-                        Info
-                    </div>
-                    <div class="subtitle">
-                        4th Symposium on Biotechnology applied to lignocelluloses
-                    </div>
-                    <div class="title">
-                        <div class="detail-link">
-                            <a href="http://lignobiotech.es/"  target="_blank">More details</a>
-                        </div>
-                    </div>
-                    <div class="department">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 calendar-detail">
-                <div class="col-md-4 left">
-                    <div class="date">
                         23 JUN 2016 · 12:00 am
                     </div>
                     <div class="title">
@@ -462,44 +427,9 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12 calendar-detail">
-                <div class="col-md-4 left">
-                    <div class="date">
-                        30 JUN 2016
-                    </div>
-                    <div class="title">
-                        Place
-                    </div>
-                    <div class="subtitle">
-                        Rafaelhoteles Atocha
-                    </div>
-                </div>
-                <div class="col-md-8 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        ISBP 15th
-                    </div>
-                    <div class="title">
-                        Info
-                    </div>
-                    <div class="subtitle">
-                        15th International Symposium on Biopolymers
-                    </div>
-                    <div class="title">
-                        <div class="detail-link">
-                            <a href="http://www.isbp2016.com/"  target="_blank">More details</a>
-                        </div>
-                    </div>
-                    <div class="department">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
