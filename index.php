@@ -177,14 +177,22 @@
             <div class="col-md-12">
                 <span class="marker"></span>
                 <span>EVENTS</span>
-                <span class="pull-right"><a href="#">See more</a></span>
+                <span class="pull-right"><a href="outreach.php">See more</a></span>
             </div>
         </div>
         <div class="row events margin-top-2">
             <div class="col-md-12">
                 <div class="col-md-2 schedule">
                     <ul>
-                        <li id="1" class="schedule-head">
+                        <li id="3" class="schedule-head">
+                            <div class="title">
+                                TOLLERANT 2ND MEETING
+                            </div>
+                            <div class="date">
+                                27 MAY 2016
+                            </div>
+                        </li>
+                        <li id="1">
                             <div class="title">
                                 Ligno Biotech IV
                             </div>
@@ -197,23 +205,7 @@
                                 ISBP 15th
                             </div>
                             <div class="date">
-                                30 JUN 2016 · 12:00 am
-                            </div>
-                        </li>
-                        <li id="3">
-                            <div class="title">
-                                DR. Chris Thorne
-                            </div>
-                            <div class="date">
-                                21 AUG 2016 · 10:00 am
-                            </div>
-                        </li>
-                        <li id="4">
-                            <div class="title">
-                                Marina Garín
-                            </div>
-                            <div class="date">
-                                29 AUG 2016 · 10:00 am
+                                30 JUN 2016
                             </div>
                         </li>
                     </ul>
@@ -228,7 +220,7 @@
                             4th Symposium on Biotechnology applied to lignocelluloses
                         </div>
                         <div class="detail-link">
-                            <a href="#">More details</a>
+                            <a href="http://lignobiotech.es/">More details</a>
                         </div>
                     </div>
                 </div>
@@ -249,28 +241,28 @@
             <div class="col-md-4">
                 <ul>
                     <li>
-                        <a href="#">Sociedad Española de Biología Celular</a>
+                        <a href="http://www.sebc.es/">Sociedad Española de Biología Celular</a>
                     </li>
                     <li>
-                        <a href="#">Sociedad Española de Microbiología</a>
+                        <a href="http://www.semicrobiologia.org/">Sociedad Española de Microbiología</a>
                     </li>
                     <li>
-                        <a href="#">Sociedad Española de Biotecnología</a>
+                        <a href="http://www.sebiot.org/">Sociedad Española de Biotecnología</a>
                     </li>
                     <li>
-                        <a href="#">SECUGEN Servicio de Secuenciación DNA</a>
+                        <a href="http://www.secugen.es/">SECUGEN Servicio de Secuenciación DNA</a>
                     </li>
                     <li>
-                        <a href="#">Red Española de Apotosis</a>
+                        <a href="http://apored.bq.uam.es/">Red Española de Apotosis</a>
                     </li>
                     <li>
-                        <a href="#">Grupo Español de Radicales Libres</a>
+                        <a href="http://www.geirli.net/">Grupo Español de Radicales Libres</a>
                     </li>
                     <li>
-                        <a href="#">Aku Database</a>
+                        <a href="http://www.alkaptonuria.cib.csic.es/index.htm">Aku Database</a>
                     </li>
                     <li>
-                        <a href="#">Proretina Therapeutics</a>
+                        <a href="http://www.proretina.com/">Proretina Therapeutics</a>
                     </li>
                 </ul>
             </div>

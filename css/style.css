@@ -802,7 +802,8 @@ input:focus {
 
 /** RESEARCH DEPARTMENT **/
 .members .boss {
-  display: -webkit-box; }
+  display: -webkit-box;
+  margin-top: 25px; }
   .members .boss .title {
     margin-left: 5px;
     font-family: "Roboto Slab", serif;

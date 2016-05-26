@@ -37,43 +37,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        Embryonic Stem Cell The basic unit of life, and an
-                        understanding of biology requires insight into the
-                        structure and function of cells. The Cell
-                        Proliferation and Development Line up the United
-                        Nations Group of Independent Laboratories working
-                        closely with the goal of advancing m m knowledge of
-                        the basic processes such as cell replication
-                        and diversification. Cell proliferation is an
-                        attribute of All Forms of life intimately associated
-                        with the processes of growth and division,
-                        and in multicellular organisms also linked to the d
-                        evelopment of specialized cell types.
-                        A large number of mechanisms Regulators were selected
-                        evolutionarily to ensure cell proliferation and
-                        diversification of different cell types during
-                        embryogenesis and various stages of adult life.
-                        Alteration of some of these regulatory networks
-                        characterize important human diseases.
-                    </p>
-                    <p>
-                        Problems addressed by Laboratories line are grouped
-                        into two Sub-lines: "Dynamics of chromosomes" and
-                        "genetic and epigenetic regulation of cell identity."
-                        For this, a variety of model systems, such as
-                        mammals, insects, plants, yeast, bacteria, etc.
-                        are used One element that unifies and gives strength
-                        and coherence esta line is the conviction that in
-                        the responses of these fundamental questions,
-                        which aims to advance knowledge in cellular and
-                        molecular biology, are the bases of possible
-                        applications they can be derived de este Knowledge.
-                        : However, although the primary objective is the
-                        understanding of basic biological processes, without
-                        giving up its implications Study of mechanisms that
-                        may have applications practices. This feature of our
-                        line makes it unique and different from all the other
-                        lines developed in the CIB.
+                        The cell is the basic unit of life and furthering our knowledge of biology requires a fundamental understanding of cellular structure and function. The <strong>CELL PROLIFERATION AND DEVELOPMENT</strong> Line comprises a group of independent and highly interactive laboratories aiming at an understanding of important processes in cell replication and diversification. Cell proliferation is an attribute of all life forms closely linked to processes of growth and division, and in multicellular organisms is also linked to the appearance of specialized cell types. A multiplicity of regulatory mechanism has been evolutively selected to ensure regulated cell proliferation and generation of cell diversity during embryonic and adult phases of life cycles. Alterations in these regulatory networks are a hallmark of major human disorders. Research topics tackled by the different labs are grouped into two research Sublines, “Chromosome dynamics” and “Genetic and epigenetic regulation of cell identity” using a variety of model organisms, e.g. mammals, flies, plants, yeast, bacteria, etc. A unifying feature that brings strength and coherence to this Line is our conviction that the answer to these fundamental curiosity-driven questions of basic cell and molecular biology lies at the heart of the potential applications that may arise from the knowledge obtained. However, while our pursuit is stimulated and guided by the goal of understanding basic processes, we do not stray from furthering our discoveries as potential mechanisms that may lead to more technical applications. This feature makes us unique and different from other research lines in the CIB.
                     </p>
                 </div>
             </div>
@@ -84,13 +48,33 @@
                     <span>GROUPS</span>
                 </div>
             </div>
-            <a href="biosysbacdiv.php">
+            <a href="cmb_aspergillus_molecular_genetics.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
-                        Biochemical Systems bacterial division
+                        Aspergillus Molecular Genetics
                     </span>
                     <p class="subtitle">
-                        IP: Germán Rivas Caballero
+                        PIs: Miguel Angel Peñalva Soto - Eduardo Espeso FErnández
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
+                        Cell-Biomaterial Recognition
+                    </span>
+                    <p class="subtitle">
+                        PI: Rosa María Lozano Puerto
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
+                        DNA replication and Genome Integrity
+                    </span>
+                    <p class="subtitle">
+                         Rodrigo Bermejo Moreno
                     </p>
                 </div>
             </a>
@@ -100,37 +84,17 @@
                         Synthetic Microbial Macromolecular Assemblies
                     </span>
                     <p class="subtitle">
-                        IP: Rafael Giraldo Suárez
+                        PI: Rafael Giraldo Suárez
                     </p>
                 </div>
             </a>
             <a href="#">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
-                        Aspergillus Molecular Genetics
+                        Systems Biochemistry of Bacterial Division
                     </span>
                     <p class="subtitle">
-                        IP: Miguel Angel Peñalva Soto - Eduardo Espeso Fernández
-                    </p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="row margin-top-1 service-item groups">
-                    <span style="margin-left:10px;">
-                        DNA replication and genome integrity
-                    </span>
-                    <p class="subtitle">
-                        IP: Rodrigo Bermejo Moreno
-                    </p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="row margin-top-1 service-item groups">
-                    <span style="margin-left:10px;">
-                        Molecular Biology of Chromosomes
-                    </span>
-                    <p class="subtitle">
-                        IP: Jorge Bernardo Schvartzman Blinder
+                        PI: Germán Rivas Caballero
                     </p>
                 </div>
             </a>
@@ -147,10 +111,30 @@
             <a href="#">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
+                        Molecular Biology of the Chromosomes
+                    </span>
+                    <p class="subtitle">
+                        PI: Jorge Bernardo Schvartzman Blinder
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
                         Nuclear Matrix and Regulation of the Nuclear Organisation and Function
                     </span>
                     <p class="subtitle">
-                        IP: Susana Moreno Diaz de la Espina
+                        PI: Susana Moreno Diaz de la Espina
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
+                        Epigenetic control by the Polycomb Group of Genes
+                    </span>
+                    <p class="subtitle">
+                        PI: Miguel Angel Vidal Caballero
                     </p>
                 </div>
             </a>
@@ -160,14 +144,24 @@
                         Molecular Biology of Gametogenesis
                     </span>
                     <p class="subtitle">
-                        IP: Jesús del Mazo Martínez
+                        PI: Jesús del Mazo Martínez
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
+                        Roles of autophagy in health and disease
+                    </span>
+                    <p class="subtitle">
+                        PI: Patricia Boya
                     </p>
                 </div>
             </a>
 
             <div id="sec2" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #c08de0;"></span>
+                    <span class="marker" style="background-color: #7cbaf3;"></span>
                     <span>SEMINARS</span>
                 </div>
             </div>

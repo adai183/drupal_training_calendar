@@ -52,7 +52,7 @@
                     <span>GROUPS</span>
                 </div>
             </div>
-            <a href="biosysbacdiv">
+            <a href="cmm_cancer_genetics.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Cancer Genetics and Cancer Stem Cells
@@ -175,7 +175,7 @@
 
             <div id="sec2" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #c08de0;"></span>
+                    <span class="marker" style="background-color: #e27c72;"></span>
                     <span>SEMINARS</span>
                 </div>
             </div>
