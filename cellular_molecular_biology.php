@@ -58,7 +58,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmb_cell_biomaterial_recognition.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Cell-Biomaterial Recognition
@@ -68,7 +68,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmb_dna_replication_genome_integrity.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         DNA replication and Genome Integrity

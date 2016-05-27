@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/26.pdf">
+                    <a href="http://www.cib.csic.es/Memo/grupos/26.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -323,4 +323,3 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/jquery-ui.js"></script>
     <script src="js/app.js"></script>
-    

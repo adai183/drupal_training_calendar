@@ -50,7 +50,7 @@
                             Our scientific <strong>objectives</strong> are related to the use of <strong>microorganisms</strong> (mainly filamentous fungi) and their enzymes in <strong>industrial</strong> processes to obtain fuels, materials and chemicals (White Biotechnology) from <strong>renewable</strong> plant resources. The final aim is to contribute to the sustainable development of our society and reduce the biosphere warming by a reduced consumption of fossil resources. These objectives are well in agreement with those of the new CIB Department of "Environmental Biology".
                         </p>
                         <p>
-                            The work of the group has provided important contributions to the knowledge of the <strong>enzymatic system</strong> involved in the <strong>degradation of lignin</strong> (and other recalcitrant compounds) by fungi, which represents a key step for C recycling in land ecosystems and a central issue in the industrial use of plant biomass in agreement with the <strong>Biorefinery concept</strong> (for the integrated production of fuels, chemicals and other products). According to these results, the most recent studies combine basic and more applied aspects (this dual approach in the field of the enzymatic degradation of lignin has been discussed in a review of the group published in Curr Opini Biotechnol, see <a href="http://www.cib.csic.es/repositorio_bd/publicacion/2295/urls_documento/2009-Martinez-COB-20-348-low.pdf">Martínez et al. 2008</a>):
+                            The work of the group has provided important contributions to the knowledge of the <strong>enzymatic system</strong> involved in the <strong>degradation of lignin</strong> (and other recalcitrant compounds) by fungi, which represents a key step for C recycling in land ecosystems and a central issue in the industrial use of plant biomass in agreement with the <strong>Biorefinery concept</strong> (for the integrated production of fuels, chemicals and other products). According to these results, the most recent studies combine basic and more applied aspects (this dual approach in the field of the enzymatic degradation of lignin has been discussed in a review of the group published in Curr Opini Biotechnol, see <a href="http://www.cib.csic.es/repositorio_bd/publicacion/2295/urls_documento/2009-Martinez-COB-20-348-low.pdf" target="blank">Martínez et al. 2008</a>):
                         </p>
                         <ul style="list-style: lower-roman;">
                             <li>
@@ -96,7 +96,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/3.pdf">
+                    <a href="http://www.cib.csic.es/Memo/grupos/3.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>

@@ -51,7 +51,9 @@
                                 In the Aspergillus Molecular Genetics Unit (UGMA) wew are studying transduction of environmental signals to the transcription factors, using a combination of formal Genetics with Molecular and Cellular Biology. The UGMA includes two research groups, led by <a href="#">Dr. Eduardo Espeso</a> and <a href="#">Dr. Miguel A. Peñalva</a> (acting as coordinator), respectively. Both use Aspergillus nidulans as experimental model
                             </p>
                             <p>
-                                <i>A. nidulans</i> is a genetic model for studying polarised cell growth and long-distance transport (<a href="http://en.wikipedia.org/wiki/Model_organism">Model Organism in Wikipedia</a>). Hyphal tip cells grow exclusively by apical extension, leading to tubular multinucleated cells where intracellular traffic is tailored to the needs imposed by the relatively large distances between apical and distal regions and between the different nuclei of the cell. Regulation of gene expression by ambient pH mediates fungal adaptation to environments with different values of pH.
+                                <i>A. nidulans</i> is a genetic model for studying polarised cell growth and long-distance transport (<a href="http://en.wikipedia.org/wiki/Model_organism" target="blank
+
+                                ">Model Organism in Wikipedia</a>). Hyphal tip cells grow exclusively by apical extension, leading to tubular multinucleated cells where intracellular traffic is tailored to the needs imposed by the relatively large distances between apical and distal regions and between the different nuclei of the cell. Regulation of gene expression by ambient pH mediates fungal adaptation to environments with different values of pH.
                             </p>
                         </div>
                         <div class="col-md-12">
@@ -68,7 +70,7 @@
                 </div>
 
                 <div class="row margin-top-3 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/8.pdf">
+                    <a href="http://www.cib.csic.es/Memo/grupos/8.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
