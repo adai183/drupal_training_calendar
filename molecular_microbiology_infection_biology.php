@@ -32,7 +32,7 @@
                     <a href="index.php">Home</a>
                     <a href="research.php"> | Research</a>
                     <a href="research.php"> | Departments</a>
-                    <a href="environmental_biology.php" style="color: #f8b835;"> | MOLECULAR AND MICRIBIOLOGY INFECTION BIOLOGY</a>
+                    <a href="molecular_microbiology_infection_biology.php" style="color: #f8b835;"> | MOLECULAR AND MICRIBIOLOGY INFECTION BIOLOGY</a>
                 </div>
             </div>
             <div class="row">
@@ -48,11 +48,11 @@
 
             <div id="sec1" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #c08de0;;"></span>
+                    <span class="marker" style="background-color: #f8b835;"></span>
                     <span>GROUPS</span>
                 </div>
             </div>
-            <a href="biosysbacdiv">
+            <a href="mmib_bacterial_gene_expression.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Bacterial Gene Expression and Gene Transfer
@@ -127,7 +127,7 @@
 
             <div id="sec2" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #c08de0;"></span>
+                    <span class="marker" style="background-color: #f8b835;"></span>
                     <span>SEMINARS</span>
                 </div>
             </div>

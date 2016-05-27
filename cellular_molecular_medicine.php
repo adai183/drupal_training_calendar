@@ -32,7 +32,7 @@
                     <a href="index.php">Home</a>
                     <a href="research.php"> | Research</a>
                     <a href="research.php"> | Departments</a>
-                    <a href="cellular_molecular_biology.php" style="color: #e27c72;"> | Cellular and Molecular Biology</a>
+                    <a href="cellular_molecular_medicine.php" style="color: #e27c72;"> | Cellular and Molecular Biology</a>
                 </div>
             </div>
             <div class="row">

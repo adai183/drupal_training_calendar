@@ -49,7 +49,7 @@
                     <span>GROUPS</span>
                 </div>
             </div>
-            <a href="biosysbacdiv">
+            <a href="eb_biotechnology_lignocellulosic_biomass.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Biotechnology for Lignocellulosic Biomass
