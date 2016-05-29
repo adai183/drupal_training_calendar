@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <!--div class="row">
             <div class="col-md-12">
                 <div class="col-md-3">
                     <div class="button-selector">
@@ -38,7 +38,7 @@
                 <div class="col-md-5">
                     <div id="datepicker"></div>
                 </div>
-                <!--div class="col-md-4 calendar-dates">
+                <div class="col-md-4 calendar-dates">
                     <div class="title">
                         19 JUN
                     </div>
@@ -61,16 +61,72 @@
                             30 JUN 2016 · 12:00 am
                         </p>
                     </div>
-                </div-->
+                </div>
             </div>
-        </div>
+        </div-->
 
         <!-- results -->
         <div class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
+                        1 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        Department Seminar
+                    </div>
+                    <div class="title">
+                        Place
+                    </div>
+                    <div class="subtitle">
+                        Lecture Hall of CIB
+                    </div>
+                    <div class="title">
+                        CIB contact
+                    </div>
+                    <div class="contact">
+                        <span><img src="img/User.svg" /></span>
+                        <span>Boya , Patricia</span>
+                    </div>
+                </div>
+                <div class="col-md-8 right" style="padding-bottom: 22px;">
+                    <div class="topic">
+                        Dpto. Biología Celular y Molecular: Autophagy during development and differentiation.
+                    </div>
+                    <div class="title">
+                        Speaker
+                    </div>
+                    <div class="subtitle">
+                        Lorena Esteban Martínez ·  CIB CSIC
+                    </div>
+                    <div class="title">
+                        Department
+                    </div>
+                    <div class="department">
+                        <a href="cellular_molecular_medicine.php">
+                            Cellular and Mollecular Medicine
+                        </a>
+                    </div>
+                    <div class="title">
+                        Poster
+                    </div>
+                    <div class="poster">
+                        <a href="#">
+                            <img src="img/print.svg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 calendar-detail">
+                <div class="col-md-4 left">
+                    <div class="date">
                         2 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        Department Seminar
                     </div>
                     <div class="title">
                         Place
@@ -94,13 +150,13 @@
                         Speaker
                     </div>
                     <div class="subtitle">
-                        Lorena Esteban Martínez ·  CIB CSIC
+                        Carmen Ayuso ·  Fundación Jiménez Díaz
                     </div>
                     <div class="title">
                         Department
                     </div>
                     <div class="department">
-                        <a href="celmolbio">
+                        <a href="cellular_molecular_medicine.php">
                             Cellular and Mollecular Medicine
                         </a>
                     </div>
@@ -121,6 +177,9 @@
                 <div class="col-md-4 left">
                     <div class="date">
                         9 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        Department Seminar
                     </div>
                     <div class="title">
                         Place
@@ -154,7 +213,7 @@
                         Department
                     </div>
                     <div class="department">
-                        <a href="celmolbio">
+                        <a href="chemical_physical_biology.php">
                             Chemical and Physical Biology
                         </a>
                     </div>
@@ -176,6 +235,9 @@
                     <div class="date">
                         15 JUN 2016 · 12:00 am
                     </div>
+                    <div class="subtitle">
+                        Department Seminar
+                    </div>
                     <div class="title">
                         Place
                     </div>
@@ -192,7 +254,7 @@
                 </div>
                 <div class="col-md-8 right" style="padding-bottom: 22px;">
                     <div class="topic">
-                        Dpto. Biología Celular y Molecular: When to decide to divide: a Soxist point of view.
+                        Dpto. Medicina Celular y Molecular: Mecanismos de progresión tumoral y resistencia a fármacos en mieloma múltiple.
                     </div>
                     <div class="title">
                         Speaker
@@ -204,7 +266,7 @@
                         Department
                     </div>
                     <div class="department">
-                        <a href="celmolbio">
+                        <a href="cellular_molecular_medicine.php">
                             Cellular and Mollecular Medicine
                         </a>
                     </div>
@@ -225,6 +287,9 @@
                 <div class="col-md-4 left">
                     <div class="date">
                         17 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        Department Seminar
                     </div>
                     <div class="title">
                         Place
@@ -255,7 +320,7 @@
                         Department
                     </div>
                     <div class="department">
-                        <a href="celmolbio">
+                        <a href="environmental_biology.php">
                             Environmental Biology
                         </a>
                     </div>
@@ -271,7 +336,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <!--div class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -304,13 +369,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
 
         <div class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
                         23 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        Department Seminar
                     </div>
                     <div class="title">
                         Place
@@ -361,61 +429,15 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 calendar-detail">
-                <div class="col-md-4 left">
-                    <div class="date">
-                        24 JUN 2016 · 12:00 am
-                    </div>
-                    <div class="title">
-                        Place
-                    </div>
-                    <div class="subtitle">
-                        Lecture Hall of CIB
-                    </div>
-                    <div class="title">
-                        CIB contact
-                    </div>
-                    <div class="contact">
-                        <span><img src="img/User.svg" /></span>
-                        <span>De la Rosa Cano, Enrique J.</span>
-                    </div>
-                </div>
-                <div class="col-md-8 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        Dpto. Biología Celular y Molecular: When to decide to divide: a Soxist point of view.
-                    </div>
-                    <div class="title">
-                        Speaker
-                    </div>
-                    <div class="subtitle">
-                        Aixa Morales  ·  Instituto Cajal
-                    </div>
-                    <div class="title">
-                        Department
-                    </div>
-                    <div class="department">
-                        <a href="celmolbio.php">
-                            Cellular and Mollecular Biology
-                        </a>
-                    </div>
-                    <div class="title">
-                        Poster
-                    </div>
-                    <div class="poster">
-                        <a href="#">
-                            <img src="img/print.svg" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
                         27 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        Department Seminar
                     </div>
                     <div class="title">
                         Place
@@ -449,7 +471,7 @@
                         Department
                     </div>
                     <div class="department">
-                        <a href="celmolbio">
+                        <a href="molecular_microbiology_infection_biology.php">
                             Molecular Microbiology and Infection Biology
                         </a>
                     </div>
@@ -465,94 +487,7 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 calendar-detail">
-                <div class="col-md-4 left">
-                    <div class="date">
-                        30 JUN 2016
-                    </div>
-                    <div class="title">
-                        Place
-                    </div>
-                    <div class="subtitle">
-                        Rafaelhoteles Atocha
-                    </div>
-                </div>
-                <div class="col-md-8 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        ISBP 15th
-                    </div>
-                    <div class="title">
-                        Info
-                    </div>
-                    <div class="subtitle">
-                        15th International Symposium on Biopolymers
-                    </div>
-                    <div class="title">
-                        <div class="detail-link">
-                            <a href="http://www.isbp2016.com/"  target="_blank">More details</a>
-                        </div>
-                    </div>
-                    <div class="department">
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 calendar-detail">
-                <div class="col-md-4 left">
-                    <div class="date">
-                        24 SEPT 2016 · 12:00 am
-                    </div>
-                    <div class="title">
-                        Place
-                    </div>
-                    <div class="subtitle">
-                        Lecture Hall of CIB
-                    </div>
-                    <div class="title">
-                        CIB contact
-                    </div>
-                    <div class="contact">
-                        <span><img src="img/User.svg" /></span>
-                        <span>De la Rosa Cano, Enrique J.</span>
-                    </div>
-                    <div class="contact">
-                        <span><img src="img/User.svg" /></span>
-                        <span>Patricia</span>
-                    </div>
-                </div>
-                <div class="col-md-8 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        Autophagy during development and differentiation
-                    </div>
-                    <div class="title">
-                        Speaker
-                    </div>
-                    <div class="subtitle">
-                        Lorena Esteban Martínez ·  CIB CSIC
-                    </div>
-                    <div class="title">
-                        Department
-                    </div>
-                    <div class="department">
-                        <a href="celmolbio.php">
-                            Cellular and Mollecular Biology
-                        </a>
-                    </div>
-                    <div class="title">
-                        Poster
-                    </div>
-                    <div class="poster">
-                        <a href="#">
-                            <img src="img/print.svg" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 </main>
 

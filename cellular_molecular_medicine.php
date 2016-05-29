@@ -38,10 +38,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        The final scientific goal of the Line is to contribute to a greater and more comprehensive understanding of human physiopathology and to develop translational approaches towards preventing and treating disease. Research at the line of Cellular and Molecular Medicine has been structured in three sublines: The subline of Genetics and Experimental Models of Disease takes advantage of these important approaches in biomedical research to understand pathogenic mechanisms, to identify therapeutic targets and to implement high-throughput strategies in drug discovery. The subline of Vascular Pathology and Hemostasia aims at understanding the molecular and cellular processes involved in specific diseases related to the vascular wall and the myocardium and in disturbed states of hemostasia. Finally, groups integrated in the subline of Mechanisms in Development, Degeneration and Aging focus their research on these processes to understand the pathogenesis of human disorders like retinitis pigmentosa or Alzheimer’s disease and to develop diagnostic and therapeutic strategies.
+                         The laboratory “Mechanisms of Action of Antitumour Drugs” (formerly known as “Cell Stress and Cell Death”) was established approximately fifteen years ago, to investigate different aspects of the control of cell differentiation, cell death, and the stress response. Our present interest is mainly focussed on the mechanism of regulation and execution of cell death (apoptotic and necrotic) induced by metal/metalloid-based antitumour drugs, and the generation of strategies to improve the clinical efficacy of these drugs.
                     </p>
                     <p>
-                        Collaborations across sublines and with other lines within the CIB are encouraged to strengthen high quality interdisciplinary biomedical research in our Institute and to increase the international competitiveness of the individual research groups. The Line seeks the incorporation of the highest level of technological developments and experimental infrastructures and the promotion of novel pioneering research by attracting bright young research groups in the area of Biomedicine. The Line also promotes technology transfer initiatives and encourages the creation of added value for translational research through the adequate protection of the scientific results and reagents produced by the individual groups. Such added value has already resulted in the generation of spin-offs by groups within the Line and will facilitate the creation of additional ones in the future.
+                        At present, the nucleus of team is formed by a Senior Scientist, a Technician (with the academic degree of Licenciate), a Postdoctoral fellow, and three Ph. D. students. We also benefit from the collaboration of researchers from the Department of Inorganic Chemistry (Universidad Autónoma, Madrid), and the Departments of Biochemistry and Molecular Biology, and Analytical Chemistry (Universidad Complutense, Madrid).
                     </p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmm_chemokines_cell_migration.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Chemokines and cell migration
@@ -72,7 +72,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmm_functional_proteomics.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Functional Proteomics
@@ -82,7 +82,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmm_laboratory_cell_death.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Laboratory of Cell Death and Cancer Therapy
@@ -92,7 +92,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmm_mechanisms_action_drugs.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Mechanisms of action of Antitumor Drugs
@@ -102,13 +102,33 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cmm_mitochondrial_bioenergetics.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Mitochondrial Bioenergetics
                     </span>
                     <p class="subtitle">
                         PI: Eduardo Rial Zueco
+                    </p>
+                </div>
+            </a>
+            <a href="cmm_molecular_pathology.php">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
+                        Molecular Pathology/ Complement Genetics
+                    </span>
+                    <p class="subtitle">
+                        PI: Santiago Rodríguez de Cordoba
+                    </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row margin-top-1 service-item groups">
+                    <span style="margin-left:10px;">
+                        Molecular Pharmacology
+                    </span>
+                    <p class="subtitle">
+                        PI: José María Sánchez-Puelles González-Carvajal
                     </p>
                 </div>
             </a>
