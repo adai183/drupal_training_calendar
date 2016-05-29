@@ -407,17 +407,17 @@
             	color: $color_turquoise;
             }
         }
-
     }
-    .calendar{
-        .ui-state-active{
-            color: $color_turquoise !important;
-            border: 0;
-            background-color: $color_white;
-            a{
-                color: $color_dark_grey !important;
-                border-bottom: 3px solid $color_turquoise;
-            }
+}
+
+.calendar{
+    .ui-state-active{
+        color: $color_turquoise !important;
+        border: 0;
+        background-color: $color_white;
+        a{
+            color: $color_dark_grey !important;
+            border-bottom: 3px solid $color_turquoise;
         }
     }
 }

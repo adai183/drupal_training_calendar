@@ -30,23 +30,23 @@ $(document).ready(function ($) {
 		switch (this.id) {
 
 		    case '1':
-				$('.detail img').attr("src", "img/event1.png");
-				$(".events .detail .title").html('19-20 JUNE 2016 MADRID - Palacio de congresos de Madrid');
-				$(".events .detail .subtitle").html('4th Symposium on Biotechnology applied to lignocelluloses');
-				$(".detail-link a").attr('href',"http://lignobiotech.es/" );
+				$('.detail img').attr("src", "img/event2.png");
+				$(".events .detail .title").html('1 JUNE 2016 MADRID - Lecture Hall of CIB');
+				$(".events .detail .subtitle").html('Autophagy during development and differentiation.');
+				$(".detail-link a").attr('href',"outreach.php#1");
 		        break;
 		    case '2':
-				$('.detail img').attr("src", "img/event2.png");
-				$(".events .detail .title").html('30 JUNE 2016 MADRID - Rafaelhoteles Atocha');
-				$(".events .detail .subtitle").html('15th International Symposium on Biopolymers');
-				$(".detail-link a").attr('href',"http://www.isbp2016.com/" );
+				$('.detail img').attr("src", "img/event3.png");
+				$(".events .detail .title").html('2 JUNE 2016 MADRID - Lecture Hall of CIB');
+				$(".events .detail .subtitle").html('Traslación a la práctica clínica de las técnicas genómicas.');
+				$(".detail-link a").attr('href',"outreach.php#2" );
 
 		        break;
 		    case '3':
-				$('.detail img').attr("src", "img/event3.png");
-				$(".events .detail .title").html('27 MAY 2016 MADRID - CIB-CSIC');
-				$(".events .detail .subtitle").html('TOLLERANT 2ND MEETING');
-				$(".detail-link a").attr('href',"http://www.tollerant.eu/2nd-meeting-2016/");
+				$('.detail img').attr("src", "img/event2.png");
+				$(".events .detail .title").html('9 JUNE 2016 MADRID - Seminar Room 273');
+				$(".events .detail .subtitle").html('Machine learning methods applied to QSAR modelling');
+				$(".detail-link a").attr('href',"outreach.php#3");
 		        break;
 		    case '4':
 				$('.detail img').attr("src", "img/event4.png");

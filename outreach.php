@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <!--div class="row">
+        <div class="row">
             <div class="col-md-12">
                 <div class="col-md-3">
                     <div class="button-selector">
@@ -35,10 +35,10 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-5">
-                    <div id="datepicker"></div>
+                <div class="col-md-5 calendar">
+                    <div id="datepicker" ></div>
                 </div>
-                <div class="col-md-4 calendar-dates">
+                <!--div class="col-md-4 calendar-dates">
                     <div class="title">
                         19 JUN
                     </div>
@@ -66,7 +66,7 @@
         </div-->
 
         <!-- results -->
-        <div class="row">
+        <div id="1" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div id="2" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -172,7 +172,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div id="3" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -229,7 +229,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div id="4" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -282,7 +282,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div id="5" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -336,11 +336,14 @@
             </div>
         </div>
 
-        <!--div class="row">
+        <div id="6" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
                         19 - 20 JUN 2016
+                    </div>
+                    <div class="subtitle">
+                        Symposia
                     </div>
                     <div class="title">
                         Place
@@ -369,9 +372,9 @@
                     </div>
                 </div>
             </div>
-        </div-->
+        </div>
 
-        <div class="row">
+        <div id="7" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -430,7 +433,7 @@
         </div>
 
 
-        <div class="row">
+        <div id="8" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
@@ -487,25 +490,51 @@
             </div>
         </div>
 
+        <div id="9" class="row">
+            <div class="col-md-12 calendar-detail">
+                <div class="col-md-4 left">
+                    <div class="date">
+                        30 JUN 2016
+                    </div>
+                    <div class="subtitle">
+                        Symposia
+                    </div>
+                    <div class="title">
+                        Place
+                    </div>
+                    <div class="subtitle">
+                        Rafaelhoteles Atocha
+                    </div>
+                </div>
+                <div class="col-md-8 right" style="padding-bottom: 22px;">
+                    <div class="topic">
+                        ISBP 15th
+                    </div>
+                    <div class="title">
+                        Info
+                    </div>
+                    <div class="subtitle">
+                        15th International Symposium on Biopolymers
+                    </div>
+                    <div class="title">
+                        <div class="detail-link">
+                            <a href="http://www.isbp2016.com/"  target="_blank">More details</a>
+                        </div>
+                    </div>
+                    <div class="department">
 
+                    </div>
+                </div>
+            </div>
+        </div>
 
 </main>
 
 
-
-
-
-
-
-
     <?php include('footer.php');?>
       <!-- JS Imports -->
-  <script src="js/vendor/jquery-1.11.2.min.js"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/vendor/jquery-ui.js"></script>
-  <script src="js/app.js"></script>
-  <script type="text/javascript">
-      $( "#datepicker" ).datepicker({
-          inline: true
-      });
-  </script>
+      <script src="js/vendor/jquery-1.11.2.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/vendor/jquery-ui.js"></script>
+      <script src="js/app.js"></script>
+      <script src='js/calendarConfig.js'></script>

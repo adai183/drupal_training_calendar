@@ -184,28 +184,28 @@
             <div class="col-md-12">
                 <div class="col-md-2 schedule">
                     <ul>
-                        <li id="3" class="schedule-head">
+                        <li id="1" class="schedule-head">
                             <div class="title">
-                                TOLLERANT 2ND MEETING
+                                Autophagy during development and differentiation.
                             </div>
                             <div class="date">
-                                27 MAY 2016
-                            </div>
-                        </li>
-                        <li id="1">
-                            <div class="title">
-                                Ligno Biotech IV
-                            </div>
-                            <div class="date">
-                                19-20 JUN 2016 · 12:00 am
+                                1 JUN 2016 · 12:00 am
                             </div>
                         </li>
                         <li id="2">
                             <div class="title">
-                                ISBP 15th
+                                Traslación a la práctica clínica de las técnicas genómicas.
                             </div>
                             <div class="date">
-                                30 JUN 2016
+                                2 JUN 2016 · 12:00 am
+                            </div>
+                        </li>
+                        <li id="3">
+                            <div class="title">
+                                Machine learning methods applied to QSAR modelling
+                            </div>
+                            <div class="date">
+                                9 JUN 2016 · 12:00 am
                             </div>
                         </li>
                     </ul>
@@ -214,10 +214,10 @@
                     <div class="col-md-12">
                         <img src="img/event3.png" alt="" />
                         <div class="title">
-                            27 MAY 2016 MADRID - CIB-CSIC
+                            1 JUN 2016 · 12:00 am - CIB-CSIC
                         </div>
                         <div class="subtitle">
-                            TOLLERANT 2ND MEETING
+                            Autophagy during development and differentiation.
                         </div>
                         <div class="detail-link">
                             <a href="http://www.tollerant.eu/2nd-meeting-2016/"  target="_blank">More details</a>

@@ -642,11 +642,12 @@ input:focus {
       font-size: 16px;
       line-height: 1.8;
       color: #00c7ab; }
-.events .calendar .ui-state-active {
+
+.calendar .ui-state-active {
   color: #00c7ab !important;
   border: 0;
   background-color: #ffffff; }
-  .events .calendar .ui-state-active a {
+  .calendar .ui-state-active a {
     color: #333333 !important;
     border-bottom: 3px solid #00c7ab; }
 
