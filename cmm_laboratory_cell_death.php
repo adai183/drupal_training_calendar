@@ -68,7 +68,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
+                                    <img src="img/faustino.png" alt="" class="img-responsive" style="height: 70px;" />
                                 </a>
                             </div>
                             <div>
@@ -122,19 +122,13 @@
                 </div>
 
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
-                    </div>
-                </div>
-
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
                         <span class="marker" style="background-color: #e27c72;"></span>
                         <span>PROJECTS</span>
                     </div>
                 </div>
-                
+
 
                 <div id="sec3" class="row section-title">
                     <div class="col-md-12">

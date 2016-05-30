@@ -154,7 +154,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/bio_sys_div_group.jpg"/>
                     </div>
                 </div>
 

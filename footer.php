@@ -1,5 +1,5 @@
     <!--footer bottom-->
-    <footer class="container-fluid footer footer-bottom margin-top-4">
+    <footer class="container-fluid footer footer-bottom margin-top-4 fullwidth">
         <div class="row">
             <div class="col-md-12">
                 <a href="#"><img class="social" src="img/facebook.png" alt=""/></a>

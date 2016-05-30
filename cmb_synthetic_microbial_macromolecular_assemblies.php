@@ -56,9 +56,6 @@
                         <p>
                             Through engineering the molecular determinants of RepA-WH1 aggregation (see research line 2), we have built an amyloidogenic device in which fibril assembly in vitro is promoted by interaction with DNA. In the bacterium Escherichia coli, RepA-WH1 generates a vertically transmissible (from mother to daughter cells) amyloid proteinopathy, modulated by an Hsp70 chaperone.  RepA-WH1 is bio-safe, since it is not infectious (i.e., not horizontally transmissible) and there is no human protein with a significant degree of sequence similarity. Starting from this synthetic device, we are interested, as biotechnological goals, in the development of new tools for intervening on protein amyloidosis, such as sensors and inhibitor molecules.
                         </p>
-                        <p>
-                            <strong>MORE INFO:</strong> see PROJECTS
-                        </p>
                     </div>
                 </div>
 
@@ -79,9 +76,7 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/raferal_giraldo.png" class="img-responsive" style="height:70px;"/>
                             </div>
                             <div>
                                 <div class="title">
@@ -148,7 +143,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/Synthetic_Microbial_Macromolecular_Assemblies_group.jpg"/>
                     </div>
                 </div>
 

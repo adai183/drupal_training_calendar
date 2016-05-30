@@ -72,9 +72,7 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/barbero_esteban.png" alt="" class="img-responsive" style="height:70px;" />
                             </div>
                             <div>
                                 <div class="title">
@@ -104,11 +102,7 @@
                 </div>
 
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
-                    </div>
-                </div>
+                
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">

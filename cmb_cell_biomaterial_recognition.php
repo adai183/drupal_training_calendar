@@ -47,11 +47,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <p>
-                            The Cell-Biomaterial Recognition Lab studies the molecular and cell response that takes place in the cell upon biomaterial interaction, paying special attention to certain metallic and ceramic biomaterials for those clinical application where is necessary a bone tissue repair. Our study is mainly focus in certain metallic biomaterials as are some cobalt-chromium alloys with high carbon content and some biodegradable magnesium-base materials, and in certain ceramic materials as are the hydroxyapatites. In the case of the metallic materials, the research in mainly focus in the cellular effect of the metallic particles and ions derived from the wear and the corrosion material degradation that occurs in the body and that cause in some occasion the loosening of the implanted material. For these studies commercial available particles and those particles derived from tribocorrosion assays, that simulate the wear that suffers the material whereas it is implanted in the body, are used. These tribocorrosion assays are performed on cobalt-chromium alloys with high carbon content that are suitable candidates for load-bearing prostheses, such as in hip replacement. New treatments are also under developement to control the degradation rate of the magnesium-based materials with the final purpose to design new biodegrable biomaterials with a biodegradation kinetic rate synchronized with bone tissue regeneration. The designing of new surfaces on ceramic materials for its application in bone regeneration is a research topic in our lab. Modified hydroxyapatites are functionalizated with different proteins and peptides with important roles in tissue vascularization that might enhance biological activities of other peptides involved in bone tissue growth.
-                        </p>
-                        <img src="missing" alt="missing image from application.pdf" class="img-responsive"/>
-                        <p>
-                            Osteoblastic cells MC3T3-E1 cultured in presence of the magnesium-microparticles (dark particles). When magnesium material is implanted in the body a corrosion reaction takes place releasing microparticles of magnesium to the medium. Tissue cultured inverted microscope image.
+                            El grupo “Reconocimiento Célula-Biomaterial” investiga la respuesta celular y molecular que se desencadena en la célula al interaccionar con un biomaterial. Es objeto de estudio ciertos materiales metálicos y cerámicos para la aplicación en situaciones en las que es necesaria una reparación ósea. Entre los materiales metálicos se estudian aleaciones de Cobalto-Cromo con alto contenido en carbono para su uso como prótesis de cadera y materiales biodegradables de base Magnesio y, entre los cerámicos, las hidroxiapatitas. En el caso de los materiales metálicos interesa especialmente el efecto que tiene sobre las células las partículas de tamaño micro y nanométrico que se generan como consecuencia del proceso de desgaste y corrosión que experimenta el biomaterial una vez implantado. En estos estudios se utilizan tanto partículas comerciales como, en el caso de las aleaciones de Cobalto-Cromo con alto contenido en carbono, partículas que proceden de ensayos de tribocorrosión en los que simula el proceso de desgaste del material. Con los materiales de base Magnesio, además del estudio de la interacción de las células con las micropartículas de magnesio, la investigación tiene como objetivo la aplicación de nuevos tratamientos sobre el material con el fin de controlar la velocidad de degradación del mismo para conseguir que la reabsorción del material biodegradable esté sincronizada con la regeneración del tejido a reparar. Entre nuestros objetivos está la obtención de nuevas superficies sobre materiales cerámicos, tratamiento que se realiza mediante la funcionalización de las hidroxiapatitas modificadas con ciertas proteínas que promueven la vascularización del tejido para de esta forma favorecer el proceso de regeneración y potenciar el efecto de otros péptidos implicados en el crecimiento del tejido óseo.
                         </p>
                     </div>
                 </div>
@@ -74,7 +70,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
+                                    <img src="img/lozano_puerto.png" class="img-responsive" style="height:70px;"/>
                                 </a>
                             </div>
                             <div>
@@ -116,7 +112,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/Cell_Biomaterial_Recognition-group.jpg"/>
                     </div>
                 </div>
 

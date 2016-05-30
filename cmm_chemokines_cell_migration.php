@@ -69,9 +69,7 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/teixido_calvo.png" alt="" class="img-responsive" style="height:70px;"/>
                             </div>
                             <div>
                                 <div class="title">
@@ -153,7 +151,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/chemokins_group.png"/>
                     </div>
                 </div>
 
@@ -251,7 +249,7 @@
                             <li>
                                 Characterization of molecular pathways controlling cell motility in leukocyte trafficking and tumor cell invasion <br>
                                 SAF2014-53059-R: 2015-2017 <br>
-                                Principal Investigator, Joaquin Teixidó 
+                                Principal Investigator, Joaquin Teixidó
                             </li>
                         </ul>
                     </div>

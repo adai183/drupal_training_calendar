@@ -41,7 +41,7 @@
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
                         <a href="cellular_molecular_medicine.php" style="color: #e27c72"> | Cellular and Molecular Medicine</a>
-                        <a href="#" style="color: #e27c72"> | Mechanisms of action of Antitumor Drugs </a>
+                        <a href="#" style="color: #e27c72"> | Mitochondrial Bioenergetics </a>
                     </div>
                 </div>
                 <div class="row">
@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/13.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/39.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -78,9 +78,7 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/rial_zueco.png" class="img-responsive" style="height: 70px;"/>
                             </div>
                             <div>
                                 <div class="title">
@@ -120,7 +118,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/mitocondrial_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 

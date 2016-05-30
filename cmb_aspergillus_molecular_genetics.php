@@ -48,24 +48,45 @@
                     <div class="col-md-12">
                         <div class="col-md-12">
                             <p>
-                                In the Aspergillus Molecular Genetics Unit (UGMA) wew are studying transduction of environmental signals to the transcription factors, using a combination of formal Genetics with Molecular and Cellular Biology. The UGMA includes two research groups, led by <a href="#">Dr. Eduardo Espeso</a> and <a href="#">Dr. Miguel A. Peñalva</a> (acting as coordinator), respectively. Both use Aspergillus nidulans as experimental model
+                                Aspergillus nidulans is a genetic model well suited
+                                for studying polarised exocytosis and long-distance
+                                transport mediated by actin and microtubules.
+                                Intracellular tra c resembles that of metazoan cells,
+                                yet the organism is haploid, genetically amenable
+                                and microscopy-friendly
                             </p>
                             <p>
-                                <i>A. nidulans</i> is a genetic model for studying polarised cell growth and long-distance transport (<a href="http://en.wikipedia.org/wiki/Model_organism" target="blank
-
-                                ">Model Organism in Wikipedia</a>). Hyphal tip cells grow exclusively by apical extension, leading to tubular multinucleated cells where intracellular traffic is tailored to the needs imposed by the relatively large distances between apical and distal regions and between the different nuclei of the cell. Regulation of gene expression by ambient pH mediates fungal adaptation to environments with different values of pH.
+                                By combining genetic and biochemical approaches with in vivo
+                                multidimensional microscopy, we are studying the organization and
+                                dynamics of the Golgi and endovacuolar systems, focusing on RAB
+                                and ARF GTPases, their regulators and their eff ectors. The Aspergillus
+                                Golgi is formed by non-stacked early and late Golgi cisternae that can
+                                be resolved by optical microscopy. We are studying the mechanisms of
+                                cisternal maturation in the Golgi, and specifi cally the mechanisms that
+                                determine the biogenesis of post-Golgi carriers in the TGN, as well as the
+                                diff erent pathways for the exit of membrane and cargo from the endoplamic
+                                reticulum. Our work has important implications for both medicine and
+                                agriculture (fungal pathogenicity to plants and humans is strictly dependent
+                                on exocytosis and fungal cells are sensitive to certain anti-tumour drugs)
+                                and major ones for biotechnology, as a substantial share of the industrial
+                                enzyme catalogue is produced with Aspergillus species as cell factories.
                             </p>
-                        </div>
-                        <div class="col-md-12">
-
                             <p>
-                                <h3>Landmark achievements</h1>
-                                    Regulation of gene expression by ambient pH: This regulatory circuitry mediates fungal adaptation to environments with different pH values. For a complete list of papers and bibliometric analysis of <a href="http://www.cib.csic.es/repositorio_bd/grupo/8/html/pH_signalling_bibliometric_analysis.pdf">pH regulation</a>, please follow the link
+                                Most biosynthetic and catalytic pathways are transcriptionally regulated.
+                                We study signals, receptors, signaling transduction and the mechanisms
+                                behind the activation and cellular localisation of transcription factors. In
+                                eukaryotes, nuclear transport is a key regulatory step in the regulation of a
+                                transcription factor activity. Using as models diverse nuclear factors we try
+                                to understand the mechanisms involved in signaling and traffi ck between
+                                cytoplasm and nucleus in a coenocytic (multi nuclear) organism. Specifi cally
+                                we focus on the zinc-fi nger transcription factors SltA and CrzA that mediate
+                                in the responses to cation and alkaline pH stresses. Studying these regulators
+                                allow us to investigate the calcium-calcineurin mediated signaling,
+                                proteolysis as a mechanism of posttranslational activation and the role of
+                                stress tolerance in fungal virulence.
                             </p>
                         </div>
-                        <div class="col-md-12">
-                            <img class="img-responsive" src="img/Nucleos.jpg" alt="" />
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -86,55 +107,28 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/miguel_angel.png" class="img-responsive" style="height:70px;"/>
                             </div>
                             <div>
                                 <div class="title">
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Peñalva Soto
+                                    Peñalva Soto, Miguel Angel
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6 boss">
                             <div>
-                                <img src="img/mari_carmen.png" alt="" />
+                                <img src="img/edu_antonio.png" class="img-responsive" style="height:70px;"/>
                             </div>
                             <div>
                                 <div class="title">
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                     Miguel Angel
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 boss">
-                            <div>
-                                <img src="img/mari_carmen.png" alt="" />
-                            </div>
-                            <div>
-                                <div class="title">
-                                    Head of Lab
-                                </div>
-                                <div class="subtitle">
-                                     Espeso Fernández
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 boss">
-                            <div>
-                                <img src="img/mari_carmen.png" alt="" />
-                            </div>
-                            <div>
-                                <div class="title">
-                                    Head of Lab
-                                </div>
-                                <div class="subtitle">
-                                     Eduardo Antonio
+                                     Espeso Fernández, Eduardo Antonio
                                 </div>
                             </div>
                         </div>
@@ -224,7 +218,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/aspergillus_group.png"/>
                     </div>
                 </div>
 
@@ -234,14 +228,14 @@
                         <span>PROJECTS</span>
                     </div>
                 </div>
-                <a href="#">
+                <a href="cmb_aspergillus_molecular_genetics_pro1.php">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
                             Signal transduction and membrane trafficking
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="cmb_aspergillus_molecular_genetics_pro2.php">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
                             Nucleo-cytoplasmic traffic in multinucleated cells

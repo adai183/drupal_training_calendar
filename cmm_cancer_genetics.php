@@ -98,29 +98,14 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/jose_alberto.png" alt="" class="img-responsive" style="height: 70px;"/>
                             </div>
                             <div>
                                 <div class="title">
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    García Sanz,
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 boss">
-                            <div>
-                                <img src="img/mari_carmen.png" alt="" />
-                            </div>
-                            <div>
-                                <div class="title">
-                                    Head of Lab
-                                </div>
-                                <div class="subtitle">
-                                     José Alberto
+                                    García Sanz, José Alberto
                                 </div>
                             </div>
                         </div>
@@ -134,8 +119,7 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>García Sanz</li>
-                                    <li>José Alberto</li>
+                                    <li>García Sanz, José Alberto</li>
                                 </ul>
                             </div>
                         </div>
@@ -167,12 +151,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
-                    </div>
-                </div>
+                
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">

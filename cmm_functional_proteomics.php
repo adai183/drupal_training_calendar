@@ -69,9 +69,7 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+                                <img src="img/casal_alvarez.png" class="img-responsive"/>
                             </div>
                             <div>
                                 <div class="title">
@@ -141,7 +139,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/functional_proteomics.png"/>
                     </div>
                 </div>
 
@@ -195,7 +193,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        No entry in this section 
+                        No entry in this section
                     </div>
                 </div>
                 <div class="row margin-top-5">

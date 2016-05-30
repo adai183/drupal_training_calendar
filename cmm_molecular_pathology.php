@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/13.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/21.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -75,16 +75,14 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
-                                </a>
+
                             </div>
                             <div>
                                 <div class="title">
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Aller Tresguerres, Patricio
+                                    Rodríguez de Cordoba, Santiago
                                 </div>
                             </div>
                         </div>
@@ -98,17 +96,38 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Aller Tresguerres, Patricio</li>
+                                    <li>Rodríguez de Cordoba, Santiago</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-6 staff">
                             <div class="title">
-                                Technician
+                                Postgraduates
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>De Blas Brotons, Elena</li>
+                                    <li>Subías Hidalgo, Marta</li>
+                                    <li>Tortajada Alonso, Agustín</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-6">
+                    <div class="col-md-12">
+                        <div class="col-md-6 staff">
+                            <div class="title">
+                                Visiting Scientists
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>Goicoechea De Jorge, Elena Isabel</li>
+                                    <li>Gutierrez Tenorio, Josue</li>
+                                    <li>Martin Merinero, Hector</li>
+                                    <li>Martin-Ambrosio Domenech, Adrian</li>
+                                    <li>Pinto García, Sheila</li>
+                                    <li>Ruiz Sánchez, Ángela Olimpia</li>
+                                    <li>Yébenes Revuelto, Hugo</li>
                                 </ul>
                             </div>
                         </div>
@@ -117,7 +136,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/molecular_pathology_group.jpg"/>
                     </div>
                 </div>
 
@@ -130,7 +149,14 @@
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
-                            The induction of cell death (apoptosis and necrosis) by metal-based antitumour drugs.
+                            Molecular bases of the progressive myoclonous epilepsy of the Lafora type.
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row margin-top-1 service-item">
+                        <div class="colo-md12" style="margin-left:10px;">
+                            Complement genes and predisposition to disease
                         </div>
                     </div>
                 </a>
@@ -159,21 +185,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul>
-                            <li>Dirección General de Investigación Científica y Técnica, Grant PM97-0144. Years 1998-2001.</li>
-                            <li>Fondo de Investigaciones Sanitarias de la Seguridad Social (FIS), Grant 01/0946. Years 2001- 2003.</li>
-                            <li>Plan Nacional de I+D, Ministerio de Ciencia y Tecnología, Grant 2001-1219. Years 2001-2004.</li>
-                            <li>Plan Regional de Investigación Científica de la Comunidad de Madrid, Grant 08.3/0011.3/2001. Years 2002-2004.</li>
-                            <li>
-                                European Union, INTAS program, Grant 2001-592. Years 2002-2005.
-                                Dirección General de Universidades e Investigación, Comunidad de Madrid, Grant GR/SAL/0639/2004. Year 2004.
-                            </li>
-                            <li>
-                                Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica, Grant SAF2004-01259. Years 2004-2007.
-                            </li>
-                            <li>Accion Integrada Hispano-Griega (CSIC/Universidad de Atenas). Grant HG2005-0036. Years 2006- 2007.</li>
-                            <li>Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica. Grant 2007-64721. Years 2007-2010.</li>
-                            <li>Dirección General de Investigación, Ministerio de Educación y Ciencia, Programa "Consolider", Grant CSD2007-00020.</li>
-                            <li>CSIC. Grant PIE, 201020E037. Years 2010-2012.Plan Nacional de Investigación Científica, Desarrollo e Innovación Tecnológica, Grant SAF2010-20256. Years 2011-2013.</li>
+                            <li>MINECO, SAF2015-66287-R</li>
+                            <li> CAM (ref. S2010/BMD-2316)</li>
+                            <li> FP7, Proyecto Europeo (ref. EURenOmics) </li>
+                            <li> Financiación CIBERER, ER16P1AC738</li>
                         </ul>
                     </div>
                 </div>
