@@ -49,7 +49,7 @@
                     <span>GROUPS</span>
                 </div>
             </div>
-            <a href="biosysbacdiv">
+            <a href="cpb_eukaryotic_antibiotic_peptides.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Eukaryotic antibiotic peptides
@@ -59,7 +59,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_microtubule_stabilizing_agents.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Microtubule stabilizing agents
@@ -69,7 +69,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_posttranslational_modification_proteins.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Posttranslational modification of proteins
@@ -79,7 +79,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_tubulins.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Tubulins and FtsZ: targeting protein self-assembly
@@ -89,7 +89,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_computational_chemical_biology.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Computational Chemical Biology
