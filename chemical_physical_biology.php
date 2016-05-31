@@ -99,7 +99,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_electron_microscopy.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Electron Microscopy and Three Dimensional Reconstruction of Macromolecules
@@ -109,7 +109,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_nmr.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         NMR and molecular recognition
@@ -119,7 +119,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_structural_biology.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Structural Biology of Host-Pathogen Interactions
@@ -208,14 +208,14 @@
                                 Chemical and Physical Biology
                             </a>
                         </div>
-                        <div class="title">
+                        <!--div class="title">
                             Poster
                         </div>
                         <div class="poster">
                             <a href="#">
                                 <img src="img/print.svg" alt="" />
                             </a>
-                        </div>
+                        </div-->
                     </div>
 
                 </div>

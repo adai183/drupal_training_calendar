@@ -5,7 +5,7 @@
     <main class="container-fluid">
 
         <div class="jumbotron text-center dep2 ">
-            Computational Chemical Biology
+            Structural Biology of Host-Pathogen Interactions
         </div>
 
         <!-- sticky sidebar -->
@@ -41,23 +41,36 @@
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
                         <a href="chemical_physical_biology.php" style="color: #C1C1C1;"> | Chemical and Physical Biology</a>
-                        <a href="#" style="color: #C1C1C1;"> | Computational Chemical Biology</a>
+                        <a href="#" style="color: #C1C1C1;"> | NMR and molecular recognition</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <p>
-                            The research interests of the CCG group lie at the <strong>interface between Chemistry and Biology</strong>, by means of molecular modeling and computational chemistry applied to the understanding of ligand-receptor interactions and molecular recognition processes relevant for drug design. We combine these investigations with structural studies, synthesis of compounds and biological studies in close collaboration with international groups, within a multidisciplinary and integrative approach.
+                            The main interest of the group is the study of protein-protein interactions that vehicle the communication between host and microbiota or complement system and pathogenic bacteria, we use a combination of protein and therapeutic molecules production, X-ray diffraction, biochemical and biophysical methods that allow us to study snapshots of the protein complex interactions as well as the dynamic behavior that both underlie the functional outcomes of those interactions.
                         </p>
-                        <img src="img/comp_bio.png" alt="" class="img-responsive"/>
+                        <h3>
+                            Host-Pathogen Interactions, the Microbiome and the Imune System
+                        </h3>
                         <p>
-                            We are focused on the study of the molecular recognition processes involving <strong>Pattern Recognition Receptors (PRRs)</strong>, such as Toll-like receptors (main actors in innate immunity), and Galectins (beta-galactoside-binding lectins that play an important role in infection, inflammatory diseases and tumor progression). Despite the number of available 3D structures, the molecular basis of the interaction and response, at atomic level, are still elusive. The global goal is to understand the molecular details of ligand recognition as a source of new compounds able to modulate the target behaviour with possible therapeutic applications.
+                            A greater understanding of the atomic-level communication between host and bacteria (pathogenic or symbiotic) will afford deeper insights into the myriad biological, <strong>immunological, and metabolic processes that involve the microbiota</strong> (Fernandez et al. 2012; Lopez-Estepa et al. 2012). Biomedically relevant examples include the interaction between extracellular matrix proteins and virulence factors and between the complement components and diverse immune evasion proteins.
                         </p>
+                        <img src="img/host_pathogen.png" alt="" class="img-responsive"/>
+                        <p>
+                            <strong>Fig. 1. 2.6-Å crystal structure of UlaG</strong>  (Garces et al. 2008, 2010), <br>
+                            a novel hexameric Mn2+-dependent metallo-beta-lactamase that funnels ascorbate 6-phosphate down the pentose phosphate shunt, therefore underpinning vitamin C assimilation by commensal and enteropathogenic Gram-negative and Gram-positive bacteria (Fernandez et al. 2011).
+                        </p>
+                        <p>
+                            The <strong>human complement system</strong> is a collection of soluble and membrane-associated proteins that monitor the blood and tissue interstitial fluids for pathogens, apoptotic cells and immune complexes. In addition to its prominent role in innate immunity, complement also modulates the adaptive immune system. Pathogens have evolved sophisticated molecular weaponry that allows them to escape surveillance from the complement system, a strategy designated immunoevasion. In the COMPLEMENTO Consortium we are focused in elucidating <strong>the structures and mechanistic details of the complement system components</strong> (Alcorlo et al. 2011) <strong>and their protein complexes with virulence factors with immunoevasive properties</strong>
+                        </p>
+                        <h3>
+                            Improving Methods for Production of Therapeutic Moleculs
+                        </h3>
                     </div>
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/79.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/71.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -73,14 +86,14 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <img src="img/sonsoles_martin.png" alt="" class="img-responsive" style="height:70px;"/>
+                                <img src="img/fran_vicinay.png" alt="" class="img-responsive" style="height:70px;"/>
                             </div>
                             <div>
                                 <div class="title">
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Martin Santamaria, Sonsoles
+                                    Cañada Vicinay, Francisco Javier
                                 </div>
                             </div>
                         </div>
@@ -94,7 +107,7 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Martin Santamaria, Sonsoles</li>
+                                    <li>Cañada Vicinay, Francisco Javier</li>
                                 </ul>
                             </div>
                         </div>
@@ -104,10 +117,11 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Billod , Jean-Marc</li>
-                                    <li>Guzman Caldentey, Joan</li>
-                                    <li>Lacetera , Alessandra</li>
-                                    <li>Perez Regidor, Lucia</li>
+                                    <li>Fernández Alonso, Mª del Carmen</li>
+                                    <li>Fernandez de Toro Ronda, Beatriz</li>
+                                    <li>Galante , Silvia</li>
+                                    <li>Kalograiaki , Ioanna</li>
+                                    <li>Sastre Martínez, Javier</li>
                                 </ul>
                             </div>
                         </div>
@@ -121,11 +135,22 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Cochet , Florent</li>
-                                    <li>Lopez Martos, Aurora Maria</li>
-                                    <li>Malik , Zarioh</li>
-                                    <li>Martin Villalba, Tamara</li>
-                                    <li>Ortega Varga, Laura</li>
+                                    <li>Canales Mayordomo, Mª Ángeles</li>
+                                    <li>Lucia Martin, Saiz</li>
+                                    <li>Manzano Pérez, Ana Isabel</li>
+                                    <li>Martinez Ordoñez, Jose Daniel</li>
+                                    <li>Martinez Senra, Eva</li>
+                                    <li>Rodriguez de Francisco, Borja</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 staff">
+                            <div class="title">
+                                Technician
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>Hernández del Cerro, Mercedes</li>
                                 </ul>
                             </div>
                         </div>
@@ -133,9 +158,11 @@
                 </div>
 
 
+
+
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/microtubule_group.png" style="width:100%;"/>
+                        <img class="img-responsive" src="img/microscopia_electronica.png" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -148,18 +175,17 @@
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
-                            Molecular recognition and Immunity: Toll-like Receptors
+                            NMR methods and their applications to molecular recogniton studies and to structure-based drug and ligand design. Fragment based drug design. Systems: galectins, hevein domains, antibiotic peptides, carbohydrate modifying enzymes.
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
-                            Understanding glycan-lectin recognition:  binding properties of glycomimetics on human galectins.
+                            NMR and Molecular Recognition. The specific interaction of carhohydrates and glycomimetics with biomolecular receptors. Structure and dynamics of biomolecules and their complexes with ligands
                         </div>
                     </div>
                 </a>
-
 
                 <div id="sec3" class="row section-title">
                     <div class="col-md-12">
@@ -185,23 +211,21 @@
                     <div class="col-md-12">
                         <ul>
                             <li>
-                                CTQ2011-22724. MINECOMolecular recognition processes of therapeutic targets involved in immunity and bacterial infection. Approaches from the Computational Chemistry.
+                                <strong>Rompiendo las fronteras del reconocimiento molecular de carbohidratos mediante RMN. Proteínas, anticuerpos y acidos nucleicos.</strong><br>
+                                MINECO, CTQ2015-64597-C2-2-P   2016-2018
                             </li>
                             <li>
-                                Marie Curie Initial Training Networks FP7-PEOPLE-2012-ITN 317297. “GLYCOPHARM. The Sugar Code: from (bio)chemical concept to clinics”. <br>
-                                <a href="http://www.glycopharm.eu/">www.glycopharm.eu</a>
+                                <strong>Nueva vacuna antineoplásica basada en el carbohidrato tumoral Ca10</strong><br>
+                                MINECO, RETOS COLABORACIÓN, RTC-2015-3805-1 <br>
+                                01/11/2015 until: 31/10/2018 <br>
+                                Coordinator:  INMUNOTEK <br>
+                                The project is being financed with FEDER funds , with the aim of promoting technological development , innovation and quality research
                             </li>
                             <li>
-                                COST Action BM1003 “Microbial cell Surface determinants of virulence as targets for new therapeutics in cystic fibrosis”.<br>
-                                <a href="http://www.cost-bm1003.info/">www.cost-bm1003.info/</a>
-                            </li>
-                            <li>
-                                Marie Skłodowska-Curie Actions. Innovative Training Networks. H2020-MSCA-ITN-2014.<br>
-                                “TOLLerant” Toll-Like Receptor 4 activation and function in diseases: an integrated chemical-biology approach.
-                                <a href="http://www.tollerant.eu/">www.tollerant.eu</a>
+                                <strong>RMN y reconocimiento molecular. Interacciones Proteina-Carbohidrato y ácido nucleico-carbohidrato</strong>
+                                MECC CTQ2012-32025 --enero 2013-diciembre 2015
                             </li>
                         </ul>
-
                     </div>
                 </div>
                 <div class="row margin-top-5">

@@ -5,7 +5,7 @@
     <main class="container-fluid">
 
         <div class="jumbotron text-center dep2 ">
-            Computational Chemical Biology
+            Electron Microscopy and Three Dimensional Reconstruction of Macromolecules
         </div>
 
         <!-- sticky sidebar -->
@@ -41,23 +41,32 @@
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
                         <a href="chemical_physical_biology.php" style="color: #C1C1C1;"> | Chemical and Physical Biology</a>
-                        <a href="#" style="color: #C1C1C1;"> | Computational Chemical Biology</a>
+                        <a href="#" style="color: #C1C1C1;"> | Electron Microscopy and Three Dimensional Reconstruction of Macromolecules</a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <p>
-                            The research interests of the CCG group lie at the <strong>interface between Chemistry and Biology</strong>, by means of molecular modeling and computational chemistry applied to the understanding of ligand-receptor interactions and molecular recognition processes relevant for drug design. We combine these investigations with structural studies, synthesis of compounds and biological studies in close collaboration with international groups, within a multidisciplinary and integrative approach.
+                            Oscar Llorca´s group focuses upon using structural and functional studies to increase our understanding of the molecular mechanisms in key cellular processes regulated by dynamic protein-protein interactions within large macromolecular complexes. The unifying principle is to directly visualize regulatory interactions in macromolecular assemblies using electron microscopy (EM), cryoEM and image processing and to correlate the architecture and motions of these complexes with the characterization of their function. Currently, our group concentrates its effort in two core projects:
                         </p>
-                        <img src="img/comp_bio.png" alt="" class="img-responsive"/>
+                        <ul style="list-style:upper-alpha;">
+                            <li>
+                                Characterization of large macromolecular complexes involved in DNA and RNA transactions (DNA repair, DNA replication, chromatin remodelling and mRNA degradation). These processes are related to cancer and several genetic syndromes.<br>
+                                Most of our efforts are focussed in the study of nonsense-mediated mRNA decay (NMD), a eukaryotic surveillance pathway that detects and degrades mRNAs containing premature termination codons. These, if translated, would generate truncated and potentially harmful proteins. We have purified and structurally and functionally characterised several macromolecular complexes containing NMD factors such as SMG1, SMG8, SMG9, UPF1, UPF2, UPF3 and the exon-junction-complex (EJC). These studies have contributed to a better understanding of the molecular and structural basis of NMD.
+                            </li>
+                            <li>
+                                Defining the molecular and structural mechanisms that regulate the complement system and their role in disease, in collaboration with Prof. Santiago Rodríguez de Córdoba. <br>
+                                Complement is part of the innate immunity and a first responder for pathogens. Mutations and polymorphisms in complement genes associate with several human genetic diseases. As part of a project funded by the “Ramon Areces” Foundation and the Autonomous Government of Madrid, we are characterising the structure of macromolecular complexes involved in complement regulation. These studies are providing a better understanding of the molecular basis of human diseases linked to complement deregulation, but also they are contributing to design novel reagents, which could be potentially useful as therapeutic agents.
+                            </li>
+                        </ul>
                         <p>
-                            We are focused on the study of the molecular recognition processes involving <strong>Pattern Recognition Receptors (PRRs)</strong>, such as Toll-like receptors (main actors in innate immunity), and Galectins (beta-galactoside-binding lectins that play an important role in infection, inflammatory diseases and tumor progression). Despite the number of available 3D structures, the molecular basis of the interaction and response, at atomic level, are still elusive. The global goal is to understand the molecular details of ligand recognition as a source of new compounds able to modulate the target behaviour with possible therapeutic applications.
+                            More information at: <a href="http://www.chemphysbiol.org/ ">Chemphysbiol.org</a> and <a href="http://www.chemphysbiol.org/research/llorca/llorca-lab-home/">Llorca Lab</a>
                         </p>
                     </div>
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/79.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/47.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -73,14 +82,14 @@
                     <div class="col-md-12">
                         <div class="col-md-6 boss">
                             <div>
-                                <img src="img/sonsoles_martin.png" alt="" class="img-responsive" style="height:70px;"/>
+                                <img src="img/oscar_blanco.png" alt="" class="img-responsive" style="height:70px;"/>
                             </div>
                             <div>
                                 <div class="title">
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Martin Santamaria, Sonsoles
+                                    Llorca Blanco, Oscar Antonio
                                 </div>
                             </div>
                         </div>
@@ -94,20 +103,17 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Martin Santamaria, Sonsoles</li>
+                                    <li>Llorca Blanco, Oscar Antonio</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-6 staff">
                             <div class="title">
-                                Postgraduates
+                                Junior PI
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Billod , Jean-Marc</li>
-                                    <li>Guzman Caldentey, Joan</li>
-                                    <li>Lacetera , Alessandra</li>
-                                    <li>Perez Regidor, Lucia</li>
+                                    <li>Martino , Fabrizio</li>
                                 </ul>
                             </div>
                         </div>
@@ -117,15 +123,47 @@
                     <div class="col-md-12">
                         <div class="col-md-6 staff">
                             <div class="title">
+                                Technical Staff
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>Zamarro Molina, Mª Teresa</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 staff">
+                            <div class="title">
+                                Postdoctorals
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>López Perrote, Andrés</li>
+                                    <li>Rivera Calzada, Angel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-6">
+                    <div class="col-md-12">
+                        <div class="col-md-6 staff">
+                            <div class="title">
+                                Postgraduates
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>Fernandez Rodriguez, Carlos</li>
+                                    <li>Muñoz Hernández, Hugo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 staff">
+                            <div class="title">
                                 Visiting Scientists
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Cochet , Florent</li>
-                                    <li>Lopez Martos, Aurora Maria</li>
-                                    <li>Malik , Zarioh</li>
-                                    <li>Martin Villalba, Tamara</li>
-                                    <li>Ortega Varga, Laura</li>
+                                    <li>Serna Gil, Marina</li>
                                 </ul>
                             </div>
                         </div>
@@ -133,9 +171,10 @@
                 </div>
 
 
+
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/microtubule_group.png" style="width:100%;"/>
+                        <img class="img-responsive" src="img/microscopia_electronica.png" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -148,14 +187,21 @@
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
-                            Molecular recognition and Immunity: Toll-like Receptors
+                            Structural basis of Complement regulation (Innate immunity) in health and disease
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md12" style="margin-left:10px;">
-                            Understanding glycan-lectin recognition:  binding properties of glycomimetics on human galectins.
+                            Macromolecular machines in RNA degradation: Nonsense-mediated mRNA decay (NMD)
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row margin-top-1 service-item">
+                        <div class="colo-md12" style="margin-left:10px;">
+                            DNA repair macromolecules. PI3K-related kinases
                         </div>
                     </div>
                 </a>
@@ -184,24 +230,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul>
-                            <li>
-                                CTQ2011-22724. MINECOMolecular recognition processes of therapeutic targets involved in immunity and bacterial infection. Approaches from the Computational Chemistry.
-                            </li>
-                            <li>
-                                Marie Curie Initial Training Networks FP7-PEOPLE-2012-ITN 317297. “GLYCOPHARM. The Sugar Code: from (bio)chemical concept to clinics”. <br>
-                                <a href="http://www.glycopharm.eu/">www.glycopharm.eu</a>
-                            </li>
-                            <li>
-                                COST Action BM1003 “Microbial cell Surface determinants of virulence as targets for new therapeutics in cystic fibrosis”.<br>
-                                <a href="http://www.cost-bm1003.info/">www.cost-bm1003.info/</a>
-                            </li>
-                            <li>
-                                Marie Skłodowska-Curie Actions. Innovative Training Networks. H2020-MSCA-ITN-2014.<br>
-                                “TOLLerant” Toll-Like Receptor 4 activation and function in diseases: an integrated chemical-biology approach.
-                                <a href="http://www.tollerant.eu/">www.tollerant.eu</a>
-                            </li>
+                            <li>Spanish Ministry of Economy and Competitiveness (MINECO)</li>
+                            <li>Autonomous Government of Madrid</li>
                         </ul>
-
                     </div>
                 </div>
                 <div class="row margin-top-5">

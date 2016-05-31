@@ -237,14 +237,14 @@
                                 Cellular and Mollecular Medicine
                             </a>
                         </div>
-                        <div class="title">
+                        <!--div class="title">
                             Poster
                         </div>
                         <div class="poster">
                             <a href="#">
                                 <img src="img/print.svg" alt="" />
                             </a>
-                        </div>
+                        </div-->
                     </div>
 
                 </div>
@@ -288,14 +288,14 @@
                                 Cellular and Mollecular Medicine
                             </a>
                         </div>
-                        <div class="title">
+                        <!--div class="title">
                             Poster
                         </div>
                         <div class="poster">
                             <a href="#">
                                 <img src="img/print.svg" alt="" />
                             </a>
-                        </div>
+                        </div-->
                     </div>
 
                 </div>
