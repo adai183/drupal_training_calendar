@@ -4,8 +4,8 @@
 
     <main class="container-fluid">
 
-        <div class="jumbotron text-center dep3 ">
-            Plant Viral Pathogenesis and Plant Defense Mechanisms
+        <div class="jumbotron text-center dep5 ">
+            Bacterial toxin-antitoxin systems
         </div>
 
         <!-- sticky sidebar -->
@@ -40,21 +40,18 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="environmental_biology.php" style="color: #b6d017;"> | Environmental Biology</a>
-                        <a href="#" style="color: #b6d017;"> | Plant Viral Pathogenesis and Plant Defense Mechanisms </a>
+                        <a href="molecular_microbiology_infection_biology.php" style="color: "> | Molecular Microbiology and Infection Biology</a>
+                        <a href="mmib_bacterial_gene_expression.php" style="color: #f8b835;"> | Bacterial toxin-antitoxin systems </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>
-                            Ongoing research in our working group covers different aspects of the processes required for the viral infection to take place, the effect of the infection upon the host metabolism as well as the defence mechanism(s) that the host have developed to counteract its invasion by the pathogen.
-                        </p>
+
                     </div>
                 </div>
 
-
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/34.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/9.pdf" target="blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -62,7 +59,7 @@
 
                 <div id="sec1" class="row section-title margin-top-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>MEMBERS</span>
                     </div>
                 </div>
@@ -71,7 +68,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/isa_luque.png" alt="" class="img-responsive" style="height:70px;" />
+                                    <img src="img/ram_orejas.png" alt="" class="img-responsive" style="height:70px;"/>
                                 </a>
                             </div>
                             <div>
@@ -79,58 +76,40 @@
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    García Luque, María Isabel
+                                    Díaz Orejas, Ramón
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row margin-top-6">
-                    <div class="col-md-12">
-                        <div class="col-md-6 staff">
-                            <div class="title">
-                                Scientific Staff
-                            </div>
-                            <div class="subtitle">
-                                <ul>
-                                    <li>García Luque, María Isabel</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/defense_mec_group.jpg" style="width:100%;"/>
+                        <img class="img-responsive" src="img/Equipo.png"/>
                     </div>
                 </div>
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>PROJECTS</span>
                     </div>
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            Plant virus pathogenesis
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="row margin-top-1 service-item">
-                        <div class="colo-md-12" style="margin-left:10px;">
-                            Plant defence mechanisms against virus infection
+                            Toxin-Antitoxin systems in Molecular Microbiology and in Infection Biology
                         </div>
                     </div>
                 </a>
 
+
+
                 <div id="sec3" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>PUBLICATIONS</span>
                     </div>
                 </div>
@@ -148,25 +127,24 @@
 
                 <div id="sec4" class="row section-title margin-bottom-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>FUNDING</span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <ul>
-                            <li>CICYT, BIO2004-04968-C02-01 (2004-2007)</li>
-                            <li>CICYT, BIO2001-1937-C02-01 (2001-2004)</li>
-                            <li>CAM, CAM 07B/0030/2002 (2003-2004)</li>
-                            <li> CAM/CSIC (2000-2004)</li>
-                            <li>Western Seed España, S.A. (2001-2005)</li>
+                            <li>Interactivity of plasmid modules and the genomes of bacterial pathogens (MICIIN, CSD2008-00013)-Coordinator: Manuel Espinosa Padrón; IP responsible of Objective 5: Ramon Diaz Orejas</li>
+                            <li>BFU2008-01566 "Regulation, activity and potential as target of novel antibiotics of the toxin-antitoxin system kis-kid of the antibiotic resistance plasmid R1" . (MICINN-Cofinantiation  FEDER).</li>
+                            <li>The toxin-antitoxin system parD of plasmid R1: basic characterizations and applications (MICINN, BFU2011-25939). IP: Ramón Díaz Orejas</li>
+                            <li>REDEEX-2, Spanish network on plasmids and other mobile genetic elements (MICIIN, BFU 2011-14145-E). Coordinator: Gloria del Solar Dongil</li>
                         </ul>
                     </div>
                 </div>
                 <div class="row margin-top-5">
                     <div class="col-md-12">
                         <span class="input-group-btn">
-                            <a href="environmental_biology.php">
+                            <a href="molecular_microbiology_infection_biology.php">
                                 <button class="btn btn-default button-secondary" type="submit">Back</button>
                             </a>
                         </span>

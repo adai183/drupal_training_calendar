@@ -62,7 +62,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="mmib_bacterial_toxin.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Bacterial toxin-antitoxin systems
@@ -72,7 +72,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="mmib_mol_bio_gram.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Molecular Biology of Gram-positive Bacteria
