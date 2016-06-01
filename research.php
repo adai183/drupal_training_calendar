@@ -4,7 +4,7 @@
 
     <main class="container-fluid">
 
-        <div class="jumbotron text-center ">
+        <div class="jumbotron text-center research">
             RESEARCH
         </div>
 

@@ -295,6 +295,24 @@ input{
         background-position: center;
         color: $color_white;
     }
+    &.news{
+        background-image: url('../img/News.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: $color_white;
+    }
+    &.research{
+        background-image: url('../img/Research.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: $color_white;
+    }
+    &.services{
+        background-image: url('../img/Services.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: $color_white;
+    }
 }
 
 .content section {

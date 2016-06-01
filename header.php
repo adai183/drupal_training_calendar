@@ -63,7 +63,7 @@
                         <a href="research.php">RESEARCH</a>
                     </li>
                     <li>
-                        <a href="services.php">SERVICES</a>
+                        <a href="services.php">TECHNOLOGIES</a>
                     </li>
                      <li>
                         <a href="outreach.php">OUTREACH</a>
@@ -71,10 +71,16 @@
                     <li>
                         <a href="news.php">NEWS</a>
                     </li>
-                    <li>
-                        <a class="mcib-img" href="#">
-                            <img src="img/mcib.png" alt="mcib" />
-                        </a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">TRAINING</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <img src="img/mcib.png" alt="" />
+                                </a>
+                            </li>
+                            <li><a href="#"></a>COURSES</li>
+                        </ul>
                     </li>
                     <li>
                         <form class="navbar-form" role="search">

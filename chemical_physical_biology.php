@@ -3,7 +3,7 @@
 <main class="container-fluid">
 
     <div class="jumbotron text-center dep2 ">
-        CHEMIClCAL AND PHYSICAL BIOLOGY
+        CHEMICAL AND PHYSICAL BIOLOGY
     </div>
 
     <!-- sticky sidebar -->

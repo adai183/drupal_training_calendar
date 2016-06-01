@@ -5,7 +5,7 @@
     <main class="container-fluid">
 
         <div class="jumbotron text-center dep1 ">
-            CELLULAR AND MOLLECULAR BIOLOGY
+            CELLULAR AND MOLECULAR BIOLOGY
         </div>
         
         <!-- sticky sidebar -->
@@ -213,7 +213,7 @@
                             </div>
                             <div class="department">
                                 <a href="celmolbio.php">
-                                    Cellular and Mollecular Biology
+                                    CELLULAR AND MOLECULAR BIOLOGY
                                 </a>
                             </div>
                             <div class="title">
@@ -268,7 +268,7 @@
                             </div>
                             <div class="department">
                                 <a href="celmolbio.php">
-                                    Cellular and Mollecular Biology
+                                    CELLULAR AND MOLECULAR BIOLOGY
                                 </a>
                             </div>
                             <div class="title">

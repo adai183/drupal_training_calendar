@@ -318,6 +318,21 @@ input:focus {
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff; }
+  .jumbotron.news {
+    background-image: url("../img/News.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff; }
+  .jumbotron.research {
+    background-image: url("../img/Research.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff; }
+  .jumbotron.services {
+    background-image: url("../img/Services.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff; }
 
 .content section {
   background-color: #00c7ab;

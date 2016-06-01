@@ -135,7 +135,7 @@
             </div>
             <div class="col-md-4">
                 <div class="title">
-                    <a href="#">SERVICES</a>
+                    <a href="#">TECHNOLOGIES</a>
                 </div>
                 <div class="img">
                     <img src="img/photo-1430933964450-0-aefb-85717-c-8.png" alt="" />

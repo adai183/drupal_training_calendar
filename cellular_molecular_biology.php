@@ -2,7 +2,7 @@
 <main class="container-fluid">
 
     <div class="jumbotron text-center dep1 ">
-        CELLULAR AND MOLLECULAR BIOLOGY
+        CELLULAR AND MOLECULAR BIOLOGY
     </div>
 
     <!-- sticky sidebar -->
@@ -200,7 +200,7 @@
                         </div>
                         <div class="department">
                             <a href="celmolbio.php">
-                                Cellular and Mollecular Biology
+                                CELLULAR AND MOLECULAR BIOLOGY
                             </a>
                         </div>
                         <!--div class="title">
@@ -220,7 +220,7 @@
                 <div class="col-md-12 calendar-detail">
                     <div class="col-md-4 left">
                         <div class="date">
-                            24 SEPT 2016 · 12:00 am
+                            1 JUN 2016 · 12:00 am
                         </div>
                         <div class="title">
                             Place
@@ -233,16 +233,12 @@
                         </div>
                         <div class="contact">
                             <span><img src="img/User.svg" /></span>
-                            <span>De la Rosa Cano, Enrique J.</span>
-                        </div>
-                        <div class="contact">
-                            <span><img src="img/User.svg" /></span>
-                            <span>Patricia</span>
+                            <span>Boya , Patricia</span>
                         </div>
                     </div>
                     <div class="col-md-8 right" style="padding-bottom: 22px;">
                         <div class="topic">
-                            Autophagy during development and differentiation
+                            Dpto. Biología Celular y Molecular: Autophagy during development and differentiation.
                         </div>
                         <div class="title">
                             Speaker
@@ -255,7 +251,7 @@
                         </div>
                         <div class="department">
                             <a href="celmolbio.php">
-                                Cellular and Mollecular Biology
+                                CELLULAR AND MOLECULAR BIOLOGY
                             </a>
                         </div>
                         <!--div class="title">

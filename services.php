@@ -5,8 +5,8 @@
 
     <main class="container-fluid">
 
-        <div class="jumbotron text-center ">
-            SERVICES
+        <div class="jumbotron text-center services ">
+            TECHNOLOGIES
         </div>
 
         <!-- sticky sidebar -->
@@ -128,7 +128,7 @@
                 <div id="sec1" class="row section-title">
                     <div class="col-md-12">
                         <span class="marker"></span>
-                        <span>SEARCH SERVICES</span>
+                        <span>SEARCH TECHNOLOGIES</span>
                     </div>
                 </div>
                 <div class="row search-form-filter">

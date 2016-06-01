@@ -116,4 +116,24 @@ $(document).ready(function ($) {
 
 	});
 
+	//////********** Correciones *********/////////
+
+	// set all text in Jumbotrons to uppercase
+	var upCaseJumbo = function () {
+
+		var uppercaseText = $(".jumbotron").text().toUpperCase();
+		$(".jumbotron").text(uppercaseText);
+	};
+
+	var addMoreInfo = function(){
+		var checkText = $(".nav-stacked li:nth-child(4)").text().trim();
+		if (checkText === "PUBLICATIONS") {
+			$(".nav-stacked").append('<li><a href="#sec5">MORE INFO</a></li>');
+		}
+
+	};
+
+	upCaseJumbo();
+	addMoreInfo();
+
 });

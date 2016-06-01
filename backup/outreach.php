@@ -99,7 +99,7 @@
                     </div>
                     <div class="department">
                         <a href="celmolbio.php">
-                            Cellular and Mollecular Biology
+                            CELLULAR AND MOLECULAR BIOLOGY
                         </a>
                     </div>
                     <div class="title">
@@ -154,7 +154,7 @@
                     </div>
                     <div class="department">
                         <a href="celmolbio.php">
-                            Cellular and Mollecular Biology
+                            CELLULAR AND MOLECULAR BIOLOGY
                         </a>
                     </div>
                     <div class="title">

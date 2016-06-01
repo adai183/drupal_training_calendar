@@ -86,7 +86,7 @@
                                 stress tolerance in fungal virulence.
                             </p>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -196,7 +196,6 @@
                                 <ul class="subtitle">
                                     <li>Alonso Martinez, Jose Maria</li>
                                     <li>Garcia Benitez, Carlos</li>
-                                    <li>Picazo Dominguez, Irene</li>
                                     <li>Picazo Dominguez, Irene</li>
                                     <li>Tomico Cuenca, Irene</li>
                                     <li>Velando Sordano, Felix</li>
