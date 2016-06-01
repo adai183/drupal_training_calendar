@@ -313,6 +313,12 @@ input{
         background-position: center;
         color: $color_white;
     }
+    &.outreach{
+        background-image: url('../img/Outreach.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: $color_white;
+    }
 }
 
 .content section {

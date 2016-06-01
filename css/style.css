@@ -333,6 +333,11 @@ input:focus {
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff; }
+  .jumbotron.outreach {
+    background-image: url("../img/Outreach.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff; }
 
 .content section {
   background-color: #00c7ab;
@@ -347,17 +352,28 @@ input:focus {
   color: #999999; }
 
 .navbar-default {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding-top: 12px;
   background-color: #ffffff;
   border-bottom: 0;
   /** Change placeholder color for most browsers **/ }
   .navbar-default .navbar-nav > li > a {
     padding-top: 30px; }
-  .navbar-default .navbar-nav .mcib-img {
-    padding-top: 25px; }
-    .navbar-default .navbar-nav .mcib-img img {
-      height: 27px; }
+  .navbar-default .navbar-nav .mcib-img img {
+    height: 20px; }
+  .navbar-default .dropdown-menu {
+    border: 0;
+    min-width: 0px !important;
+    background-color: #ffffff !important;
+    margin-top: 15px !important;
+    padding: 0 !important;
+    border-top: solid 1px #f0f0f0; }
+    .navbar-default .dropdown-menu li {
+      height: 60px; }
+      .navbar-default .dropdown-menu li:nth-child(2) {
+        border-top: solid 1px #f0f0f0; }
+      .navbar-default .dropdown-menu li a {
+        padding-top: 20px; }
   .navbar-default .navbar-nav > li > form {
     padding-top: 18px; }
     .navbar-default .navbar-nav > li > form input {
@@ -375,6 +391,9 @@ input:focus {
     color: #ffffff; }
   .navbar-default .form-control:-ms-input-placeholder {
     color: #ffffff; }
+
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #ffffff; }
 
 /** Bootsrap Scrollspy **/
 #sidebar .affix-top, #sidebar .affix {

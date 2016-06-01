@@ -75,11 +75,15 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">TRAINING</a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">
-                                    <img src="img/mcib.png" alt="" />
+                                <a class="mcib-img" href="#">
+                                    <img src="img/mcib.png" alt="mcib" />
                                 </a>
                             </li>
-                            <li><a href="#"></a>COURSES</li>
+                            <li>
+                                <a href="#">
+                                    COURSES
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li>

@@ -316,10 +316,26 @@
                         </span>
                     </div>
                 </a>
+
+                <div class="row section-title margin-top-5">
+                    <div class="col-md-12">
+                        <span class="marker"></span>
+                        <span>LINKS OF INTEREST</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="http://biblioteca.cib.csic.es/2007/revistas/index.html" style="color:#999999;">Digital Magazines</a>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
+
     </main>
+
+
+
 <?php include('footer.php');?>
   <!-- JS Imports -->
   <script src="js/vendor/jquery-1.11.2.min.js"></script>

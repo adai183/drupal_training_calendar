@@ -10,7 +10,7 @@
 
 
 .navbar-default {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     padding-top: 12px;
     background-color: $color_white;
     border-bottom: 0;
@@ -19,10 +19,27 @@
         @extend .font_type_nav;
     }
     .navbar-nav .mcib-img{
-        padding-top: 25px;
         img{
-            height: 27px;
+            height: 20px;
         }
+    }
+    .dropdown-menu{
+        border: 0;
+         min-width: 0px !important;
+         background-color: $color_white !important;
+         margin-top: 15px !important;
+         padding: 0 !important;
+         border-top: solid 1px #f0f0f0;
+        li{
+            height:60px;
+            &:nth-child(2){
+                border-top: solid 1px #f0f0f0;
+            }
+            a{
+                padding-top: 20px;
+            }
+        }
+
     }
     .navbar-nav>li>form {
         padding-top: 18px;
@@ -43,6 +60,10 @@
     .form-control::-moz-placeholder { color: $color_white; }
     .form-control:-ms-input-placeholder { color: $color_white; }
 };
+
+.navbar-default .navbar-nav>.open>a:focus{
+    background-color: $color_white;
+}
 
 /** Bootsrap Scrollspy **/
 
