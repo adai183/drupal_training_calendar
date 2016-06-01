@@ -59,7 +59,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_environmental_biotechnology.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Environmental Biotechnology
@@ -69,7 +69,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_environmental_microbiology.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Environmental Microbiology
@@ -79,7 +79,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_polymer_biotechnology.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Polymer Biotechnology
@@ -89,7 +89,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_insect_plant_interaction.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Insect-Plant Interaction
@@ -99,7 +99,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_mol_plant.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Molecular plant/virus/vector interactions
@@ -109,7 +109,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_plant_cell.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Plant Cell Nucleolus, Proliferation & Microgravity
@@ -119,7 +119,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_plant_molbio_laboratory.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Plant Molecular Biology Laboratory
@@ -129,7 +129,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_viral_path.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Plant Viral Pathogenesis and Plant Defense Mechanisms
@@ -139,7 +139,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_pollen.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Pollen biotechnology of crop plants
@@ -149,7 +149,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="eb_stress.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Stress and Gene Regulation
@@ -208,14 +208,14 @@
                                 Environmental Biology
                             </a>
                         </div>
-                        <div class="title">
+                        <!--div class="title">
                             Poster
                         </div>
                         <div class="poster">
                             <a href="#">
                                 <img src="img/print.svg" alt="" />
                             </a>
-                        </div>
+                        </div-->
                     </div>
 
                 </div>
@@ -259,14 +259,14 @@
                                 Environmental Biology
                             </a>
                         </div>
-                        <div class="title">
+                        <!--div class="title">
                             Poster
                         </div>
                         <div class="poster">
                             <a href="#">
                                 <img src="img/print.svg" alt="" />
                             </a>
-                        </div>
+                        </div-->
                     </div>
 
                 </div>

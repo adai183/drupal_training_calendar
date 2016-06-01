@@ -124,14 +124,14 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Cellular and molecular basis of of Alzheimer´s disease. Relevance of non.neuronal studies.
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Progranulin haploinsufficciency and Frontotemporal lobar degeneration (FTLD-TDP)
                         </div>
                     </div>

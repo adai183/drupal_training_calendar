@@ -158,21 +158,21 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Quest for new antimicrobial membrane-active peptide leadsand their further development
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Application of cell penetrating peptide technology (CPP)into the Biology and Chemotherapy of  Trypanosomatids
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Definition of new drugs targeting the bioenergetic metabolism of Leishmania
                         </div>
                     </div>

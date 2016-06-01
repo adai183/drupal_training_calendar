@@ -121,14 +121,14 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Mechanisms of T lymphocyte costimulation by "Inducible Costimulator" (ICOS, CD278)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Variability of CD3ε chains within the TCR/CD3 of CD4+ T lymphocytes
                         </div>
                     </div>

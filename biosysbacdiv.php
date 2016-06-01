@@ -183,28 +183,28 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Minimum bacterial biochemical reconstruction divisomas in test tube
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Reactivity and organization of macromolecules in citométicos environments, clusters and confined
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Macromolecular interactions in solution and in membranes: Physical Biochemistry
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Collaborations
                         </div>
                     </div>

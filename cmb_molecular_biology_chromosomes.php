@@ -168,21 +168,21 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Initiation, Elongation, Blockage, Termination and Topology of DNA Replication.
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Identificaction and Cloning of Genes Involved in Erythroid Differentiation.
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Replication Fork Barriers and DNA Instability.
                         </div>
                     </div>

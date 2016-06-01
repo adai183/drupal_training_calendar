@@ -163,21 +163,21 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Integrin-mediated leukocyte adhesion. Regulation by ICAP-1 and dynamic nanoscale organization of a4b1 on the membrane
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             The  α4b1 integrin in the progression, resistance to chemotherapy and regulation of miRNA expression in
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             miRNAs in the progression and resistance to chemotherapy of melanoma
                         </div>
                     </div>

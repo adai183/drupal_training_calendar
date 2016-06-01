@@ -162,28 +162,28 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Identification of mutations associated to familial cases of (macro)thrombocytopenia. Searching for new genes involved in the formation of platelets
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Identification of mutations associated to familial cases of (macro)thrombocytopenia. Searching for new genes involved in the formation of platelets
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Structural and functional analysis of the fibrinogen and von Willebrand factor receptors in Glanzmann thrombasthenia and Bernard-Soulier syndrome phenotypes
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Pathophysiology and Molecular genetics of haemostatic disorders. Role of platelet proteins in the regulation of haemostasis and thrombogenesis
                         </div>
                     </div>

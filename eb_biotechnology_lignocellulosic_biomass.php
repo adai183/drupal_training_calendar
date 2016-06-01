@@ -41,7 +41,7 @@
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
                         <a href="environmental_biology.php" style="color: #b6d017;"> | Environmental Biology</a>
-                        <a href="eb_biotechnology_lignocellulosic_biomass.php" style="color: #b6d017;"> | Biotechnology for Lignocellulosic Biomass </a>
+                        <a href="#" style="color: #b6d017;"> | Biotechnology for Lignocellulosic Biomass </a>
                     </div>
                 </div>
                 <div class="row">
@@ -113,7 +113,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/german_caballero.png" alt="" />
+                                    <img src="img/angel_hernan.png" alt="" class="img-responsive" style="height:70px;" />
                                 </a>
                             </div>
                             <div>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="col-md-6 boss">
                             <div>
-                                <img src="img/mari_carmen.png" alt="" />
+                                <img src="img/maria_hernan.png" alt="" class="img-responsive" style="height:70px;" />
                             </div>
                             <div>
                                 <div class="title">
@@ -155,11 +155,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row margin-top-3">
-                    <div class="col-md-12 staff">
-                        <div class="col-md-6">
+                        <div class="col-md-6 staff">
                             <div class="title">
                                 Junior PI
                             </div>
@@ -169,6 +165,10 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row margin-top-3">
+                    <div class="col-md-12 staff">
                         <div class="col-md-6">
                             <div class="title">
                                 Technical Staff
@@ -180,10 +180,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row margin-top-3">
-                    <div class="col-md-12 staff">
                         <div class="col-md-6">
                             <div class="title">
                                 Postdoctorals
@@ -193,16 +189,6 @@
                                     <li>Linde López, María Dolores</li>
                                     <li>Pérez Boada, Marta</li>
                                     <li>Serrano Esteban, Ana</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="title">
-                                Technician
-                            </div>
-                            <div class="subtitle">
-                                <ul>
-                                    <li>Rodriguez Ventura, Francisco</li>
                                 </ul>
                             </div>
                         </div>
@@ -251,10 +237,24 @@
                         </div>
                     </div>
                 </div>
+                <div class="row margin-top-3">
+                    <div class="col-md-12 staff">
+                        <div class="col-md-6">
+                            <div class="title">
+                                Technician
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>Rodriguez Ventura, Francisco</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/biotechnology_lign_group.jpg"/>
                     </div>
                 </div>
 
@@ -266,112 +266,112 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Fungal hydrolases: biochemical and molecular studies and applications for lignocellulosic waste revalorization (HIDROFUN, BIO2015-68387-R, 2016-18)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             New oxidative enzymes for sustainable industries (NOESIS, BIO2014-56388-R, 2015-17)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Combined Approaches based on Metagenomics for Biofuels Synthesis (CAMBIOS, RTC-2014-1777-3, 2014-17)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Optimized oxidoreductases for medium and large scale industrial biotransformations (INDOX, KBBE-2013-7-613549, 2013-16)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Sterol esterases: versatile enzymes in hydrolysis and synthesis reactions for different biotechnological applications (BIO12-36372, 2013-2015)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Thematic network on biotechnology of lignocellulosic materials: enzymatic, chemical and molecular challenges for their industrial, energetic and environmental application (LIGNOCEL, BIO2011-15394-E)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Sterol esterases: versatile enzymes in hydrolysis and synthesis reactions for different biotechnological applications (BIO12-36372, 2013-2015)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Screening and engineering of new high redox-potential peroxidases (HIPOP, BIO2011-26694, 2012-14)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Characterization of fungal enzymes for lignocellulosic biomass utilization (Spain-Argentina bilateral project, MINECO, PRI-PIBAR-2011-1402, 2012-14)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             High-value products from lignin side-streams of modern biorefineries (ProLignin, EraNets WoodWisdom/Bioenergy, 2012-14)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Study of a new fungal laccase for plant biomass utilization (AECID AP/033932/11, 2011-3/2013)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Novel and more robust fungal peroxidases as industrial biocatalysts (PEROXICATS; KBBE-2010-4-265397, 2011-13)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             High-value products from lignin side-streams of modern biorefineries (ProLignin, EraNets WoodWisdom/Bioenergy, 2012-14)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Directed molecular evolution of ligninolytic cell factories in Saccharomyces cerevisiae (EVOFACEL, BIO2010-19697, 2011-13)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Optimised pretreatment of fast growing woody and nonwoody Brazilian crops by detailed characterisation of chemical changes produced in the lignin-carbohydrate matrix (LIGNODECO, KBBE2009-244362, 2010-12)
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Clean production of recycled paper: Towards sustainability in paper production at the Comunidad de Madrid (PROLIPAPEL II, S-2009AMB-1480, 2010-13)
                         </div>
                     </div>

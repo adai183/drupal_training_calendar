@@ -150,7 +150,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/microtubule_group.png" style="width:100%;"/>
+                        <img class="img-responsive" src="img/posttrans_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -162,14 +162,14 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Posttranslational modification of proteins by lipids: isoprenylation and acylation. Implications in cancer and inflammation
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Protein modification by electrophilic lipids: structure-activity studies and identification of novel targets
                         </div>
                     </div>

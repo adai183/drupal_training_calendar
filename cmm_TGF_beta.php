@@ -129,7 +129,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-
+                        <img src="img/tgf_group.jpg" alt="" class="img-responsive"/>
                     </div>
                 </div>
 
@@ -141,7 +141,7 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Endoglin, an auxiliary receptor for TGF-beta involved in vascular remodeling and cardiovascular development.
                         </div>
                     </div>

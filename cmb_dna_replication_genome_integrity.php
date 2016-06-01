@@ -152,7 +152,7 @@
                 </div>
 
                 <div class="row margin-top-1 ">
-                    <div class="colo-md12" style="margin-left:10px;">
+                    <div class="colo-md-12" style="margin-left:10px;">
                         There are no records in this section now.
                     </div>
                 </div>

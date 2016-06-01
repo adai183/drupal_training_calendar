@@ -129,7 +129,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_structural_biology_proteins.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Structural Biology of Proteins
@@ -139,7 +139,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_structural_assembly.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Structure of Macromolecular Assemblies
@@ -149,7 +149,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="cpb_traslational.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Translational Medicinal and Biological Chemistry

@@ -184,7 +184,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/microscopia_electronica.png" style="width:100%;"/>
+                        <img class="img-responsive" src="img/nmr_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -196,14 +196,14 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             NMR methods and their applications to molecular recogniton studies and to structure-based drug and ligand design. Fragment based drug design. Systems: galectins, hevein domains, antibiotic peptides, carbohydrate modifying enzymes.
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             NMR and Molecular Recognition. The specific interaction of carhohydrates and glycomimetics with biomolecular receptors. Structure and dynamics of biomolecules and their complexes with ligands
                         </div>
                     </div>

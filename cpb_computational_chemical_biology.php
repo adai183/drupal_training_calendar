@@ -135,7 +135,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/microtubule_group.png" style="width:100%;"/>
+                        <img class="img-responsive" src="img/computational_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -147,14 +147,14 @@
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Molecular recognition and Immunity: Toll-like Receptors
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
-                        <div class="colo-md12" style="margin-left:10px;">
+                        <div class="colo-md-12" style="margin-left:10px;">
                             Understanding glycan-lectin recognition:  binding properties of glycomimetics on human galectins.
                         </div>
                     </div>
