@@ -65,26 +65,26 @@
                     <li>
                         <a href="services.php">TECHNOLOGIES</a>
                     </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">TRAINING</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="mcib-img" href="outreach_courses.php#1">
+                                    <img src="img/mcib.png" alt="mcib" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="outreach_courses.php">
+                                    COURSES
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                      <li>
                         <a href="outreach.php">OUTREACH</a>
                     </li>
                     <li>
                         <a href="news.php">NEWS</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">TRAINING</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="mcib-img" href="#">
-                                    <img src="img/mcib.png" alt="mcib" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    COURSES
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <form class="navbar-form" role="search">

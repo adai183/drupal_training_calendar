@@ -263,7 +263,7 @@ input{
 }
 
 .jumbotron{
-    height: 160px;
+    height: auto;
     border-bottom: solid 3px #e72b22;
     font-family: $font_roboto;
 	font-size: $font_size_1;
@@ -271,11 +271,11 @@ input{
 	color: $color_dark_grey;
     &.dep1{
         background-image: url('../img/i-l-u.png');
-        border-bottom: solid 3px #7cbaf3;;
+        border-bottom: solid 3px #7cbaf3;
     }
     &.dep2{
         background-image: url('../img/group-10.png');
-        border-bottom: solid 3px #C1C1C1;
+        border-bottom: solid 3px #7cbaf3;
     }
     &.dep3{
         background-image: url('../img/group-32-group-38-mask.png');

@@ -292,7 +292,7 @@ input:focus {
   background-color: #ec111a; }
 
 .jumbotron {
-  height: 160px;
+  height: auto;
   border-bottom: solid 3px #e72b22;
   font-family: "Roboto Slab", serif;
   font-size: 40px;
@@ -303,7 +303,7 @@ input:focus {
     border-bottom: solid 3px #7cbaf3; }
   .jumbotron.dep2 {
     background-image: url("../img/group-10.png");
-    border-bottom: solid 3px #C1C1C1; }
+    border-bottom: solid 3px #7cbaf3; }
   .jumbotron.dep3 {
     background-image: url("../img/group-32-group-38-mask.png");
     border-bottom: solid 3px  #b6d017; }
@@ -372,6 +372,8 @@ input:focus {
       height: 60px; }
       .navbar-default .dropdown-menu li:nth-child(2) {
         border-top: solid 1px #f0f0f0; }
+      .navbar-default .dropdown-menu li:hover {
+        background-color: #f5f5f5; }
       .navbar-default .dropdown-menu li a {
         padding-top: 20px; }
   .navbar-default .navbar-nav > li > form {
@@ -827,7 +829,7 @@ input:focus {
 .departments #dep1 img {
   border-bottom: 3px solid  #7cbaf3; }
 .departments #dep2 img {
-  border-bottom: 3px solid  #C1C1C1; }
+  border-bottom: 3px solid  #7cbaf3; }
 .departments #dep3 img {
   border-bottom: 3px solid   #b6d017; }
 .departments #dep4 img {

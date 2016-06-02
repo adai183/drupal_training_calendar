@@ -220,7 +220,7 @@
                             Autophagy during development and differentiation.
                         </div>
                         <div class="detail-link">
-                            <a href="http://www.tollerant.eu/2nd-meeting-2016/"  target="_blank">More details</a>
+                            <a href="http://www.tollerant.eu/2nd-meeting-2016/"  target="__blank">More details</a>
                         </div>
                     </div>
                 </div>

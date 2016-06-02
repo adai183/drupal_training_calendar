@@ -6,7 +6,7 @@
     <main class="container-fluid">
 
         <div class="jumbotron text-center">
-            OUTREACH
+            TRAINING
         </div>
 
         <div class="row margin-bottom-3 top-link">
@@ -17,9 +17,9 @@
 
         <div class="row">
             <div class="col-md-12">
-                <div class="col-md-3">
+                <!--div class="col-md-3">
                     <a href="outreach_courses.php">
-                        <div class="button-selector">
+                        <div class="button-selector active">
                             <div>Courses</div>
                         </div>
                     </a>
@@ -32,14 +32,14 @@
                         <div>Meetings</div>
                     </div>
                     <a href="outreach_symposia.php">
-                        <div class="button-selector active" style="margin-top: 33px;">
+                        <div class="button-selector" style="margin-top: 33px;">
                             <div>Symposia</div>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-5">
+                </div-->
+                <!--div class="col-md-5">
                     <div id="datepicker"></div>
-                </div>
+                </div-->
                 <!--div class="col-md-4 calendar-dates">
                     <div class="title">
                         19 JUN
@@ -63,81 +63,68 @@
                             30 JUN 2016 · 12:00 am
                         </p>
                     </div>
-                </div-->
+                </div>
             </div>
-        </div>
+        </div-->
 
         <!-- results -->
-
-
-        <div class="row">
+        <div id="1" class="row">
             <div class="col-md-12 calendar-detail">
                 <div class="col-md-4 left">
                     <div class="date">
-                        19 - 20 JUN 2016
+                        3 JUN 2016 · 12:00 am
+                    </div>
+                    <div class="subtitle">
+                        <img src="img/mcib.png" class="img-responsive margin-top-1" style="height:25px;" />
                     </div>
                     <div class="title">
                         Place
                     </div>
                     <div class="subtitle">
-                        Palacio de congresos de Madrid
+                        Centro de Investigaciones Biológicas (CIB)
+                    </div>
+                    <div class="title">
+                        CIB contact
+                    </div>
+                    <div class="contact">
+                        <span><img src="img/User.svg" /></span>
+                        <span>Vancanneyt , Guy</span>
                     </div>
                 </div>
                 <div class="col-md-8 right" style="padding-bottom: 22px;">
                     <div class="topic">
-                        Ligno Biotech IV
+                        Master in Molecular and Cellular Integrative Biology
                     </div>
                     <div class="title">
-                        Info
+                        Speakers (MCIB Directors)
                     </div>
                     <div class="subtitle">
-                        4th Symposium on Biotechnology applied to lignocelluloses
+                        Rafael Giraldo Suarez
+                    </div>
+                    <div class="subtitle">
+                        Germán Rivas Caballero
                     </div>
                     <div class="title">
-                        <div class="detail-link">
-                            <a href="http://lignobiotech.es/"  target="__blank">More details</a>
-                        </div>
+                        More info
                     </div>
                     <div class="department">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-md-12 calendar-detail">
-                <div class="col-md-4 left">
-                    <div class="date">
-                        30 JUN 2016
-                    </div>
-                    <div class="title">
-                        Place
-                    </div>
-                    <div class="subtitle">
-                        Rafaelhoteles Atocha
-                    </div>
-                </div>
-                <div class="col-md-8 right" style="padding-bottom: 22px;">
-                    <div class="topic">
-                        ISBP 15th
-                    </div>
-                    <div class="title">
-                        Info
-                    </div>
-                    <div class="subtitle">
-                        15th International Symposium on Biopolymers
-                    </div>
-                    <div class="title">
-                        <div class="detail-link">
-                            <a href="http://www.isbp2016.com/"  target="__blank">More details</a>
-                        </div>
+                        <a href="http://www.cib.csic.es/repositorio_bd/curso/38/html/MCIB-Infoday.pdf" target="_blank">
+                            Info Day
+                        </a>
                     </div>
                     <div class="department">
-
+                        <a href="http://www.cib.csic.es/repositorio_bd/curso/38/html/MCIB-Brochure.pdf" target="_blank">
+                             Brochure Master Programme
+                        </a>
                     </div>
+                    <!--div class="title">
+                        Poster
+                    </div>
+                    <div class="poster">
+                        <a href="#">
+                            <img src="img/print.svg" alt="" />
+                        </a>
+                    </div-->
                 </div>
             </div>
         </div>

@@ -4,8 +4,8 @@
 
     <main class="container-fluid">
 
-        <div class="jumbotron text-center dep3 ">
-            Environmental Microbiology
+        <div class="jumbotron text-center dep5 ">
+            Host-parasite interplay in pneumococcal infection
         </div>
 
         <!-- sticky sidebar -->
@@ -40,21 +40,23 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="environmental_biology.php" style="color: #b6d017;"> | Environmental Biology</a>
-                        <a href="#" style="color: #b6d017;"> | Environmental Microbiology </a>
+                        <a href="molecular_microbiology_infection_biology.php" style="color: "> | Molecular Microbiology and Infection Biology</a>
+                        <a href="mmib_bacterial_gene_expression.php" style="color: #f8b835;"> | Host-parasite interplay in pneumococcal infection </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <p>
-                            Our main objective is the study of the complex metabolic and signal transduction networks that control different bacterial processes of environmental relevance, e.g., degradation of aromatic compounds, heavy metals resistance, and plant interactions, for their further manipulation and development of sustainable technologies that allow the efficient conversion of contaminants and/or biowaste into high-added value products.
+                            The development of invasive pneumococcal disease is frequently preceded by the establishment of the “carrier state”, this is, the colonization of the human nasopharynx by Streptococcus pneumoniae (pneumococcus). Pneumococcal carriage takes place through the establishment of a still largely unknown, host-pathogen interplay as well as by interactions with other bacteria colonizing the same habitat, such as non-typeable pneumococci, other streptococci of the mitis group, or pathogens like Haemophilus influenzae. Most of these interactions involve bacterial surface proteins on one hand, and cellular receptors and host defense mechanisms on the other. The surface-located, chain-dispersing S. pneumoniae enzyme LytB is involved in pathogenesis. LytB is needed both for attachment/colonization as well as for complement evasion but the structural requirements are essentially unknown. Another relevant example of surface protein is the main pneumococcal autolysin (LytA) that is also required for biofilm formation and that is thought to play an important role in pathogenesis by releasing cell wall fragments that are markedly pro-inflammatory. Moreover, autolysis allows the liberation of the toxin pneumolysin (Ply), which is partially responsible for immune response evasion. The role(s) in colonization of LytA and pneumolysin will be studied using biofilms (either mono or multispecies), cell cultures, and a mouse model of nasopharyngeal colonization. Besides, the impact of risky behaviors like smoking that facilitates bacterial colonization of the lungs and that contributes to the acute exacerbations in patients with chronic obstructive pulmonary disease, will also be examined in this project. Finally, one of the main aims of the present project is to develop prophylactic and therapeutic approaches to fight pneumococcal colonization. This will be performed using peptidoglycan hydrolases (enzybiotics) like Cpl-7 (a phage-coded enzyme of great antibacterial potential), and novel drugs including several choline analogs and ceragenins. As for other objectives of this project, the efficacy of enzybiotics and novel drugs will be tested first in vitro (planktonic as well as biofilm cultures) and then in animal models of infection.
                         </p>
-                        <a href="http://www.emciblab.com/">emciblab.com</a>
+                        <p>
+                            Key words: Streptococcus pneumoniae, virulence, immunity, complement system, carrier state, choline-binding proteins, biofilms, enzybiotics, bacteriophages, structure-function.
+                        </p>
                     </div>
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/75.pdf" target="_blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/7.pdf" target="__blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -62,7 +64,7 @@
 
                 <div id="sec1" class="row section-title margin-top-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>MEMBERS</span>
                     </div>
                 </div>
@@ -71,7 +73,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/edu_diaz_fran.png" alt="" class="img-responsive" style="height:70px;" />
+                                    <img src="img/vic_larraga.png" alt="" class="img-responsive" style="height:70px;"/>
                                 </a>
                             </div>
                             <div>
@@ -79,7 +81,7 @@
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Díaz Fernández, Eduardo
+                                    Larraga Rodriguez de Vera, Vicente E.
                                 </div>
                             </div>
                         </div>
@@ -93,41 +95,17 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Díaz Fernández, Eduardo</li>
+                                    <li>Larraga Rodriguez de Vera, Vicente E.</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6 staff">
-                            <div class="title">
-                                Junior PI
-                            </div>
-                            <div>
-                                <ul class="subtitle">
-                                    <li>Nogales Enrique, Juan</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row margin-top-6">
-                    <div class="col-md-12">
                         <div class="col-md-6 staff">
                             <div class="title">
                                 Technical Staff
                             </div>
-                            <div class="subtitle">
-                                <ul>
-                                    <li>Carmona Pérez, Manuel</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 staff">
-                            <div class="title">
-                                Postdoctorals
-                            </div>
                             <div>
                                 <ul class="subtitle">
-                                    <li>Durante Rodríguez, Gonzalo</li>
+                                    <li>Alonso Ayala, Ana María</li>
                                 </ul>
                             </div>
                         </div>
@@ -141,10 +119,9 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Fernández Llamosas, Helga</li>
-                                    <li>Martín Moldes, Zaira</li>
-                                    <li>Sanz Mata, David</li>
-                                    <li>Valencia Hernando, Ana</li>
+                                    <li>Degayón Cortés, María Angélica</li>
+                                    <li>Larraga Criado, Jaime</li>
+                                    <li>Telles de Carvalho Coimbra Martins, Luis</li>
                                 </ul>
                             </div>
                         </div>
@@ -155,27 +132,41 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/env_microbic_group.jpg" style="width: 100%;"/>
+                        <img class="img-responsive" src="img/Equipo.png"/>
                     </div>
                 </div>
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>PROJECTS</span>
                     </div>
                 </div>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            Anaerobic degradation of aromatic compounds
+                            LINE 3.  "Salmonid fish viruses: Efficacy of oral vaccines and studies to prevent viral persistence. "MICIIN (AGL-18454).
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            Aerobic degradation of aromatic compounds
+                            Line 4. ""Mucosal gene responses to oral vaccination against salmonid fish viruses by using microarrays".  (201020E084 CSIC).
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row margin-top-1 service-item">
+                        <div class="colo-md-12" style="margin-left:10px;">
+                            Line I. Immune response against L.infantum infection and vaccine development in the dog model.
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="row margin-top-1 service-item">
+                        <div class="colo-md-12" style="margin-left:10px;">
+                            Line II. Differential gene expression profiles in the L.infantum differentiation processes.
                         </div>
                     </div>
                 </a>
@@ -183,7 +174,7 @@
 
                 <div id="sec3" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>PUBLICATIONS</span>
                     </div>
                 </div>
@@ -197,50 +188,25 @@
                 </div>
 
 
-
-
                 <div id="sec4" class="row section-title margin-bottom-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #b6d017;"></span>
+                        <span class="marker" style="background-color: #f8b835;"></span>
                         <span>FUNDING</span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>
-                            Finished projects
-                        </p>
                         <ul>
-                            <li>EU, QLK3-2000-00170 (2000-2003)</li>
-                            <li>CICYT, BIO2000-1076 (2000-2003)</li>
-                            <li>CICYT, GEN2001-4698-C05-02 (2003-2005)</li>
-                            <li>CAM, 07M/0076/2002 (2003-2004)</li>
-                            <li>CICYT, BIO2003-01482 (2004-2006)</li>
-                            <li>CICYT, VEM2003-20075-C02-02 (2004-2006)</li>
-                            <li>CAM, AMB-259-0505 (2006-2010)</li>
-                            <li>CSIC 2004 2 0E 073</li>
-                            <li>CICYT, BIO2006-05957 (2006-2009)</li>
-                            <li>CICYT, EU-SYSMO, GEN2006-27750-C5-3-E(2007-2010)- CICYT</li>
-                            <li>Consolider CSD2007-00005 (2008-2013)</li>
-                            <li>CICYT BIO2009-10438 (2009-2013)</li>
-                            <li>Aramco Overseas Company BV Contract No. 6600029601 (2012-2014)</li>
-                        </ul>
-                        <p>
-                             Active projects
-                        </p>
-                        <ul>
-                            <li>CICYT BIO2012-39501 (2013-2015)</li>
-                            <li>FP7-KBBE 311815 (2012-2016)</li>
-                            <li>MINECO PCIN-2014-113</li>
-                            <li>CAM S2013/ABI-2783 </li>
-                            <li>Ramón-Areces Fundation (XVII CN)</li>
+                            <li>EUROLEISH-NET: Control of leishmaniasis, from bench to bedside and community. HORIZON 2020 - RESEARCH AND INNOVATION FRAMEWORK PROGRAMME. Grant agreement: 642609</li>
+                            <li>ADVANCES IN THE DEVELOPMENT OF A DNA VACCINE AGAINST CANINE LEISHMANIASIS. MINECO. RTC-2014-1767-1</li>
+                            <li>Cooperative Research Network. Instituo de Salud Carlos III. Notwork on Tropical Medicine and International Health. 2009-2016.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="row margin-top-5">
                     <div class="col-md-12">
                         <span class="input-group-btn">
-                            <a href="environmental_biology.php">
+                            <a href="molecular_microbiology_infection_biology.php">
                                 <button class="btn btn-default button-secondary" type="submit">Back</button>
                             </a>
                         </span>

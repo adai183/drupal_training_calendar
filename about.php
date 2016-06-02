@@ -23,7 +23,10 @@
                             <a href="#sec2">ORGANIZATION CHART</a>
                         </li>
                         <li>
-                            <a href="#sec4">CONTACT</a>
+                            <a href="#sec3">FAST FACTS</a>
+                        </li>
+                        <li>
+                            <a href="#sec5">CONTACT</a>
                         </li>
                   	</ul>
 
@@ -299,6 +302,18 @@
                         </div>
                     </div>
 
+                    <div id="sec3" class="row section-title">
+                        <span class="marker"></span>
+                        <span>FAST FACTS</span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 margin-top-2">
+                            <span style="color:red;">under construction</span>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -342,7 +357,7 @@
                         Bus
                     </div>
                     <div class="line">
-                        132-F
+                        132-F, C1 y C2
                     </div>
                     <div class="line-color">
                         <img src="img/azul.svg" alt="" />
@@ -351,7 +366,7 @@
                         Metro
                     </div>
                     <div class="line">
-                        Metropolitano
+                        Line 6 –Metropolitano Station  (Exit: Gregorio del Amo)
                     </div>
                     <div class="line-color">
                         <img src="img/rojo.svg" alt="" />

@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/45.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/45.pdf" target="_blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>

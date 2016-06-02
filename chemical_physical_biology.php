@@ -32,7 +32,7 @@
                     <a href="index.php">Home</a>
                     <a href="research.php"> | Research</a>
                     <a href="research.php"> | Departments</a>
-                    <a href="chemical_physical_biology.php" style="color: #C1C1C1;"> | Chemical and Physical Biology</a>
+                    <a href="chemical_physical_biology.php" style="color: #7cbaf3;"> | Chemical and Physical Biology</a>
                 </div>
             </div>
             <div class="row">
@@ -45,7 +45,7 @@
 
             <div id="sec1" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #C1C1C1;"></span>
+                    <span class="marker" style="background-color: #7cbaf3;"></span>
                     <span>GROUPS</span>
                 </div>
             </div>

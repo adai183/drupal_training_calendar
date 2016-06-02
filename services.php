@@ -21,10 +21,10 @@
                         <a href="#sec1">SEARCH SERVICES</a>
                     </li>
                     <li>
-                        <a href="#sec2">EXTERNAL SERVICES</a>
+                        <a href="#sec2">EXTERNAL FACILITIES</a>
                     </li>
                     <li>
-                        <a href="#sec3">INTERNAL SERVICES</a>
+                        <a href="#sec3">INTERNAL FACILITIES</a>
                     </li>
               	</ul>
 
@@ -115,7 +115,7 @@
                                 <span style="margin-left:10px;">CIB Patents</span>
                             </div>
                             <div class="margin-top-1 cib-patents">
-                                <a href="http://biblioteca.cib.csic.es/2007/revistas/index.php">
+                                <a href="http://biblioteca.cib.csic.es/2007/revistas/index.html">
                                     <img src="img/link.png" alt="" />
                                     <span style="margin-left:10px; color: #00c7ab;">Library CIB. Magazines</span>
                                 </a>
@@ -144,10 +144,10 @@
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
                         <span class="marker"></span>
-                        <span>EXTERNAL SERVICES</span>
+                        <span>EXTERNAL FACILITIES</span>
                     </div>
                 </div>
-                <a href="service-detail.php">
+                <a href="ext_anlytival.php">
                     <div class="row margin-top-2 service-item">
                         <span style="margin-left:10px;">
                             Analytical Ultracentrifugation and Light Scattering
@@ -242,7 +242,7 @@
                 <div id="sec3" class="row section-title">
                     <div class="col-md-12">
                         <span class="marker"></span>
-                        <span>INTERNAL SERVICES</span>
+                        <span>INTERNAL FACILITIES</span>
                     </div>
                 </div>
                 <a href="#">
@@ -316,17 +316,6 @@
                         </span>
                     </div>
                 </a>
-
-                <div class="row section-title margin-top-5">
-                    <div class="col-md-12">
-                        <span class="marker"></span>
-                        <span>LINKS OF INTEREST</span>
-                    </div>
-                    <div class="col-md-12">
-                        <a href="http://biblioteca.cib.csic.es/2007/revistas/index.html" style="color:#999999;">Digital Magazines</a>
-                    </div>
-                </div>
-
 
             </div>
         </div>

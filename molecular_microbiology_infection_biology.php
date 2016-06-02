@@ -82,10 +82,10 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="mmib_lab.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
-                        LABORATORY OF MOLECULAR PARASITOLOGY
+                        Laboratory of molecular parasitology
                     </span>
                     <p class="subtitle">
                         PPI: Vicente E. Larraga Rodriguez de Vera
@@ -93,7 +93,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="mmib_host_parasite.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Host-parasite interplay in pneumococcal infection

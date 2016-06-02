@@ -18,9 +18,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-3">
-                    <div class="button-selector">
-                        <div>Courses</div>
-                    </div>
+                    <a href="outreach_courses.php">
+                        <div class="button-selector">
+                            <div>Courses</div>
+                        </div>
+                    </a>
                     <a href="outreach_seminars.php">
                         <div class="button-selector" style="margin-top: 33px;">
                             <div>Seminars</div>
@@ -364,7 +366,7 @@
                     </div>
                     <div class="title">
                         <div class="detail-link">
-                            <a href="http://lignobiotech.es/"  target="_blank">More details</a>
+                            <a href="http://lignobiotech.es/"  target="__blank">More details</a>
                         </div>
                     </div>
                     <div class="department">
@@ -518,7 +520,7 @@
                     </div>
                     <div class="title">
                         <div class="detail-link">
-                            <a href="http://www.isbp2016.com/"  target="_blank">More details</a>
+                            <a href="http://www.isbp2016.com/"  target="__blank">More details</a>
                         </div>
                     </div>
                     <div class="department">

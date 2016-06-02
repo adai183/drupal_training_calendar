@@ -18,9 +18,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-3">
-                    <div class="button-selector">
-                        <div>Courses</div>
-                    </div>
+                    <a href="outreach_courses.php">
+                        <div class="button-selector">
+                            <div>Courses</div>
+                        </div>
+                    </a>
                     <a href="outreach_seminars.php">
                         <div class="button-selector active" style="margin-top: 33px;">
                             <div>Seminars</div>

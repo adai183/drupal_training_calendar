@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="#" target="blank">
+                    <a href="#" target="_blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>

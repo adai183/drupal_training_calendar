@@ -40,8 +40,8 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="chemical_physical_biology.php" style="color: #C1C1C1;"> | Chemical and Physical Biology</a>
-                        <a href="#" style="color: #C1C1C1;"> | Electron Microscopy and Three Dimensional Reconstruction of Macromolecules</a>
+                        <a href="chemical_physical_biology.php" style="color: #7cbaf3;"> | Chemical and Physical Biology</a>
+                        <a href="#" style="color: #7cbaf3;"> | Electron Microscopy and Three Dimensional Reconstruction of Macromolecules</a>
                     </div>
                 </div>
                 <div class="row">
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/47.pdf" target="blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/47.pdf" target="_blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -74,7 +74,7 @@
 
                 <div id="sec1" class="row section-title margin-top-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #C1C1C1;;"></span>
+                        <span class="marker" style="background-color: #7cbaf3;;"></span>
                         <span>MEMBERS</span>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #C1C1C1;;"></span>
+                        <span class="marker" style="background-color: #7cbaf3;;"></span>
                         <span>PROJECTS</span>
                     </div>
                 </div>
@@ -223,7 +223,7 @@
 
                 <div id="sec4" class="row section-title margin-bottom-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #C1C1C1;;"></span>
+                        <span class="marker" style="background-color: #7cbaf3;;"></span>
                         <span>FUNDING</span>
                     </div>
                 </div>
