@@ -271,7 +271,7 @@ input{
 	color: $color_dark_grey;
     &.dep1{
         background-image: url('../img/i-l-u.png');
-        border-bottom: solid 3px #7cbaf3;
+        border-bottom: solid 3px #c08de0;;
     }
     &.dep2{
         background-image: url('../img/group-10.png');
@@ -315,6 +315,12 @@ input{
     }
     &.outreach{
         background-image: url('../img/Outreach.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: $color_white;
+    }
+    &.training{
+        background-image: url('../img/training.png');
         background-repeat: no-repeat;
         background-position: center;
         color: $color_white;

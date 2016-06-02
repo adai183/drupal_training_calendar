@@ -31,7 +31,7 @@
                     <a href="index.php">Home</a>
                     <a href="research.php"> | Research</a>
                     <a href="research.php"> | Departments</a>
-                    <a href="cellular_molecular_biology.php" style="color: #7cbaf3;"> | Cellular and Molecular Biology</a>
+                    <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
                 </div>
             </div>
             <div class="row">
@@ -44,7 +44,7 @@
 
             <div id="sec1" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #7cbaf3;"></span>
+                    <span class="marker" style="background-color: #c08de0;"></span>
                     <span>GROUPS</span>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         Aspergillus Molecular Genetics
                     </span>
                     <p class="subtitle">
-                        PIs: Miguel Angel Peñalva Soto - Eduardo Espeso FErnández
+                        PIs: Miguel Angel Peñalva Soto - Eduardo Espeso Fernández
                     </p>
                 </div>
             </a>
@@ -161,7 +161,7 @@
 
             <div id="sec2" class="row section-title">
                 <div class="col-md-12">
-                    <span class="marker" style="background-color: #7cbaf3;"></span>
+                    <span class="marker" style="background-color: #c08de0;"></span>
                     <span>SEMINARS</span>
                 </div>
             </div>

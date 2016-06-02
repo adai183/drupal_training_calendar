@@ -40,8 +40,8 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="cellular_molecular_biology.php" style="color: #7cbaf3;"> | Cellular and Molecular Biology</a>
-                        <a href="cmb_aspergillus_molecular_genetics.php" style="color: #7cbaf3;"> | Aspergillus Molecular Genetics </a>
+                        <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                        <a href="cmb_aspergillus_molecular_genetics.php" style="color: #c08de0;"> | Aspergillus Molecular Genetics </a>
                     </div>
                 </div>
                 <div class="row">
@@ -57,8 +57,15 @@
                     </div>
                 </div>
 
-
-
+                <div class="row margin-top-5">
+                    <div class="col-md-12">
+                        <span class="input-group-btn">
+                            <a href="cmb_aspergillus_molecular_genetics.php">
+                                <button class="btn btn-default button-secondary" type="submit">Back</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
 
 
             </div>

@@ -6,7 +6,7 @@
     <main class="container-fluid">
 
         <div class="jumbotron text-center services ">
-            TECHNOLOGIES
+            FACILITIES
         </div>
 
         <!-- sticky sidebar -->
@@ -18,7 +18,7 @@
                         <a href="#sec0">PATENTS</a>
                     </li>
                     <li>
-                        <a href="#sec1">SEARCH SERVICES</a>
+                        <a href="#sec1">SEARCH FACILITIES</a>
                     </li>
                     <li>
                         <a href="#sec2">EXTERNAL FACILITIES</a>
@@ -35,7 +35,7 @@
 
                 <div id="sec0" class="row top-link margin-bottom-3">
                     <div class="col-md-12">
-                        <a href="index.php">Home</a>  |  <a href="services.php">Services</a>
+                        <a href="index.php">Home</a>  |  <a href="services.php">Facilities</a>
                     </div>
                 </div>
                 <div class="row">
@@ -128,7 +128,7 @@
                 <div id="sec1" class="row section-title">
                     <div class="col-md-12">
                         <span class="marker"></span>
-                        <span>SEARCH TECHNOLOGIES</span>
+                        <span>SEARCH FACILITIES</span>
                     </div>
                 </div>
                 <div class="row search-form-filter">

@@ -40,8 +40,8 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="cellular_molecular_biology.php" style="color: #7cbaf3;"> | Cellular and Molecular Biology</a>
-                        <a href="#" style="color: #7cbaf3;"> | Molecular Biology of the Chromosomes </a>
+                        <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                        <a href="#" style="color: #c08de0;"> | Molecular Biology of the Chromosomes </a>
                     </div>
                 </div>
                 <div class="row">
@@ -62,7 +62,7 @@
 
                 <div id="sec1" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #7cbaf3;"></span>
+                        <span class="marker" style="background-color: #c08de0;"></span>
                         <span>MEMBERS</span>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #7cbaf3;"></span>
+                        <span class="marker" style="background-color: #c08de0;"></span>
                         <span>PROJECTS</span>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
 
                 <div id="sec3" class="row section-title">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #7cbaf3;"></span>
+                        <span class="marker" style="background-color: #c08de0;"></span>
                         <span>PUBLICATIONS</span>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
 
                 <div id="sec4" class="row section-title margin-bottom-3">
                     <div class="col-md-12">
-                        <span class="marker" style="background-color: #7cbaf3;"></span>
+                        <span class="marker" style="background-color: #c08de0;"></span>
                         <span>FUNDING</span>
                     </div>
                 </div>
@@ -223,7 +223,7 @@
                 <div class="row margin-top-5">
                     <div class="col-md-12">
                         <span class="input-group-btn">
-                            <a href="cellular_molecular_medicine.php">
+                            <a href="cellular_molecular_biology.php">
                                 <button class="btn btn-default button-secondary" type="submit">Back</button>
                             </a>
                         </span>

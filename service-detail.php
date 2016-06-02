@@ -39,8 +39,8 @@
                 <div id="sec0" class="row top-link margin-bottom-3">
                     <div class="col-md-12">
                         <a href="index.php">Home</a>
-                        |  <a href="services.php">Technologies</a>
-                        |  <a href="services.php">External technologies</a>
+                        |  <a href="services.php">Facilities</a>
+                        |  <a href="services.php">External facilities</a>
                         |  <a href="services.php">Animalarium</a>
                     </div>
                 </div>

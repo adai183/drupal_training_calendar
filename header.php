@@ -63,7 +63,7 @@
                         <a href="research.php">RESEARCH</a>
                     </li>
                     <li>
-                        <a href="services.php">TECHNOLOGIES</a>
+                        <a href="services.php">FACILITIES</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">TRAINING</a>

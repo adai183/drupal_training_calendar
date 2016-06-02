@@ -40,8 +40,8 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="cellular_molecular_biology.php" style="color: #7cbaf3;"> | Cellular and Molecular Biology</a>
-                        <a href="#" style="color: #7cbaf3;"> | Nuclear Matrix and Regulation of the Nuclear Organisation and Function </a>
+                        <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                        <a href="#" style="color: #c08de0;"> | Nuclear Matrix and Regulation of the Nuclear Organisation and Function </a>
                     </div>
                 </div>
                 <div class="row">

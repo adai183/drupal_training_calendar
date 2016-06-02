@@ -102,7 +102,7 @@
                 </div>
 
 
-                
+
 
                 <div id="sec2" class="row section-title">
                     <div class="col-md-12">
@@ -156,7 +156,7 @@
                 <div class="row margin-top-5">
                     <div class="col-md-12">
                         <span class="input-group-btn">
-                            <a href="cellular_molecular_medicine.php">
+                            <a href="cellular_molecular_biology.php">
                                 <button class="btn btn-default button-secondary" type="submit">Back</button>
                             </a>
                         </span>
