@@ -40,7 +40,7 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="celmolbio.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                        <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
                         <a href="biosysbacdiv.php" style="color: #c08de0;"> | Biochemical Systems Bacterial Division</a>
                     </div>
                 </div>
@@ -329,7 +329,7 @@
                 <div class="row margin-top-5">
                     <div class="col-md-12">
                         <span class="input-group-btn">
-                            <a href="celmolbio.php">
+                            <a href="cellular_molecular_biology.php">
                                 <button class="btn btn-default button-secondary" type="submit">Back</button>
                             </a>
                         </span>

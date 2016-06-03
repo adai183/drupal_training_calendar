@@ -20,7 +20,7 @@
                             <a href="index.php">Home</a>
                             <a href="research.php"> | Research</a>
                             <a href="research.php"> | Departments</a>
-                            <a href="celmolbio.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                            <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
                             <a href="biosysbacdiv.php" style="color: #c08de0;"> | Biochemical Systems Bacterial Division</a>
                             <a href="#" style="color: #c08de0;"> | Germán Rivas Caballero</a>
                         </div>

@@ -34,7 +34,7 @@
                         <a href="index.php">Home</a>
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
-                        <a href="celmolbio.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
+                        <a href="cellular_molecular_biology.php" style="color: #c08de0;"> | Cellular and Molecular Biology</a>
                     </div>
                 </div>
                 <div class="row">
@@ -212,7 +212,7 @@
                                 Department
                             </div>
                             <div class="department">
-                                <a href="celmolbio.php">
+                                <a href="cellular_molecular_biology.php">
                                     CELLULAR AND MOLECULAR BIOLOGY
                                 </a>
                             </div>
@@ -267,7 +267,7 @@
                                 Department
                             </div>
                             <div class="department">
-                                <a href="celmolbio.php">
+                                <a href="cellular_molecular_biology.php">
                                     CELLULAR AND MOLECULAR BIOLOGY
                                 </a>
                             </div>
