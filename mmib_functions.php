@@ -5,7 +5,7 @@
     <main class="container-fluid">
 
         <div class="jumbotron text-center dep5 ">
-            Bacterial Gene Expression and Gene Transfer
+            Host-parasite interplay in pneumococcal infection
         </div>
 
         <!-- sticky sidebar -->
@@ -41,22 +41,17 @@
                         <a href="research.php"> | Research</a>
                         <a href="research.php"> | Departments</a>
                         <a href="molecular_microbiology_infection_biology.php" style="color: "> | Molecular Microbiology and Infection Biology</a>
-                        <a href="mmib_bacterial_gene_expression.php" style="color: #f8b835;"> | Bacterial Gene Expression and Gene Transfer </a>
+                        <a href="mmib_bacterial_gene_expression.php" style="color: #f8b835;"> | Host-parasite interplay in pneumococcal infection </a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>
-                            The most relevant and objective information on the activity of a research laboratory is reflected by its scientific publications, funding and lines of research. But, above all, these activities are the consequence of the work, efforts, and good mood of the collective of people that constitute the ‘research group’. The group started some years ago when we studied the replication functions of a small and promiscuous plasmid, pMV158 (5540 base pairs). At present, we are usually busy constructing new plasmid vectors, not only useful for Streptococcus pneumoniae but for other Gram-positive bacteria as well. We also study the conjugative transfer of plasmid pMV158. Manuel Espinosa is now in the situation of ad honorem, whereas Alicia Bravo is now the group leader. Her group also study in detail the characterization of global virulence regulators from Gram-positive bacteria. Finally, we also study chromosomal operons of Streptococcus pneumoniae encoding toxin-antitoxin systems are being studied. We study two of them, namely RelBE and YefMYoeB (this last in cooperation with Dr C. C. Yeo, Malaysia). Last, but not the least, Dr. Alicia Bravo (who has her own group and grants) is presently studying global virulence regulators in Gram-positive bacteria.
-                        </p>
-                        <p>
-                            A couple of years have gone since our last update on our lines of research. And many things have happened ever since. Let’s try to envisage what future has for us. As we, in the INTERMODS (within the Consolider CSD2008-00013 Programme) group says: “Days of wonder for years to come”. That’s our goal, and we will try to fulfill it. At present, we are continuing some of our pet projects and pursuing the goals detailed in ‘Research projects’.
-                        </p>
+
                     </div>
                 </div>
 
                 <div class="row margin-top-5 scientific-report">
-                    <a href="http://www.cib.csic.es/Memo/grupos/45.pdf" target="_blank">
+                    <a href="http://www.cib.csic.es/Memo/grupos/60.pdf" target="__blank">
                         <img src="img/folder.svg" alt=""/>
                     </a>
                     <span style="margin-left:10px;">Last Team's Scientific Report</span>
@@ -73,7 +68,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/al_ga.png" alt="" class="img-responsive" style="height:70px;"/>
+                                    <img src="img/jose_ro_fer.png" alt="" class="img-responsive" style="height:70px;"/>
                                 </a>
                             </div>
                             <div>
@@ -81,7 +76,7 @@
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Bravo García, Alicia
+                                    Rodríguez Fernández, José Luis
                                 </div>
                             </div>
                         </div>
@@ -95,66 +90,52 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Bravo García, Alicia</li>
+                                    <li>Rodríguez Fernández, José Luis</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row margin-top-3">
-                    <div class="col-md-12 staff">
-                        <div class="col-md-6">
-                            <div class="title">
-                                Ad Honorem
-                            </div>
-                            <div>
-                                <ul class="subtitle">
-                                    <li>Espinosa Padron, Manuel</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 staff">
                             <div class="title">
                                 Technician
                             </div>
-                            <div class="subtitle">
-                                <ul>
-                                    <li>Navarro Martinez, Veronica</li>
+                            <div>
+                                <ul class="subtitle">
+                                    <li>Criado García, Olga</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row margin-top-3">
-                    <div class="col-md-12 staff">
-                        <div class="col-md-6">
+                <div class="row margin-top-6">
+                    <div class="col-md-12">
+                        <div class="col-md-6 staff">
                             <div class="title">
                                 Postgraduates
                             </div>
-                            <div>
-                                <ul class="subtitle">
-                                    <li>Ruiz Cruz, Sofia Isabel</li>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>López-Cotarelo García de Diego, Pilar</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 staff">
                             <div class="title">
-                                Visiting Scientist
+                                Visiting Scientists
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Carlos Acacio, Maria</li>
-                                    <li>Moreno Blanco, Ana</li>
+                                    <li>Gomez Moreira, Carolina</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/bac_gene_expression_group.jpg" style="width:100%"/>
+                        <img class="img-responsive" src="img/functions_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -167,31 +148,25 @@
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            Construction of plasmid-based genetic tools for Streptococcus pneumoniae and Enterococcus faecalis.
+                            Functions under the control of the chemokine CXCL12 in dendritic cells
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            Chromosomal Toxin-Antitoxin Systems (TAS) of S. pneumoniae
+                            Molecular mechanisms that regulate the functions of the chemokine receptor CCR7 in dendritic cells.
                         </div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            Conjugal transfer of plasmid pMV158.
+                            Regulatory functions of the immunological synapse of dendritic cells
                         </div>
                     </div>
                 </a>
-                <a href="#">
-                    <div class="row margin-top-1 service-item">
-                        <div class="colo-md-12" style="margin-left:10px;">
-                            Global virulence regulators in S. pneumoniae and E. faecalis.
-                        </div>
-                    </div>
-                </a>
+
 
 
                 <div id="sec3" class="row section-title">
@@ -210,8 +185,6 @@
                 </div>
 
 
-
-
                 <div id="sec4" class="row section-title margin-bottom-3">
                     <div class="col-md-12">
                         <span class="marker" style="background-color: #f8b835;"></span>
@@ -220,19 +193,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <ul>
-                            <li>2006-2009. BFU2006-08487/BMC. Ministry of Education and Science. Principal Investigator: Alicia Bravo.</li>
-                            <li>2006-2010. S-BIO-0260. COMBACT. Comunidad Autónoma de Madrid. Coordinated Project. Coordinator: Miguel Vicente Muñoz.</li>
-                            <li>2007-2010. BFU2007-63575. Ministry of Science and Innovation. P.I.: Gloria del Solar.</li>
-                            <li>2009-2012. EU-CP223111 (CAREPNEUMO). European Union. Coordinator: S. Chhatwal.</li>
-                            <li>2008-2011. BFU2008-00179-E/BMC. Ministry of Science and Innovation. Spanish Network of Extrachromosomal Elements (REDEEX). Coordinator: Manuel Espinosa.</li>
-                            <li>2008-2015. CSD2008-00013 (INTERMODS). Ministry of Science and Innovation. Coordinator: Manuel Espinosa.</li>
-                            <li>2009. CCG08-CSIC/SAL-3694. Autonomous Community of Madrid-Consejo Superior de Investigaciones Científicas. P.I.: Alicia Bravo.</li>
-                            <li>2010-2012. BFU2009-11868 (BMC).Ministry of Science and Innovation. P.I.: Alicia Bravo.</li>
-                            <li>2013-2015. CSIC-PIE-201320E028. P.I.: Alicia Bravo</li>
-                            <li>2014-2016. BIO2013-49148-C2-2-R. Ministry of Economy and  Competitiveness. P.I.: Alicia Bravo.</li>
-                            <li>2015-2017. BIO2015-69085-REDC. Ministry of Economy and  Competitiveness. Coordinator: Antonio Juárez</li>
-                        </ul>
+                        No entry in this section
                     </div>
                 </div>
                 <div class="row margin-top-5">

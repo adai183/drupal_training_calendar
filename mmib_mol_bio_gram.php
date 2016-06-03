@@ -162,7 +162,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/mol_bio_gram_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 

@@ -73,7 +73,7 @@
                         <div class="col-md-6 boss">
                             <div>
                                 <a href="caballero.php">
-                                    <img src="img/vic_larraga.png" alt="" class="img-responsive" style="height:70px;"/>
+                                    <img src="img/ernesto_ga.png" alt="" class="img-responsive" style="height:70px;"/>
                                 </a>
                             </div>
                             <div>
@@ -81,7 +81,7 @@
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Larraga Rodriguez de Vera, Vicente E.
+                                    García López, Ernesto Ángel
                                 </div>
                             </div>
                         </div>
@@ -95,17 +95,18 @@
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Larraga Rodriguez de Vera, Vicente E.</li>
+                                    <li>García González, Pedro Aurelio</li>
+                                    <li>García González, Pedro Aurelio</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-6 staff">
                             <div class="title">
-                                Technical Staff
+                                Postdoctorals
                             </div>
                             <div>
                                 <ul class="subtitle">
-                                    <li>Alonso Ayala, Ana María</li>
+                                    <li>Domenech Lucas, Miriam</li>
                                 </ul>
                             </div>
                         </div>
@@ -115,13 +116,23 @@
                     <div class="col-md-12">
                         <div class="col-md-6 staff">
                             <div class="title">
-                                Postgraduates
+                                Technician
                             </div>
                             <div class="subtitle">
                                 <ul>
-                                    <li>Degayón Cortés, María Angélica</li>
-                                    <li>Larraga Criado, Jaime</li>
-                                    <li>Telles de Carvalho Coimbra Martins, Luis</li>
+                                    <li>Cano Congosto, Eloísa</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 staff">
+                            <div class="title">
+                                Visiting Scientists
+                            </div>
+                            <div class="subtitle">
+                                <ul>
+                                    <li>Corsini Carvalho, Bruno</li>
+                                    <li>Valenzuela Naveda, Myriam Victoria</li>
+                                    <li>Vazquez Fernandez, Roberto</li>
                                 </ul>
                             </div>
                         </div>
@@ -132,7 +143,7 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/parasite_group.jpg" style="width:100%;"/>
                     </div>
                 </div>
 
@@ -145,31 +156,11 @@
                 <a href="#">
                     <div class="row margin-top-1 service-item">
                         <div class="colo-md-12" style="margin-left:10px;">
-                            LINE 3.  "Salmonid fish viruses: Efficacy of oral vaccines and studies to prevent viral persistence. "MICIIN (AGL-18454).
+                            Pneumococcal colonization and carrier state: molecular bases, prophylaxis and therapeutics
                         </div>
                     </div>
                 </a>
-                <a href="#">
-                    <div class="row margin-top-1 service-item">
-                        <div class="colo-md-12" style="margin-left:10px;">
-                            Line 4. ""Mucosal gene responses to oral vaccination against salmonid fish viruses by using microarrays".  (201020E084 CSIC).
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="row margin-top-1 service-item">
-                        <div class="colo-md-12" style="margin-left:10px;">
-                            Line I. Immune response against L.infantum infection and vaccine development in the dog model.
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="row margin-top-1 service-item">
-                        <div class="colo-md-12" style="margin-left:10px;">
-                            Line II. Differential gene expression profiles in the L.infantum differentiation processes.
-                        </div>
-                    </div>
-                </a>
+
 
 
                 <div id="sec3" class="row section-title">
@@ -197,9 +188,17 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul>
-                            <li>EUROLEISH-NET: Control of leishmaniasis, from bench to bedside and community. HORIZON 2020 - RESEARCH AND INNOVATION FRAMEWORK PROGRAMME. Grant agreement: 642609</li>
-                            <li>ADVANCES IN THE DEVELOPMENT OF A DNA VACCINE AGAINST CANINE LEISHMANIASIS. MINECO. RTC-2014-1767-1</li>
-                            <li>Cooperative Research Network. Instituo de Salud Carlos III. Notwork on Tropical Medicine and International Health. 2009-2016.</li>
+                            <li>MCyT, BMC2000-1002 (2000-2003)</li>
+                            <li>Fundación Ramón Areces (2000-2003)</li>
+                            <li>BIO2000-0009-P4-04 (2001-2005)</li>
+                            <li>MCyT, BMC2003-00074 (2003-2006)</li>
+                            <li> Ministerio de Sanidad y Consumo, Redes G03/103 y C03/104</li>
+                            <li> MCyT, SAF2006-00390 (2006-2009)</li>
+                            <li> Member of the CIBER on Respiratory Diseases</li>
+                            <li> CAM, COMBACT Program, S-BIO-0260/2006 (2007-2010)</li>
+                            <li>MICINN, SAF2009-10824 (2010-2012)</li>
+                            <li>MICINN, IPT-2011-1337-010000</li>
+                            <li>MINECO, SAF2012-39444-C02-01 (2013-2015)</li>
                         </ul>
                     </div>
                 </div>

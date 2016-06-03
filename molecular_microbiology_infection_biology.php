@@ -103,7 +103,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="mmib_functions.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Functions of chemotactic receptors and the immunological synapse in dendritic cells
@@ -113,7 +113,7 @@
                     </p>
                 </div>
             </a>
-            <a href="#">
+            <a href="mmib_myeloid.php">
                 <div class="row margin-top-1 service-item groups">
                     <span style="margin-left:10px;">
                         Myeloid Cell Biology

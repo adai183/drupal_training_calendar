@@ -76,18 +76,19 @@
                                     Head of Lab
                                 </div>
                                 <div class="subtitle">
-                                    Díaz Orejas, Ramón
+                                    Díaz Orejas, Ramón (Ad Honorem)
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
 
 
-                <div class="row">
+                <div class="row margin-top-4">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/Equipo.png"/>
+                        <img class="img-responsive" src="img/bac_toxins_group.jpg" style="widh:100%;"/>
                     </div>
                 </div>
 
