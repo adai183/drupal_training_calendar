@@ -68,10 +68,15 @@ $(document).ready(function ($) {
         ];
 
         $( "#directory" ).autocomplete({
-          source: availableTags
+          source: availableTags,
+		  select: function (e, ui) {
+		  	console.log(window.location);
+			window.location.href = window.location.origin + '/cib-csic/caballero.php';
+		  }
         });
 
     });
+
 
 	// map
 	$('.map-window>.direction').click(function () {

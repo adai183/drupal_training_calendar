@@ -7,30 +7,8 @@
         <div class="jumbotron text-center dep1 ">
             BIOCHEMICAL SYSTEMS BACTERIAL DIVISION
         </div>
-        
-        <!-- sticky sidebar -->
-        <div class="row">
-  			<div class="col-md-3" id="leftCol">
 
-              	<ul class="nav nav-stacked" id="sidebar">
-                    <li style="border: 0 !important;">
-                        <a href="biosysbacdiv.php#sec0">DESCRIPTION</a>
-                    </li>
-                    <li style="border-left: 3px #ec111a solid;">
-                        <a href="biosysbacdiv.php#sec1">MEMBERS</a>
-                    </li>
-                    <li>
-                        <a href="biosysbacdiv.php#sec2">PROJECTS</a>
-                    </li>
-                    <li>
-                        <a href="biosysbacdiv.php#sec3">PUBLICATIONS</a>
-                    </li>
-                    <li>
-                        <a href="biosysbacdiv.php#sec4">FUNDING</a>
-                    </li>
-              	</ul>
 
-      		</div>
 
             <!-- Page content -->
             <div class="col-md-9">
