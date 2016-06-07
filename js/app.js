@@ -71,7 +71,7 @@ $(document).ready(function ($) {
           source: availableTags,
 		  select: function (e, ui) {
 		  	console.log(window.location);
-			window.location.href = window.location.origin + '/cib-csic/caballero.html';
+			window.location.href = window.location.origin + '/drupal_training_calendar/caballero.html';
 		  }
         });
 
