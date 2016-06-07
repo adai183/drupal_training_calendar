@@ -71,7 +71,7 @@ $(document).ready(function ($) {
           source: availableTags,
 		  select: function (e, ui) {
 		  	console.log(window.location);
-			window.location.href = window.location.origin + '/cib-csic/caballero.php';
+			window.location.href = window.location.origin + '/cib-csic/caballero.html';
 		  }
         });
 
