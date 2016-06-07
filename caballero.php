@@ -49,7 +49,7 @@
                                     Lab
                                 </div>
                                 <div class="subtitle">
-                                    CBiochemical Systems Bacterial Division
+                                    Biochemical Systems Bacterial Division
                                 </div>
                             </div>
                             <div class="col-md-6 right" style="padding-bottom: 22px;">
